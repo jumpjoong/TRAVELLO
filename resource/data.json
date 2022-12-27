@@ -1,0 +1,214 @@
+{
+    "data":[
+        {
+            "country_ko":"브라질",
+            "country_en":"brazil",
+            "country_url":"../img/brazil_01.png",
+            "place":[
+                {
+                    "title":"리우데자네이루",
+                    "detail":"거대 예수상은 브라질의 리우데자네이루 (히우 지 자네이루)에 있는 거대한 석상이다. 정식명칭은 구세주 그리스도상. 높이 30m, 대좌 8m, 양팔의 길이 28m, 무게 635t의 규모로, 세계적으로 유명하고 석상을 보기 위한 방문객도 많다. 재질은 철근 콘크리트 구조물에 표면을 동석(soapstone)을 조각한 것이다. 자유의 여신상이 뉴욕을 상징하고 에펠 탑이 파리를 상징하듯, 이 석상은 리우데자네이루을 상징하는 랜드마크가 되었다. 그리고 브라질 전체의 랜드마크이기도 하다. 이 석상은 높이 710m의 코르코바두 산 정상에 있는데, 이곳에서는 리우 시내는 물론 코파카바나 해안, 이파네마 해변, 슈가로프 산도 한 눈에 들어오는 멋진 전망을 즐길 수 있다. 하지만 자유의 여신상 같이 머리 위로 올라가는 전망대 같은 건 없다. 석상도 보고 전망도 즐기기 위해 연간 약 180만 명의 관광객들이 이곳을 방문한다.",
+                    "url":"../img/brazil_place_01.jpeg",
+                    "food":[
+                        {
+                            "title":"L Atelier du Cuisinier",
+                            "detail":"20여석의 좌석으로 크지는 않지만 아늑하고 낭만적인 분위기의 프렌치 레스토랑이다. 영업시간이 점심시간에만 운영되고 매우 인기가 많은 곳으로 꼭 예약을 하고 방문해야지만 식사가 가능한 곳이다.",
+                            "img_url": [
+                                "../img/brazil01_food01_01.jpg",
+                                "../img/brazil01_food01_02.jpg",
+                                "../img/brazil01_food01_03.jpg",
+                                "../img/brazil01_food01_04.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Churrascaria Palace",
+                            "detail":"슈하스코는 브라질의 전통음식으로 소고기, 돼지고기 과일 및 야채 등을 꼬챙이에 꽂아 술붗에 구운 요리이다. 슈하스코를 판매하는 레스토랑을 슈하스까리아(Churrascaria)라고 부르고 자리에 앉아있으면 웨이터들이 꼬챙이에 꽂힌 고기를 들고 다니면서 손님들에게 서빙해준다. 무제한으로 계속 제공해주니 먹을 수 있는 만큼 먹고올 수있다.",
+                            "img_url": [
+                                "../img/brazil01_food02_01.jpg",
+                                "../img/brazil01_food02_02.jpg",
+                                "../img/brazil01_food02_03.jpg",
+                                "../img/brazil01_food02_04.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Adega Santiago Barra",
+                            "detail":"자리가 넓고 채광이 좋으며 직원의 세심함과 친절한 서비스. 석호가 내려다보이는 테이블이 있고, 메인 요리와 와인이 매우 잘 어울리는 음식이 많이 있다.",
+                            "img_url": [
+                                "../img/brazil01_food03_01.jpg",
+                                "../img/brazil01_food03_02.jpg",
+                                "../img/brazil01_food03_03.jpg",
+                                "../img/brazil01_food03_04.jpg"
+                            ]
+                        }
+                    ],
+                    "lodging":[
+                        {
+                            "title":"PortoBay Rio de Janeiro Hotel",
+                            "img_url":[
+                                "../img/brazil01_lodging01_01.jpg",
+                                "../img/brazil01_lodging01_02.jpg",
+                                "../img/brazil01_lodging01_03.jpg",
+                                "../img/brazil01_lodging01_04.jpg",
+                                "../img/brazil01_lodging01_05.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Corcovado Adventures",
+                            "img_url":[
+                                "../img/brazil01_lodging02_01.jpg",
+                                "../img/brazil01_lodging02_02.jpg",
+                                "../img/brazil01_lodging02_03.jpg",
+                                "../img/brazil01_lodging02_04.jpg",
+                                "../img/brazil01_lodging02_05.jpg"
+                            ]
+                        },
+                        {
+                            "title":"PortoBay Rio de Janeiro Hotel",
+                            "img_url":[
+                                "../img/brazil01_lodging03_01.jpg",
+                                "../img/brazil01_lodging03_02.jpg",
+                                "../img/brazil01_lodging03_03.jpg",
+                                "../img/brazil01_lodging03_04.jpg",
+                                "../img/brazil01_lodging03_05.jpg",
+                                "../img/brazil01_lodging03_06.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"포르토 세구로",
+                    "detail":"포르토 세구로는 브라질의 다른 곳만큼이나 역동적인 곳입니다. 스쿠너를 타고 부랑헴 강의 강둑에서 15마일 떨어진 곳에 있는 헤시피 데 포라 해양공원에서는 바다를 탐험할 수 있습니다. 도시의 계단을 따라가면 카포에이라 시범과 함께 시다데 이스토리카를 꼼꼼하게 살펴볼 수 있습니다. 공예품 카트, 음식점, 열정적인 예술가로 가득한 거리 축제인 파사렐라 두 알쿠는 브라질의 문화적 전통으로 여러분을 초대합니다.",
+                    "url":"../img/brazil_place_02.jpg",
+                    "food":[
+                        {
+                            "title":"Vovo Bela Restaurante",
+                            "detail":"채식주의자를 위한 메뉴가 준비되어있고 이색적인 분위기, 가격이 착한 곳을 찾는다면 Vovo Bela로 오세요. 훌륭한 서비스와 맛있는 음식, 세심한 직원들이 준비되어 있습니다.",
+                            "img_url": [
+                                "../img/brazil02_food01_01.jpg",
+                                "../img/brazil02_food01_02.jpg",
+                                "../img/brazil02_food01_03.jpg",
+                                "../img/brazil02_food01_04.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Cabana Malibu",
+                            "detail":"위치가 좋고 메뉴가 풍성한 요리, 빠른 서비를 원하신다면 Cabana Malibu로 오세요. 신선한 음식들이 준비되어 있고 재방문 하는 사람들도 많답니다!",
+                            "img_url": [
+                                "../img/brazil02_food02_01.jpg",
+                                "../img/brazil02_food02_02.jpg",
+                                "../img/brazil02_food02_03.jpg",
+                                "../img/brazil02_food02_04.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Pizzaria do Boca",
+                            "detail":"이탈리아와 브라질의 피자를 찾으십니까? Pizzaria do Boca로 오세요. 주문 즉시 만들어지고 바삭한 크러스트는 명품입니다. 다양한 피자와 얇고 바삭한 크러스트는 최고입니다.",
+                            "img_url": [
+                                "../img/brazil02_food03_01.jpg",
+                                "../img/brazil02_food03_02.jpg",
+                                "../img/brazil02_food03_03.jpg",
+                                "../img/brazil02_food03_04.jpg"
+                            ]
+                        }
+                    ],
+                    "lodging":[
+                        {
+                            "title":"Casa Rabanete Trancoso",
+                            "img_url":[
+                                "../img/brazil02_lodging01_01.jpg",
+                                "../img/brazil02_lodging01_02.jpg",
+                                "../img/brazil02_lodging01_03.jpg",
+                                "../img/brazil02_lodging01_04.jpg",
+                                "../img/brazil02_lodging01_05.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Hotel Solar do Imperador",
+                            "img_url":[
+                                "../img/brazil02_lodging02_01.jpg",
+                                "../img/brazil02_lodging02_02.jpg",
+                                "../img/brazil02_lodging02_03.jpg",
+                                "../img/brazil02_lodging02_04.jpg",
+                                "../img/brazil02_lodging02_05.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Coroa Vermelha Beach",
+                            "img_url":[
+                                "../img/brazil02_lodging03_01.jpg",
+                                "../img/brazil02_lodging03_02.jpg",
+                                "../img/brazil02_lodging03_03.jpg",
+                                "../img/brazil02_lodging03_04.jpg",
+                                "../img/brazil02_lodging03_05.jpg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"푸에르토 이구아수",
+                    "detail":"아르헨티나와 브라질의 경계에 있는 세계에서 가장 거대한 폭포. 나이아가라 폭포와 빅토리아 폭포와 함께 세계 3대 폭포 중 하나다. 이구아수 강이 지류이며 반원형 모양으로 2,700m에 달한다. 총 275개의 폭포로 이루어져 있으며, 그중 '악마의 목구멍(La Garganta del Diablo / Garganta do Diabo)'이라 불리우는 폭포가 80m로 가장 높고 가장 유명하다. 12개의 폭포가 동시에 떨어져 매우 큰 굉음을 낸다 해서 악마의 목구멍이라 부른다.",
+                    "url":"../img/brazil_place_03.jpg",
+                    "food":[
+                        {
+                            "title":"The_Argentine_Experience",
+                            "detail":"직원들은 친절하고 유익한 정보를 제공하며 유머 감각이 뛰어나고 음식은 매우 뛰어납니다. 특히 최고의 엠파나다를 만드는 법은 매우 재밌습니다!",
+                            "img_url": [
+                                "../img/brazil03_food01_01.jpg",
+                                "../img/brazil03_food01_02.jpg",
+                                "../img/brazil03_food01_03.jpg",
+                                "../img/brazil03_food01_04.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Naipi Restaurant",
+                            "detail":"레스토랑은 매우 특별한 위치에 있으며 채식주의자를 위한 음식도 준비되어 있습니다. 좋은 전망이 있으며 좋은 서빙 직원, 현지 요리가 준비되어 있습니다.",
+                            "img_url": [
+                                "../img/brazil03_food02_01.jpg",
+                                "../img/brazil03_food02_02.jpg",
+                                "../img/brazil03_food02_03.jpg"
+                            ]
+                        },
+                        {
+                            "title":"La Vaca Enamorada",
+                            "detail":"최상의 환경에서 이루어진 음식, 최상의 퀄리티 음식, 매우 친절한 직원, 환상적인 분위기를 느끼고 싶다면 La Vaca Enamorada로 오십시오!",
+                            "img_url": [
+                                "../img/brazil03_food03_01.jpg",
+                                "../img/brazil03_food03_02.jpg",
+                                "../img/brazil03_food03_03.jpg"
+                            ]
+                        }
+                    ],
+                    "lodging":[
+                        {
+                            "title":"Loi Suites Iguazu Hotel",
+                            "img_url":[
+                                "../img/brazil03_lodging01_01.jpg",
+                                "../img/brazil03_lodging01_02.jpg",
+                                "../img/brazil03_lodging01_03.jpg",
+                                "../img/brazil03_lodging01_04.jpg"
+                            ]
+                        },
+                        {
+                            "title":"O2 Hotel Iguazu",
+                            "img_url":[
+                                "../img/brazil03_lodging02_01.jpg",
+                                "../img/brazil03_lodging02_02.jpg",
+                                "../img/brazil03_lodging02_03.jpg"
+                            ]
+                        },
+                        {
+                            "title":"Iguazu Jungle Lodge",
+                            "img_url":[
+                                "../img/brazil03_lodging03_01.jpg",
+                                "../img/brazil03_lodging03_02.jpg",
+                                "../img/brazil03_lodging03_03.jpg",
+                                "../img/brazil03_lodging03_04.jpg",
+                                "../img/brazil03_lodging03_05.jpg"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
