@@ -45,7 +45,6 @@ let contryGps = [
     "url" : { lat: 15.541102 ,lng: 105.482409 }
   }
 ]
-console.log(contryGps[0].url)
 function initMap() {
   var map = new google.maps.Map(
     document.querySelector('.maps'), {
