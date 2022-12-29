@@ -13,7 +13,7 @@ const swiper = new Swiper(".mySwiper", {
   slidesPerView: 6,
   spaceBetween: 56,
   loop: true,
-  centeredSlides: true,
+  // centeredSlides: true,
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
@@ -45,3 +45,21 @@ swiper.navigation.nextEl.addEventListener('mouseout',()=>{
   clearInterval(slides);
 })
 
+const contry = document.querySelectorAll('.swiper-slide');
+const test = [
+  'brazil',
+  'canada',
+  'switzerland',
+  'italy',
+  'mongolia',
+  'turkey',
+  'vietnam'
+]
+
+contry.forEach(function(btn, key){
+  btn.onclick = function(e) {
+    console.log(this.dataset.swiperSlideIndex)
+    // e.preventDefault();
+    localStorage.setItem('num', this.dataset.swiperSlideIndex)
+  }
+});
