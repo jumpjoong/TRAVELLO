@@ -28,3 +28,25 @@
     }
   }
 }
+.move-contain {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 208px;
+  .move {
+    width: 20.83%;
+    height: 400px;
+    cursor: pointer;
+    line-height: 400px;
+  }
+}
+.place-contain {
+  .place-first {
+    display: flex;
+    justify-content: center;
+    &:nth-of-type(even){
+      img {
+        order: 1;
+      }
+    }
+  }
+}
