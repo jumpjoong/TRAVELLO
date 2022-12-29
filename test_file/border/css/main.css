@@ -17,10 +17,11 @@ header .header-center h1 {
 }
 
 main {
-  height: 938px;
+  background-color: rgb(218, 218, 218);
+  padding-bottom: 187px;
 }
 main .center .text h2 {
-  margin-top: 167px;
+  padding-top: 117px;
   font-size: 64px;
 }
 main .center .text .text-sub p {
@@ -46,6 +47,7 @@ main .btm {
   margin: 117px 0;
 }
 main .swi {
+  padding-top: 50px;
   width: 100%;
   position: relative;
 }
@@ -56,16 +58,13 @@ main .swi .swiper {
   overflow: hidden;
   height: 100%;
 }
-main .swi .swiper .box .swiper-slide {
+main .swi .swiper .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
-  width: 229px;
   /*image: url("../img/airplane.png");
   background-size: 100%;
   background-repeat: no-repeat;*/
@@ -76,7 +75,86 @@ main .swi .swiper .box .swiper-slide {
     object-fit: cover;
   }*/
 }
-main .next, main .prev {
+main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
+  display: inline-block;
+  width: 90%;
+  height: 320px;
+  padding: 10px;
+  border-radius: 110px;
+  background-image: linear-gradient(to bottom, #fafafa, #e1e1e1);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country01 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/brazil_place_01.jpeg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/brazil_place_02.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/brazil_place_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/food/brazil01_food01_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/food/brazil01_food01_02.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/food/brazil01_food01_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/food/brazil01_food01_04.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .next,
+main .prev {
   width: 5%;
   color: black;
 }
