@@ -23,4 +23,24 @@
   width: 72.916%;
   margin: 32px auto 104px;
   height: 850px;
+}
+
+.move-contain {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 208px;
+}
+.move-contain .move {
+  width: 20.83%;
+  height: 400px;
+  cursor: pointer;
+  line-height: 400px;
+}
+
+.place-contain .place-first {
+  display: flex;
+  justify-content: center;
+}
+.place-contain .place-first:nth-of-type(even) img {
+  order: 1;
 }/*# sourceMappingURL=ex.css.map */
