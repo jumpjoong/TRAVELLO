@@ -2,59 +2,56 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
-header {
+body header {
   border-bottom: 1px solid rgb(167, 167, 167);
 }
-header .header-center {
+body header .header-center {
   text-align: center;
   height: 90px;
 }
-header .header-center h1 {
+body header .header-center h1 {
   font-size: 64px;
   font-weight: 400;
   line-height: 90px;
 }
-
-main {
+body main {
   height: 938px;
 }
-main .center .text h2 {
+body main .center .text h2 {
   margin-top: 167px;
   font-size: 64px;
 }
-main .center .text .text-sub p {
+body main .center .text .text-sub p {
   width: 572px;
   margin: 0 auto;
 }
-main .center .text .text-sub p:nth-of-type(1) {
+body main .center .text .text-sub p:nth-of-type(1) {
   font-size: 36px;
   margin-top: 8px;
 }
-main .center .text .text-sub p:nth-of-type(1)::after {
+body main .center .text .text-sub p:nth-of-type(1)::after {
   content: "";
   display: block;
   width: 100%;
   border: 1px solid black;
 }
-main .center .text .text-sub p:nth-of-type(2) {
+body main .center .text .text-sub p:nth-of-type(2) {
   margin-top: 34px;
   font-size: 20px;
   color: #666;
 }
-main .btm {
+body main .btm {
   margin: 117px 0;
 }
-main .swiper {
+body main .swiper {
   width: 100%;
   height: 100%;
   position: relative;
 }
-main .swiper .swiper-wrapper {
+body main .swiper .swiper-wrapper {
   align-items: center;
-  transition: 5s;
 }
-main .swiper .swiper-wrapper .swiper-slide {
+body main .swiper .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -63,17 +60,16 @@ main .swiper .swiper-wrapper .swiper-slide {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  width: 229px;
   height: 300px;
 }
-main .swiper .swiper-wrapper .swiper-slide .swiper-slide img {
+body main .swiper .swiper-wrapper .swiper-slide .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
-main .next, main .prev {
+body main .next, body main .prev {
   width: 5%;
   color: black;
 }/*# sourceMappingURL=main.css.map */
