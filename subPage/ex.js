@@ -1,17 +1,24 @@
-//로컬스트로지 값 받오는 변수
-let contryKey = localStorage.getItem('num');
-
 //json
 fetch('../resource/data.json')
 .then(function(res) {return res.json()})
 .then(function(abc) {
   init(abc.data)
 })
+
+//로컬스트로지 값 받오는 변수
+let contryKey = localStorage.getItem('num');
+
 //큰 제목
 function init (a) {
   const h1El = document.querySelector('.text > h1')
+  const placeImg = document.querySelectorAll('.place-first')
   window.addEventListener('load',()=>{
     h1El.innerHTML = `<h1>${a[contryKey].country_ko}</h1>`
+    console.log(a[contryKey].place[2].url)
+    console.log(placeImg.length)
+    for(i = 0; i < placeImg.length; i++) {
+      placeImg[i].innerHTML = `<img src="${a[contryKey].place[i].url}">`
+    }
   })
 }
 //구글 맵
