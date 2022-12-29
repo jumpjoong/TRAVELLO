@@ -1,0 +1,30 @@
+.top-contain {
+  width: 72.916%;
+  margin: 183px auto 0px;
+  .text {
+    h1 {
+      font-size: 64px;
+      line-height: 90px;
+    }
+    .text-sub {
+      p {
+        font-size: 48px;
+        margin: 0 auto;
+        display: inline-block;
+        font-weight: 400;
+        &::before {
+          margin: 10px 0;
+          content: '';
+          display: block;
+          border: 1px solid black;
+          width: 100%;
+        }
+      }
+    }
+    .maps {
+      width: 72.916%;
+      margin: 32px auto 104px;
+      height: 850px;
+    }
+  }
+}
