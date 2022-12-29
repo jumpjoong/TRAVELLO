@@ -1,0 +1,225 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  border-bottom: 1px solid rgb(167, 167, 167);
+  .header-center {
+    text-align: center;
+    height: 90px;
+    h1 {
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 90px;
+    }
+  }
+}
+main {
+  //height: 938px;
+  //background-color: rgb(224, 255, 250);
+  //background-color: rgb(201, 216, 215);
+  background-color: rgb(218, 218, 218);
+  padding-bottom: 187px;
+  .center {
+    .text {
+      h2 {
+        padding-top: 117px;
+        font-size: 64px;
+      }
+      .text-sub {
+        p {
+          width: 572px;
+          margin: 0 auto;
+          &:nth-of-type(1) {
+            font-size: 36px;
+            margin-top: 8px;
+            &::after {
+              content: "";
+              display: block;
+              width: 100%;
+              border: 1px solid black;
+            }
+          }
+          &:nth-of-type(2) {
+            margin-top: 34px;
+            font-size: 20px;
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+  .btm {
+    margin: 117px 0;
+  }
+  .swi {
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    .swiper {
+      align-items: center;
+      transition: 5s;
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+      .swiper-wrapper {
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          //background: #fff;
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+
+          .swiper-inner {
+            display: inline-block;
+            width: 90%;
+            height: 320px;
+            padding: 10px;
+            border-radius: 110px;
+            background-image: linear-gradient(to bottom, #fafafa, #e1e1e1);
+          }
+          .country01 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/brazil_place_01.jpeg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+          .country02 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/brazil_place_02.jpg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+          .country03 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/brazil_place_03.jpg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+          .country04 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/food/brazil01_food01_01.jpg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+          .country05 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/food/brazil01_food01_02.jpg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+          .country06 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/food/brazil01_food01_03.jpg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+          .country07 {
+            width: 99%;
+            height: 99%;
+            border: 7px solid transparent;
+            border-radius: 100px;
+
+            background-size: cover;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: url("../img/BRA/food/brazil01_food01_04.jpg"),
+              linear-gradient(to top, #f1f1f1, #ddd);
+          }
+
+          //border: 1px solid black;
+          //width: 229px;
+
+          //height: 319px;
+          /*image: url("../img/airplane.png");
+          background-size: 100%;
+          background-repeat: no-repeat;*/
+          /*.swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }*/
+        }
+      }
+    }
+  }
+  .next,
+  .prev {
+    width: 5%;
+    color: black;
+  }
+
+  .glass-wrapper {
+    width: 220px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 110px;
+    background-image: linear-gradient(to bottom, #fefefe, #ddd);
+    .glass {
+      width: 200px;
+      height: 300px;
+      border: 7px solid transparent;
+      border-radius: 100px;
+
+      background-image: url("../img/BRA/brazil_place_02.jpg"),
+        linear-gradient(to top, #fff, #ddd);
+      background-size: cover;
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      //background-color: #666;
+      //padding:30px;
+      //border-image: linear-gradient(to right, red 0%, orange 100%);
+      //border-image: linear-gradient(to left, red 0%, orange 100%);
+      //background-image: linear-gradient(to left, red 0%, orange 100%);
+      //margin: 10px;
+    }
+  }
+}
