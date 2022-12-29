@@ -1,4 +1,4 @@
-.top-contain {
+.section1 {
   width: 72.916%;
   margin: 183px auto 0px;
   .text {
@@ -28,7 +28,7 @@
     }
   }
 }
-.move-contain {
+.section2 {
   display: flex;
   justify-content: center;
   margin-bottom: 208px;
@@ -37,16 +37,60 @@
     height: 400px;
     cursor: pointer;
     line-height: 400px;
+    background-color: #eee;
   }
 }
-.place-contain {
+.section3 {
+  background-color: #eee;
+  padding: 208px 0;
+  > h2 {
+    font-size: 64px;
+    padding-bottom: 77px;
+  }
+  .place {
+    width: 72.916%;
+    margin: 0 auto;
+  }
   .place-first {
     display: flex;
     justify-content: center;
-    &:nth-of-type(even){
+    &:nth-child(odd) {
+      span {
+        h2 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
+    &:nth-child(even){
+      margin: 116px 0;
       img {
         order: 1;
       }
+      span {
+        h2 {
+          text-align: right;
+        }
+        p {
+          text-align: right;
+        }
+      }
+    }
+    .place-text {
+      width: 50%;
+      padding: 0 50px;
+      span {
+        display: block;
+        &:nth-child(even) {
+          margin-top: 26px;
+          font-size: 22px;
+        }
+      }
+    }
+    img {
+      width: 50%;
     }
   }
 }
