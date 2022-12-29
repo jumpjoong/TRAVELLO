@@ -28,7 +28,11 @@
     }
   }
 }
+<<<<<<< Updated upstream
 .section2 {
+=======
+.move-contain {
+>>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   margin-bottom: 208px;
@@ -37,6 +41,7 @@
     height: 400px;
     cursor: pointer;
     line-height: 400px;
+<<<<<<< Updated upstream
     background-color: #eee;
   }
 }
@@ -91,6 +96,18 @@
     }
     img {
       width: 50%;
+=======
+  }
+}
+.place-contain {
+  .place-first {
+    display: flex;
+    justify-content: center;
+    &:nth-of-type(even){
+      img {
+        order: 1;
+      }
+>>>>>>> Stashed changes
     }
   }
 }
