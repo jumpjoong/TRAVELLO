@@ -8,22 +8,6 @@ fetch('../resource/data.json')
 //로컬스트로지 값 받오는 변수
 let contryKey = localStorage.getItem('num');
 
-<<<<<<< Updated upstream
-=======
-//큰 제목
-function init (a) {
-  const h1El = document.querySelector('.text > h1')
-  const placeImg = document.querySelectorAll('.place-first')
-  window.addEventListener('load',()=>{
-    h1El.innerHTML = `<h1>${a[contryKey].country_ko}</h1>`
-    console.log(a[contryKey].place[2].url)
-    console.log(placeImg.length)
-    for(i = 0; i < placeImg.length; i++) {
-      placeImg[i].innerHTML = `<img src="${a[contryKey].place[i].url}">`
-    }
-  })
-}
->>>>>>> Stashed changes
 //구글 맵
 let contryGps = [
   {
@@ -55,10 +39,6 @@ let contryGps = [
     "url" : { lat: 15.541102 ,lng: 105.482409 }
   }
 ]
-<<<<<<< Updated upstream
-=======
-console.log(contryGps[0].url)
->>>>>>> Stashed changes
 function initMap() {
   var map = new google.maps.Map(
     document.querySelector('.maps'), {
@@ -67,7 +47,6 @@ function initMap() {
     }
   );
 }
-<<<<<<< Updated upstream
 //큰 제목
 function init (a) {
   const h1El = document.querySelector('.text > h1')
@@ -94,5 +73,3 @@ function init (a) {
   })
 }
 
-=======
->>>>>>> Stashed changes

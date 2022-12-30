@@ -199,7 +199,6 @@
                         {
                             "title":"Iguazu Jungle Lodge",
                             "img_url":[
-<<<<<<< Updated upstream
                                 "../img/BRA/lodging/brazil03_lodging03_01.jpg",
                                 "../img/BRA/lodging/brazil03_lodging03_02.jpg",
                                 "../img/BRA/lodging/brazil03_lodging03_03.jpg",
@@ -1578,13 +1577,6 @@
                                 "../img/ISL/lodging/isl03_lodging03_03.jpg",
                                 "../img/ISL/lodging/isl03_lodging03_04.jpg",
                                 "../img/ISL/lodging/isl03_lodging03_05.jpg"
-=======
-                                "../img/brazil03_lodging03_01.jpg",
-                                "../img/brazil03_lodging03_02.jpg",
-                                "../img/brazil03_lodging03_03.jpg",
-                                "../img/brazil03_lodging03_04.jpg",
-                                "../img/brazil03_lodging03_05.jpg"
->>>>>>> Stashed changes
                             ]
                         }
                     ]

@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .section1 {
   width: 72.916%;
   margin: 183px auto 0px;
@@ -8,27 +7,12 @@
   line-height: 90px;
 }
 .section1 .text .text-sub p {
-=======
-.top-contain {
-  width: 72.916%;
-  margin: 183px auto 0px;
-}
-.top-contain .text h1 {
-  font-size: 64px;
-  line-height: 90px;
-}
-.top-contain .text .text-sub p {
->>>>>>> Stashed changes
   font-size: 48px;
   margin: 0 auto;
   display: inline-block;
   font-weight: 400;
 }
-<<<<<<< Updated upstream
 .section1 .text .text-sub p::before {
-=======
-.top-contain .text .text-sub p::before {
->>>>>>> Stashed changes
   margin: 10px 0;
   content: "";
   display: block;
