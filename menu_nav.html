@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="./js/jquery.zaccordion.min.js"></script>
+
+    <style>
+        .right-nav-bar {
+            width: 200px;
+            color: #f1f1f1;
+            position: fixed;
+            right: 0;
+            top: 50%;
+        }
+        li a {
+            display: flex;
+            color: #999;
+            padding: 8px 16px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: flex-end;
+            transition: 750ms ease;
+            cursor: pointer;
+            
+        }
+        li a::after {
+            content: "";
+            display: block;
+            clear: both;
+            width: 3rem;
+            height: 2px;
+            background-color: #999;
+            margin-left: 0.5rem;
+            transition: all 750ms;
+
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        li a.active {
+            display: flex;
+            font-weight: bold;
+            color: red;
+            justify-content: flex-end;
+            transition: all 750ms;
+        }
+        li a.active::after {
+            content: "";
+            display: block;
+            clear: both;
+            width: 1.5rem;
+            height: 2px;
+            background-color: red;
+            margin-left: 0.5rem;
+        }
+        li a:hover:not(.active) {
+            color: red;
+
+        }
+        li a:hover:not(.active)::after {
+            content: "";
+            display: block;
+            clear: both;
+            width: 1.5rem;
+            height: 2px;
+            background-color: red;
+            margin-left: 0.5rem;
+            transition: all 750ms;
+            
+        }
+    </style>
+
+    <script>
+        $().ready(function() {
+            var ref = null;
+            $('.right-nav-bar ul li').click(() => {
+                $('.right-nav').on('click', function(el) {
+                    console.log(el.target.id);
+                    if(ref == null) {
+                        ref = 'nav-btn1';
+                    }
+                    $(`#${ref}`).removeClass('active');
+                    $(`#${el.target.id}`).addClass('active');
+                    ref = el.target.id;
+                })
+                
+                // 스크롤 이동 이벤트
+                
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="hide-menu"> 
+        <div>
+            
+        </div>
+    </div>
+
+    <div class="right-nav-bar">
+        <ul>
+            <li><a id="nav-btn1" class="right-nav active">명소</a></li>
+            <li><a id="nav-btn2" class="right-nav">숙박</a></li>
+            <li><a id="nav-btn3" class="right-nav">음식점</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
