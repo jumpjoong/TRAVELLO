@@ -21,10 +21,13 @@
             width: 100%;
             height: 5rem;
         }
+<<<<<<< HEAD
+=======
         .hide-menu a {
             color: black;
             font-weight: 600;
         }
+>>>>>>> main
 
         .hide-menu-icon {
             width: 48px;
@@ -34,18 +37,25 @@
             top: 0;
             right: 0;
             display: block;
+<<<<<<< HEAD
+=======
             transition: 750ms ease;
         }
 
         .hide-menu-icon:hover {
             background-color: #999;
+>>>>>>> main
         }
 
         .hide-menu .hide-menu-wrapper {
             position: relative;
             position: fixed;
             top: 48px;
+<<<<<<< HEAD
+            right: 0;
+=======
             right: 5px;
+>>>>>>> main
             display: flex;
             justify-content: flex-end;
         }
@@ -60,12 +70,15 @@
             border-bottom: 1px solid #000;
             
         }
+<<<<<<< HEAD
+=======
         .hide-menu .menu li {
             cursor: pointer;
         }
         .hide-menu .menu li:hover {
             background-color: #4FC3F7;
         }
+>>>>>>> main
         .hide-menu .menu li ul {
             display: none;
         }
@@ -83,6 +96,26 @@
             var menu_toggle = true;
             $('.hide-menu-icon').click(() => {
                 if(menu_toggle) {
+<<<<<<< HEAD
+                    $('.menu').removeClass('hidden');
+                    menu_toggle = !menu_toggle;
+                    $('.hide-menu-icon img').attr('src', './svg/flight_takeoff.svg');
+                } else {
+                    $('.menu').addClass('hidden');
+                    menu_toggle = !menu_toggle;
+                    $('.hide-menu-icon img').attr('src', './svg/flight_land.svg');
+                }
+            })
+            $('.menu-sub').eq(0).click((el) => {
+                $('.menu-sub ul').eq(0).toggle();
+            });
+            $('.menu-sub').eq(1).click((el) => {
+                $('.menu-sub ul').eq(1).toggle();
+            });
+            $('.menu-sub').eq(2).click((el) => {
+                $('.menu-sub ul').eq(2).toggle();
+            });
+=======
                     $('.menu').fadeOut(200, ()=> {
                         
                     }).fadeIn(200);
@@ -121,6 +154,7 @@
             }
             // $(window).on('load', ()=> {
             // })
+>>>>>>> main
         });
     </script>
 
@@ -165,9 +199,12 @@
             justify-content: flex-end;
             transition: all 750ms;
         }
+<<<<<<< HEAD
+=======
         .right-nav-bar li a.active:hover {
             color: #1C80B8;
         }
+>>>>>>> main
         .right-nav-bar li a.active::after {
             content: "";
             display: block;
@@ -177,9 +214,12 @@
             background-color: #4FC3F7;
             margin-left: 0.5rem;
         }
+<<<<<<< HEAD
+=======
         .right-nav-bar li a.active:hover::after {
             background-color: #1C80B8;
         }
+>>>>>>> main
         .right-nav-bar li a:hover:not(.active) {
             color: #4FC3F7;
 
@@ -228,10 +268,13 @@
             cursor: pointer;
         }
 
+<<<<<<< HEAD
+=======
         .go-top-btn:hover {
             background-color: #1C80B8;
         }
 
+>>>>>>> main
         .go-top-btn p {
             width: 48px;
             height: 48px;
@@ -244,7 +287,11 @@
         }
     </style>
     <script>
+<<<<<<< HEAD
+
+=======
         
+>>>>>>> main
     </script>
 </head>
 
@@ -256,10 +303,32 @@
             </div>
             <ul class="menu hidden">
                 <li class="menu-sub">
+<<<<<<< HEAD
+                    <a href="#">명소</a>
+                    <ul>
+                        <li>임시나라1</li>
+                        <li>임시나라2</li>
+                    </ul>
+                </li>
+                <li class="menu-sub">
+                    <a href="#">숙박</a>
+                    <ul>
+                        <li>임시숙박1</li>
+                        <li>임시숙박2</li>
+                    </ul>
+                </li>
+                <li class="menu-sub">
+                    <a href="#">음식점</a>
+                    <ul>
+                        <li>임시음식점1</li>
+                        <li>임시음식점2</li>
+                    </ul>
+=======
                     <a href="#">나라1</a>
                 </li>
                 <li class="menu-sub">
                     <a href="#">나라2</a>
+>>>>>>> main
                 </li>
             </ul>
         </div>
@@ -274,7 +343,11 @@
     </div>
 
     <div class="go-top-btn">
+<<<<<<< HEAD
+        <p>▲</p>
+=======
         <p><img src="./svg/play_arrow.svg" style="transform: rotate(-90deg);"></p>
+>>>>>>> main
     </div>
 
 </body>
