@@ -116,11 +116,11 @@
                     html += `<a href="#">${data[i].country_ko}</a>`;
                     html += '</li>';
                 }
+                $('.hide-menu-wrapper ul.menu').html(html);
                 
             }
-            $(window).on('load', ()=> {
-                $('.hide-menu-wrapper ul.menu').html(html);
-            })
+            // $(window).on('load', ()=> {
+            // })
         });
     </script>
 
