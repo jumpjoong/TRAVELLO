@@ -9,7 +9,87 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="./js/jquery.zaccordion.min.js"></script>
+    <script type="text/javascript" src="//rawgit.com/vctrfrnndz/jquery-accordion/master/js/jquery.accordion.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
 
+    <!-- hide-menu 관련 스타일, 스크립트 -->
+    <style>
+        .hidden {
+            display: none;
+        }
+        .hide-menu {
+            width: 100%;
+            height: 5rem;
+        }
+
+        .hide-menu-icon {
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: block;
+        }
+
+        .hide-menu .hide-menu-wrapper {
+            position: relative;
+            position: fixed;
+            top: 48px;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .hide-menu div ul li {
+            padding: 10px;
+            border: 1px solid #000;
+            border-bottom: 0px;
+        }
+        .hide-menu .menu {
+            width: 150px;
+            border-bottom: 1px solid #000;
+            
+        }
+        .hide-menu .menu li ul {
+            display: none;
+        }
+        .hide-menu div ul li ul li {
+            border-bottom: 0px;
+        }
+
+        .hide-menu div ul li ul li:last-child {
+            border-bottom: 1px solid #000;
+        }
+        
+    </style>
+    <script>
+        $().ready(function() {
+            var menu_toggle = true;
+            $('.hide-menu-icon').click(() => {
+                if(menu_toggle) {
+                    $('.menu').removeClass('hidden');
+                    menu_toggle = !menu_toggle;
+                    $('.hide-menu-icon img').attr('src', './svg/flight_takeoff.svg');
+                } else {
+                    $('.menu').addClass('hidden');
+                    menu_toggle = !menu_toggle;
+                    $('.hide-menu-icon img').attr('src', './svg/flight_land.svg');
+                }
+            })
+            $('.menu-sub').eq(0).click((el) => {
+                $('.menu-sub ul').eq(0).toggle();
+            });
+            $('.menu-sub').eq(1).click((el) => {
+                $('.menu-sub ul').eq(1).toggle();
+            });
+            $('.menu-sub').eq(2).click((el) => {
+                $('.menu-sub ul').eq(2).toggle();
+            });
+        });
+    </script>
+
+    <!-- right-nav-bar 관련 스타일, 스크립트 -->
     <style>
         .right-nav-bar {
             width: 200px;
@@ -18,7 +98,7 @@
             right: 0;
             top: 50%;
         }
-        li a {
+        .right-nav-bar li a {
             display: flex;
             color: #999;
             padding: 8px 16px;
@@ -29,7 +109,7 @@
             cursor: pointer;
             
         }
-        li a::after {
+        .right-nav-bar li a::after {
             content: "";
             display: block;
             clear: both;
@@ -40,48 +120,46 @@
             transition: all 750ms;
 
         }
-        li:last-child {
+        .right-nav-bar li:last-child {
             border-bottom: none;
         }
-        li a.active {
+        .right-nav-bar li a.active {
             display: flex;
             font-weight: bold;
-            color: red;
+            color: #4FC3F7;
             justify-content: flex-end;
             transition: all 750ms;
         }
-        li a.active::after {
+        .right-nav-bar li a.active::after {
             content: "";
             display: block;
             clear: both;
             width: 1.5rem;
             height: 2px;
-            background-color: red;
+            background-color: #4FC3F7;
             margin-left: 0.5rem;
         }
-        li a:hover:not(.active) {
-            color: red;
+        .right-nav-bar li a:hover:not(.active) {
+            color: #4FC3F7;
 
         }
-        li a:hover:not(.active)::after {
+        .right-nav-bar li a:hover:not(.active)::after {
             content: "";
             display: block;
             clear: both;
             width: 1.5rem;
             height: 2px;
-            background-color: red;
+            background-color: #4FC3F7;
             margin-left: 0.5rem;
             transition: all 750ms;
-            
         }
     </style>
-
     <script>
         $().ready(function() {
             var ref = null;
             $('.right-nav-bar ul li').click(() => {
                 $('.right-nav').on('click', function(el) {
-                    console.log(el.target.id);
+                    // console.log(el.target.id);
                     if(ref == null) {
                         ref = 'nav-btn1';
                     }
@@ -91,16 +169,69 @@
                 })
                 
                 // 스크롤 이동 이벤트
-                
+
             })
         })
+    </script>
+
+    <!-- go-top-btn 관련 스타일, 스크립트 -->
+    <style>
+        .go-top-btn { 
+            width: 48px;
+            height: 48px;
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: #4FC3F7;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .go-top-btn p {
+            width: 48px;
+            height: 48px;
+            margin: auto 0px;
+            color: #f1f1f1;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <script>
+
     </script>
 </head>
 
 <body>
     <div class="hide-menu"> 
-        <div>
-            
+        <div class="hide-menu-wrapper">
+            <div class="hide-menu-icon">
+                <img src="./svg/flight_land.svg">
+            </div>
+            <ul class="menu hidden">
+                <li class="menu-sub">
+                    <a href="#">명소</a>
+                    <ul>
+                        <li>임시나라1</li>
+                        <li>임시나라2</li>
+                    </ul>
+                </li>
+                <li class="menu-sub">
+                    <a href="#">숙박</a>
+                    <ul>
+                        <li>임시숙박1</li>
+                        <li>임시숙박2</li>
+                    </ul>
+                </li>
+                <li class="menu-sub">
+                    <a href="#">음식점</a>
+                    <ul>
+                        <li>임시음식점1</li>
+                        <li>임시음식점2</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -110,6 +241,10 @@
             <li><a id="nav-btn2" class="right-nav">숙박</a></li>
             <li><a id="nav-btn3" class="right-nav">음식점</a></li>
         </ul>
+    </div>
+
+    <div class="go-top-btn">
+        <p>▲</p>
     </div>
 
 </body>
