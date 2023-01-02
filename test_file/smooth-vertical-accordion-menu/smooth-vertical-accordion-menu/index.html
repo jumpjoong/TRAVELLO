@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Smooth Vertical Accordion Menu</title>
+<link href="https://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>body {
+  padding: 0;
+  margin: 0;
+  background-color: #324252;
+}
+
+h1 {
+  font-family: 'Roboto';
+  margin: 150px auto 30px auto;
+  color: #09fbd2;
+  width: 100%;
+  text-align: center;
+}
+
+ul.menu {
+  padding: 0;
+  list-style: none;
+  width: 400px;
+  margin: 20px auto;
+  font-family: 'Roboto';
+  box-shadow: 0px 0px 25px #00000070;
+  clear: both;
+  display: table;
+}
+ul.menu .list {
+  font-size: 14px;
+  border-bottom: 1px solid #324252;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  vertical-align: sub;
+  background: #3e5165;
+  clear: both;
+}
+ul.menu .list:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #fff;
+}
+ul.menu .list:before {
+  content: '\f07b';
+  font-family: FontAwesome;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #fff;
+}
+ul.menu .list a {
+  text-decoration: none;
+  color: #fff;
+  padding: 17px 0px 17px 45px;
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+}
+ul.menu .list a:hover {
+  background-color: #324252;
+  transition: 300ms all;
+  color: #09fbd2;
+}
+ul.menu .list .items {
+  height: 0px;
+  overflow: hidden;
+}
+ul.menu .list .items a {
+  padding: 17px;
+}
+ul.menu .list .items a:hover {
+  background-color: #3f5d79;
+  color: #fff;
+  transition: 300ms all;
+}
+ul.menu .list:last-child {
+  border-bottom: none;
+}
+ul.menu .active:after {
+  content: "\f106";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #fff;
+}
+ul.menu .active:before {
+  content: '\f07c';
+  font-family: FontAwesome;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #fff;
+}
+ul.menu .active > .items {
+  display: block;
+  background: #23313f;
+  padding: 0px;
+  height: auto;
+  color: #fff;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 200ms;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+ul.menu .active > .items li {
+  padding: 0px;
+  border-bottom: 1px solid #324252;
+  list-style: none;
+}
+ul.menu .active > .items li:last-child {
+  border-color: transparent;
+  padding-bottom: 0px;
+}
+ul.menu .active > .items .active > .items {
+  background-color: #2f4b67;
+}
+ul.menu .active > a {
+  color: #46efa4;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul.menu .active .list {
+  background: #697d92;
+}
+ul.menu .active .list a {
+  padding: 17px 0px 17px 45px;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="css-script-menu">
+  <div class="css-script-center">
+    <ul>
+      <li><a href="https://www.cssscript.com/smooth-vertical-accordion-menu/">Download</a></li>
+      <li><a href="https://www.cssscript.com/">Back To CSS Script</a></li>
+    </ul>
+    <div class="css-script-ads">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CSSScript Demo Page -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2783044520727903"
+     data-ad-slot="3025259193"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+    <div class="css-script-clear"></div>
+  </div>
+</div>
+  <h1>Smooth Vertical Accordion Menu</h1>
+<ul class="menu">
+   <li class="list"><a href="#">JavaScript</a>
+      <ul class="items">
+         <li><a href="#"> Angular</a></li>
+         <li><a href="#"> React</a></li>
+         <li><a href="#"> Vue</a></li>
+      </ul>
+   </li>
+   <li class="list"><a href="#">Adobe</a>
+      <ul class="items">
+         <li> <a href="#" > Photoshop</a></li>
+         <li> <a href="#" > Illustrator</a></li>
+         <li> <a href="#" > Dreamweaver</a></li>
+      </ul>
+   </li>
+   <li class="list"><a href="#">Multi-Level</a>
+      <ul class="items">
+         <li> <a href="#" > Item 1-1 </a></li>
+         <li> <a href="#" > Item 1-2 </a></li>
+         <li class="list"><a href="#">List 1-1</a>
+            <ul  class="items">
+               <li> <a href="#" > Item 1-1-1</a></li>
+               <li> <a href="#" > Item 1-1-2</a></li>
+               <li class="list"><a href="#">List 1-2</a>
+                  <ul  class="items">
+                     <li> <a href="#" > Item 1-2-1</a></li>
+                     <li> <a href="#" > Item 1-2-2</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul>
+<script>
+var list = document.querySelectorAll('.list');
+
+function accordion(e) {
+    e.stopPropagation();
+    if (this.classList.contains('active')) {
+        this.classList.remove('active');
+    } else
+    if (this.parentElement.parentElement.classList.contains('active')) {
+        this.classList.add('active');
+    } else
+    {
+        for (i = 0; i < list.length; i++) {
+            list[i].classList.remove('active');
+
+        }
+        this.classList.add('active');
+    }
+}
+for (i = 0; i < list.length; i++) {
+    list[i].addEventListener('click', accordion);
+}
+</script>
+</body>
+</html>
