@@ -19,6 +19,7 @@
   border: 1px solid black;
   width: 100%;
 }
+<<<<<<< Updated upstream
 .section1 .text .maps {
   width: 72.916%;
   margin: 32px auto 104px;
@@ -85,4 +86,33 @@
 }
 .section3 .place-first img {
   width: 50%;
+=======
+.top-contain .text .maps {
+  width: 72.916%;
+  margin: 32px auto 104px;
+  height: 850px;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+}
+
+.move-contain {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 208px;
+}
+.move-contain .move {
+  width: 20.83%;
+  height: 400px;
+  cursor: pointer;
+  line-height: 400px;
+}
+
+.place-contain .place-first {
+  display: flex;
+  justify-content: center;
+}
+.place-contain .place-first:nth-of-type(even) img {
+  order: 1;
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=ex.css.map */
