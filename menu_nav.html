@@ -21,6 +21,10 @@
             width: 100%;
             height: 5rem;
         }
+        .hide-menu a {
+            color: black;
+            font-weight: 600;
+        }
 
         .hide-menu-icon {
             width: 48px;
@@ -30,13 +34,18 @@
             top: 0;
             right: 0;
             display: block;
+            transition: 750ms ease;
+        }
+
+        .hide-menu-icon:hover {
+            background-color: #999;
         }
 
         .hide-menu .hide-menu-wrapper {
             position: relative;
             position: fixed;
             top: 48px;
-            right: 0;
+            right: 5px;
             display: flex;
             justify-content: flex-end;
         }
@@ -50,6 +59,12 @@
             width: 150px;
             border-bottom: 1px solid #000;
             
+        }
+        .hide-menu .menu li {
+            cursor: pointer;
+        }
+        .hide-menu .menu li:hover {
+            background-color: #4FC3F7;
         }
         .hide-menu .menu li ul {
             display: none;
@@ -68,24 +83,44 @@
             var menu_toggle = true;
             $('.hide-menu-icon').click(() => {
                 if(menu_toggle) {
-                    $('.menu').removeClass('hidden');
+                    $('.menu').fadeOut(200, ()=> {
+                        
+                    }).fadeIn(200);
                     menu_toggle = !menu_toggle;
-                    $('.hide-menu-icon img').attr('src', './svg/flight_takeoff.svg');
+                    $('.hide-menu-icon img').fadeOut(200, () => {
+                        $('.hide-menu-icon img').attr('src', './svg/flight_takeoff.svg');
+                    }).fadeIn(200);
                 } else {
-                    $('.menu').addClass('hidden');
+                    $('.menu').fadeIn(200, ()=> {
+
+                    }).fadeOut(200);
                     menu_toggle = !menu_toggle;
-                    $('.hide-menu-icon img').attr('src', './svg/flight_land.svg');
+                    $('.hide-menu-icon img').fadeOut(200, () => {
+                        $('.hide-menu-icon img').attr('src', './svg/flight_land.svg');
+                    }).fadeIn(400);
                 }
             })
-            $('.menu-sub').eq(0).click((el) => {
-                $('.menu-sub ul').eq(0).toggle();
-            });
-            $('.menu-sub').eq(1).click((el) => {
-                $('.menu-sub ul').eq(1).toggle();
-            });
-            $('.menu-sub').eq(2).click((el) => {
-                $('.menu-sub ul').eq(2).toggle();
-            });
+
+            var data = '';
+            var html = '';
+            //json
+            fetch('./resource/data.json')
+            .then(function(res) {return res.json()})
+            .then(function(abc) {
+                init(abc.data);
+            })
+            function init(data) {
+                this.data = data;
+                for(var i=0; i<data.length; i++) {
+                    html += '<li class="menu-sub">';
+                    html += `<a href="#">${data[i].country_ko}</a>`;
+                    html += '</li>';
+                }
+                
+            }
+            $(window).on('load', ()=> {
+                $('.hide-menu-wrapper ul.menu').html(html);
+            })
         });
     </script>
 
@@ -130,6 +165,9 @@
             justify-content: flex-end;
             transition: all 750ms;
         }
+        .right-nav-bar li a.active:hover {
+            color: #1C80B8;
+        }
         .right-nav-bar li a.active::after {
             content: "";
             display: block;
@@ -138,6 +176,9 @@
             height: 2px;
             background-color: #4FC3F7;
             margin-left: 0.5rem;
+        }
+        .right-nav-bar li a.active:hover::after {
+            background-color: #1C80B8;
         }
         .right-nav-bar li a:hover:not(.active) {
             color: #4FC3F7;
@@ -187,6 +228,10 @@
             cursor: pointer;
         }
 
+        .go-top-btn:hover {
+            background-color: #1C80B8;
+        }
+
         .go-top-btn p {
             width: 48px;
             height: 48px;
@@ -199,7 +244,7 @@
         }
     </style>
     <script>
-
+        
     </script>
 </head>
 
@@ -211,25 +256,10 @@
             </div>
             <ul class="menu hidden">
                 <li class="menu-sub">
-                    <a href="#">명소</a>
-                    <ul>
-                        <li>임시나라1</li>
-                        <li>임시나라2</li>
-                    </ul>
+                    <a href="#">나라1</a>
                 </li>
                 <li class="menu-sub">
-                    <a href="#">숙박</a>
-                    <ul>
-                        <li>임시숙박1</li>
-                        <li>임시숙박2</li>
-                    </ul>
-                </li>
-                <li class="menu-sub">
-                    <a href="#">음식점</a>
-                    <ul>
-                        <li>임시음식점1</li>
-                        <li>임시음식점2</li>
-                    </ul>
+                    <a href="#">나라2</a>
                 </li>
             </ul>
         </div>
