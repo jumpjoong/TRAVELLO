@@ -1,3 +1,4 @@
+@import url("../font/Righteous-Regular.woff");
 body {
   width: 100vw;
   height: 100vh;
@@ -10,9 +11,9 @@ body header .header-center {
   height: 90px;
 }
 body header .header-center h1 {
-  font-size: 64px;
   font-weight: 400;
   line-height: 90px;
+  font-family: "Righteous", cursive;
 }
 body main {
   height: 938px;
