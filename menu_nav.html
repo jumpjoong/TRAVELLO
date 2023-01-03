@@ -47,6 +47,7 @@
             position: relative;
             position: fixed;
             top: 48px;
+            right: 0;
             right: 5px;
             display: flex;
             justify-content: flex-end;
@@ -63,6 +64,7 @@
         .hide-menu .menu {
             width: 150px;
         }
+
         .hide-menu .menu li {
             cursor: pointer;
         }
@@ -93,6 +95,24 @@
             var menu_toggle = true;
             $('.hide-menu-icon').click(() => {
                 if(menu_toggle) {
+                    $('.menu').removeClass('hidden');
+                    menu_toggle = !menu_toggle;
+                    $('.hide-menu-icon img').attr('src', './svg/flight_takeoff.svg');
+                } else {
+                    $('.menu').addClass('hidden');
+                    menu_toggle = !menu_toggle;
+                    $('.hide-menu-icon img').attr('src', './svg/flight_land.svg');
+                }
+            })
+            $('.menu-sub').eq(0).click((el) => {
+                $('.menu-sub ul').eq(0).toggle();
+            });
+            $('.menu-sub').eq(1).click((el) => {
+                $('.menu-sub ul').eq(1).toggle();
+            });
+            $('.menu-sub').eq(2).click((el) => {
+                $('.menu-sub ul').eq(2).toggle();
+            });
                     $('.menu').fadeOut(200, ()=> {
                         
                     }).fadeIn(200);
@@ -178,6 +198,7 @@
         .right-nav-bar li a.active:hover {
             color: #1C80B8;
         }
+
         .right-nav-bar li a.active::after {
             content: "";
             display: block;
@@ -237,7 +258,6 @@
             border-radius: 50%;
             cursor: pointer;
         }
-
         .go-top-btn:hover {
             background-color: #1C80B8;
         }
@@ -254,7 +274,6 @@
         }
     </style>
     <script>
-        
     </script>
 </head>
 
@@ -266,6 +285,25 @@
             </div>
             <ul class="menu hidden">
                 <li class="menu-sub">
+                    <a href="#">명소</a>
+                    <ul>
+                        <li>임시나라1</li>
+                        <li>임시나라2</li>
+                    </ul>
+                </li>
+                <li class="menu-sub">
+                    <a href="#">숙박</a>
+                    <ul>
+                        <li>임시숙박1</li>
+                        <li>임시숙박2</li>
+                    </ul>
+                </li>
+                <li class="menu-sub">
+                    <a href="#">음식점</a>
+                    <ul>
+                        <li>임시음식점1</li>
+                        <li>임시음식점2</li>
+                    </ul>
                     <a href="#">나라1</a>
                 </li>
                 <li class="menu-sub">
@@ -284,6 +322,7 @@
     </div>
 
     <div class="go-top-btn">
+        <p>▲</p>
         <p><img src="./svg/play_arrow.svg" style="transform: rotate(-90deg);"></p>
     </div>
 
