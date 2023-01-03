@@ -1,6 +1,7 @@
 {
     "data":[
         {
+            "country_code": "BRA",
             "country_ko":"브라질",
             "country_en":"brazil",
             "country_url":"../img/brazil_01.png",
@@ -211,9 +212,10 @@
             ]
         },
         {
+            "country_code": "CAN",
             "country_ko":"캐나다",
             "country_en":"canada",
-            "country_url":"../img/CAN/can_map.png",
+            "country_url":"../img/CAN/ca-04.png",
             "place":[
                 {
                     "city":"밴쿠버",
@@ -446,6 +448,7 @@
             ]
         },
         {
+            "country_code": "CHE",
             "country_ko":"스위스",
             "country_en":"Switzerland",
             "country_url":"../img/CHE/che_map.png",
@@ -681,6 +684,7 @@
             ]
         },
         {
+            "country_code": "ITA",
             "country_ko":"이탈리아",
             "country_en":"Italia",
             "country_url":"../img/ITA/it-05.png",
@@ -895,6 +899,7 @@
             ]
         },
         {
+            "country_code": "ISL",
             "country_ko":"아이슬란드",
             "country_en":"iceland",
             "country_url":"../img/ISL/is-04.png",
@@ -1109,6 +1114,7 @@
             ]
         },
         {
+            "country_code": "TUR",
             "country_ko":"튀르키예",
             "country_en":"turkiye",
             "country_url":"../img/TUR/tur_map.png",
@@ -1312,6 +1318,7 @@
             ]
         },
         {
+            "country_code": "VNM",
             "country_ko":"베트남",
             "country_en":"Vietnam",
             "country_url":"../img/VNM/vn-04.png",
