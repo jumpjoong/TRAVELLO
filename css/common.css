@@ -7,3 +7,8 @@
   box-sizing: border-box;
   word-break: keep-all;
 }
+
+.bold {
+  font-weight: 700;
+}
+
