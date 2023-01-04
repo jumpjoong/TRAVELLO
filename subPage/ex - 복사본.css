@@ -1,0 +1,43 @@
+.section01 .section01-slide .section01-contain {
+  width: 100vw;
+  height: 100vh;
+}
+.section01 .section01-slide .section01-contain img {
+  width: 100%;
+  height: 100%;
+}
+.section01 .section01-slide .section01-contain .section01-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 64px;
+}
+.section01 .left {
+  position: absolute;
+  left: 2.34375%;
+  color: black;
+  transform: scale(1.5);
+}
+.section01 .right {
+  position: absolute;
+  right: 2.34375%;
+  color: black;
+  transform: scale(1.5);
+}
+
+.section02 .section02-contain {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.section02 .section02-contain .maps {
+  width: 36%;
+}
+.section02 .section02-contain .maps img {
+  width: 100%;
+}
+.section02 .section02-contain .text {
+  width: 36%;
+}/*# sourceMappingURL=ex - 복사본.css.map */

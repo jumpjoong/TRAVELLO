@@ -51,22 +51,8 @@
         width: 100%;
       }
     }
-    .section04-line {
-      position: relative;
-      > div {
-        display: flex;
-        justify-content: space-around;
-        &::after {
-          content: '';
-          display: block;
-          position: absolute;
-          border: 1px dashed black;
-          width: 100%;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-      }
+    .text{
+      width: 36%;
     }
   }
 }
@@ -106,6 +92,7 @@
           color: black;
           border-radius: 50%;
           line-height: 50px;
+          cursor: pointer;
         }
       }
     }
