@@ -41,9 +41,16 @@ h2 {
 .section3-wrap {
     display: flex;
     flex-direction: column;
+    h2 {
+        text-align: left;
+    }
     .section3-content-wrap {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        p {
+            margin-top: 3.5rem;
+        }
     }
 }
 .section04 {
