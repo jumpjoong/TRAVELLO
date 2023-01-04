@@ -3,10 +3,11 @@ fetch('../resource/data.json')
 .then(function(res) {return res.json()})
 .then(function(abc) {
   init(abc.data)
+
 })
 
 //로컬스트로지 값 받오는 변수
-let contryKey = localStorage.getItem('num');
+let countryKey = localStorage.getItem('num');
 
 //구글 맵
 // let contryGps = [
@@ -49,25 +50,44 @@ let contryKey = localStorage.getItem('num');
 // }
 //큰 제목
 function init (a) {
-  const subEl = document.querySelectorAll('.text > .text-sub')
-  const contryImg = document.querySelectorAll('.section01-contain')
-  const contryMaps = document.querySelector('.maps')
-  // window.addEventListener('load',()=>{
-  subEl.innerHTML = `<p>${a[contryKey].country_en}</p>`
-  contryImg.forEach((btn, key)=>{
-    btn.innerHTML = `<img src="${a[contryKey].place[key].url}">
-    <p class="section01-text">${a[contryKey].place[key].title}</p>`
-  })
-}
+  const countryImg = document.querySelectorAll('.section01-contain')
 
-//section1 슬라이드
-var swiper = new Swiper(".mySwiper", {
-  speed: 1000,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+  countryImg.forEach((btn, key)=>{
+    btn.innerHTML = `<img src="${a[countryKey].place[key].url}">
+    <p class="section01-text">${a[countryKey].place[key].title}</p>`
+  })
+
+  //section2
+  function dataChange(key){
+    const elSec02 = document.querySelector('.section02-contain');
+    elSec02.innerHTML = `<div class="maps">
+                        <img src="${a[countryKey].country_url}" alt="${a[countryKey].place[key].title}의 지역">
+                      </div>
+                      <div class="text">
+                        <p class="title">${a[countryKey].place[key].title}</p>
+                        <p class="detail">${a[countryKey].place[key].detail}</p>
+                        <a class="more" href="">more</a>
+                      </div>`;
+  }
+  dataChange(0);
+
+  //section1 슬라이드
+  var swiper = new Swiper(".mySwiper", {
+    speed: 1000,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    on:{
+      slideChange:function(e){
+        dataChange(e.realIndex);
+      }
+    }
+  });
+
+
+
+}
