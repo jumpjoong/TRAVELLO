@@ -26,4 +26,32 @@
   width: 72.916%;
   margin: 32px auto 104px;
   height: 850px;
+}
+
+.section04 {
+  width: 100%;
+}
+.section04 .section04-contain {
+  width: 72.916%;
+  margin: 0 auto;
+}
+.section04 .section04-contain .section04-text h2 {
+  text-align: left;
+}
+.section04 .section04-contain .section04-line {
+  position: relative;
+}
+.section04 .section04-contain .section04-line > div {
+  display: flex;
+  justify-content: space-around;
+}
+.section04 .section04-contain .section04-line > div::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px dashed black;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=ex.css.map */
