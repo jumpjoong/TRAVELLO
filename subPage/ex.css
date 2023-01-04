@@ -1,118 +1,26 @@
-.section1 {
-  width: 72.916%;
-  margin: 183px auto 0px;
-}
-.section1 .text h1 {
-  font-size: 64px;
-  line-height: 90px;
-}
-.section1 .text .text-sub p {
-  font-size: 48px;
-  margin: 0 auto;
-  display: inline-block;
-  font-weight: 400;
-}
-.section1 .text .text-sub p::before {
-  margin: 10px 0;
-  content: "";
-  display: block;
-  border: 1px solid black;
+.section01 {
   width: 100%;
+  display: flex;
+  overflow: hidden;
 }
-<<<<<<< Updated upstream
-.section1 .text .maps {
+.section01 .section01-contain {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+}
+.section01 .section01-contain img {
+  width: 100%;
+  height: 100%;
+}
+.section01 .section01-contain .section01-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.section01 .maps {
   width: 72.916%;
   margin: 32px auto 104px;
   height: 850px;
-}
-
-.section2 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 208px;
-}
-.section2 .move {
-  width: 20.83%;
-  height: 400px;
-  cursor: pointer;
-  line-height: 400px;
-  background-color: #eee;
-}
-
-.section3 {
-  background-color: #eee;
-  padding: 208px 0;
-}
-.section3 > h2 {
-  font-size: 64px;
-  padding-bottom: 77px;
-}
-.section3 .place {
-  width: 72.916%;
-  margin: 0 auto;
-}
-.section3 .place-first {
-  display: flex;
-  justify-content: center;
-}
-.section3 .place-first:nth-child(odd) span h2 {
-  text-align: left;
-}
-.section3 .place-first:nth-child(odd) span p {
-  text-align: left;
-}
-.section3 .place-first:nth-child(even) {
-  margin: 116px 0;
-}
-.section3 .place-first:nth-child(even) img {
-  order: 1;
-}
-.section3 .place-first:nth-child(even) span h2 {
-  text-align: right;
-}
-.section3 .place-first:nth-child(even) span p {
-  text-align: right;
-}
-.section3 .place-first .place-text {
-  width: 50%;
-  padding: 0 50px;
-}
-.section3 .place-first .place-text span {
-  display: block;
-}
-.section3 .place-first .place-text span:nth-child(even) {
-  margin-top: 26px;
-  font-size: 22px;
-}
-.section3 .place-first img {
-  width: 50%;
-=======
-.top-contain .text .maps {
-  width: 72.916%;
-  margin: 32px auto 104px;
-  height: 850px;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
-}
-
-.move-contain {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 208px;
-}
-.move-contain .move {
-  width: 20.83%;
-  height: 400px;
-  cursor: pointer;
-  line-height: 400px;
-}
-
-.place-contain .place-first {
-  display: flex;
-  justify-content: center;
-}
-.place-contain .place-first:nth-of-type(even) img {
-  order: 1;
->>>>>>> Stashed changes
 }/*# sourceMappingURL=ex.css.map */
