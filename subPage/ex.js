@@ -57,7 +57,7 @@ function init (a) {
     <p class="section01-text">${a[countryKey].place[key].title}</p>`
   })
 
-  //section2
+  //section02
   function dataChange(key){
     const elSec02 = document.querySelector('.section02-contain');
     elSec02.innerHTML = `<div class="maps">
@@ -68,8 +68,19 @@ function init (a) {
                         <p class="detail">${a[countryKey].place[key].detail}</p>
                         <a class="more" href="">more</a>
                       </div>`;
+                      // console.log(a[countryKey].place[key].lodging[key].img_url)
+                    }
+                    dataChange(0);
+                    
+                    //section04
+  function sec04Change(key) {
+    const elSec04Img = document.querySelectorAll('.section04-img')
+    const elsec04Div = document.querySelector('.section-box > div')
+    const elsec04Num = document.querySelectorAll('.section04-number')
+                      
+    
   }
-  dataChange(0);
+  sec04Change();
 
   //section1 슬라이드
   var swiper = new Swiper(".mySwiper", {
