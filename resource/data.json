@@ -4,7 +4,7 @@
             "country_code": "BRA",
             "country_ko":"브라질",
             "country_en":"brazil",
-            "country_url":"../img/BRA/brazil_01.png",
+            "country_url":"../img/BRA/br-02.png",
             "place":[
                 {
                     "title":"리우데자네이루",
@@ -15,30 +15,30 @@
                             "title":"L Atelier du Cuisinier",
                             "detail":"20여석의 좌석으로 크지는 않지만 아늑하고 낭만적인 분위기의 프렌치 레스토랑이다. 영업시간이 점심시간에만 운영되고 매우 인기가 많은 곳으로 꼭 예약을 하고 방문해야지만 식사가 가능한 곳이다.",
                             "img_url": [
-                                "../img/brazil01_food01_01.jpg",
-                                "../img/brazil01_food01_02.jpg",
-                                "../img/brazil01_food01_03.jpg",
-                                "../img/brazil01_food01_04.jpg"
+                                "../img/BRA/food/brazil01_food01_01.jpg",
+                                "../img/BRA/food/brazil01_food01_02.jpg",
+                                "../img/BRA/food/brazil01_food01_03.jpg",
+                                "../img/BRA/food/brazil01_food01_04.jpg"
                             ]
                         },
                         {
                             "title":"Churrascaria Palace",
                             "detail":"슈하스코는 브라질의 전통음식으로 소고기, 돼지고기 과일 및 야채 등을 꼬챙이에 꽂아 술붗에 구운 요리이다. 슈하스코를 판매하는 레스토랑을 슈하스까리아(Churrascaria)라고 부르고 자리에 앉아있으면 웨이터들이 꼬챙이에 꽂힌 고기를 들고 다니면서 손님들에게 서빙해준다. 무제한으로 계속 제공해주니 먹을 수 있는 만큼 먹고올 수있다.",
                             "img_url": [
-                                "../img/brazil01_food02_01.jpg",
-                                "../img/brazil01_food02_02.jpg",
-                                "../img/brazil01_food02_03.jpg",
-                                "../img/brazil01_food02_04.jpg"
+                                "../img/BRA/food/brazil01_food02_01.jpg",
+                                "../img/BRA/food/brazil01_food02_02.jpg",
+                                "../img/BRA/food/brazil01_food02_03.jpg",
+                                "../img/BRA/food/brazil01_food02_04.jpg"
                             ]
                         },
                         {
                             "title":"Adega Santiago Barra",
                             "detail":"자리가 넓고 채광이 좋으며 직원의 세심함과 친절한 서비스. 석호가 내려다보이는 테이블이 있고, 메인 요리와 와인이 매우 잘 어울리는 음식이 많이 있다.",
                             "img_url": [
-                                "../img/brazil01_food03_01.jpg",
-                                "../img/brazil01_food03_02.jpg",
-                                "../img/brazil01_food03_03.jpg",
-                                "../img/brazil01_food03_04.jpg"
+                                "../img/BRA/food/brazil01_food03_01.jpg",
+                                "../img/BRA/food/brazil01_food03_02.jpg",
+                                "../img/BRA/food/brazil01_food03_03.jpg",
+                                "../img/BRA/food/brazil01_food03_04.jpg"
                             ]
                         }
                     ],
@@ -46,32 +46,32 @@
                         {
                             "title":"PortoBay Rio de Janeiro Hotel",
                             "img_url":[
-                                "../img/brazil01_lodging01_01.jpg",
-                                "../img/brazil01_lodging01_02.jpg",
-                                "../img/brazil01_lodging01_03.jpg",
-                                "../img/brazil01_lodging01_04.jpg",
-                                "../img/brazil01_lodging01_05.jpg"
+                                "../img/BRA/lodging/brazil01_lodging01_01.jpg",
+                                "../img/BRA/lodging/brazil01_lodging01_02.jpg",
+                                "../img/BRA/lodging/brazil01_lodging01_03.jpg",
+                                "../img/BRA/lodging/brazil01_lodging01_04.jpg",
+                                "../img/BRA/lodging/brazil01_lodging01_05.jpg"
                             ]
                         },
                         {
                             "title":"Corcovado Adventures",
                             "img_url":[
-                                "../img/brazil01_lodging02_01.jpg",
-                                "../img/brazil01_lodging02_02.jpg",
-                                "../img/brazil01_lodging02_03.jpg",
-                                "../img/brazil01_lodging02_04.jpg",
-                                "../img/brazil01_lodging02_05.jpg"
+                                "../img/BRA/lodging/brazil01_lodging02_01.jpg",
+                                "../img/BRA/lodging/brazil01_lodging02_02.jpg",
+                                "../img/BRA/lodging/brazil01_lodging02_03.jpg",
+                                "../img/BRA/lodging/brazil01_lodging02_04.jpg",
+                                "../img/BRA/lodging/brazil01_lodging02_05.jpg"
                             ]
                         },
                         {
                             "title":"PortoBay Rio de Janeiro Hotel",
                             "img_url":[
-                                "../img/brazil01_lodging03_01.jpg",
-                                "../img/brazil01_lodging03_02.jpg",
-                                "../img/brazil01_lodging03_03.jpg",
-                                "../img/brazil01_lodging03_04.jpg",
-                                "../img/brazil01_lodging03_05.jpg",
-                                "../img/brazil01_lodging03_06.jpg"
+                                "../img/BRA/lodging/brazil01_lodging03_01.jpg",
+                                "../img/BRA/lodging/brazil01_lodging03_02.jpg",
+                                "../img/BRA/lodging/brazil01_lodging03_03.jpg",
+                                "../img/BRA/lodging/brazil01_lodging03_04.jpg",
+                                "../img/BRA/lodging/brazil01_lodging03_05.jpg",
+                                "../img/BRA/lodging/brazil01_lodging03_06.jpg"
                             ]
                         }
                     ]
@@ -85,30 +85,30 @@
                             "title":"Vovo Bela Restaurante",
                             "detail":"채식주의자를 위한 메뉴가 준비되어있고 이색적인 분위기, 가격이 착한 곳을 찾는다면 Vovo Bela로 오세요. 훌륭한 서비스와 맛있는 음식, 세심한 직원들이 준비되어 있습니다.",
                             "img_url": [
-                                "../img/brazil02_food01_01.jpg",
-                                "../img/brazil02_food01_02.jpg",
-                                "../img/brazil02_food01_03.jpg",
-                                "../img/brazil02_food01_04.jpg"
+                                "../img/BRA/food/brazil02_food01_01.jpg",
+                                "../img/BRA/food/brazil02_food01_02.jpg",
+                                "../img/BRA/food/brazil02_food01_03.jpg",
+                                "../img/BRA/food/brazil02_food01_04.jpg"
                             ]
                         },
                         {
                             "title":"Cabana Malibu",
                             "detail":"위치가 좋고 메뉴가 풍성한 요리, 빠른 서비를 원하신다면 Cabana Malibu로 오세요. 신선한 음식들이 준비되어 있고 재방문 하는 사람들도 많답니다!",
                             "img_url": [
-                                "../img/brazil02_food02_01.jpg",
-                                "../img/brazil02_food02_02.jpg",
-                                "../img/brazil02_food02_03.jpg",
-                                "../img/brazil02_food02_04.jpg"
+                                "../img/BRA/food/brazil02_food02_01.jpg",
+                                "../img/BRA/food/brazil02_food02_02.jpg",
+                                "../img/BRA/food/brazil02_food02_03.jpg",
+                                "../img/BRA/food/brazil02_food02_04.jpg"
                             ]
                         },
                         {
                             "title":"Pizzaria do Boca",
                             "detail":"이탈리아와 브라질의 피자를 찾으십니까? Pizzaria do Boca로 오세요. 주문 즉시 만들어지고 바삭한 크러스트는 명품입니다. 다양한 피자와 얇고 바삭한 크러스트는 최고입니다.",
                             "img_url": [
-                                "../img/brazil02_food03_01.jpg",
-                                "../img/brazil02_food03_02.jpg",
-                                "../img/brazil02_food03_03.jpg",
-                                "../img/brazil02_food03_04.jpg"
+                                "../img/BRA/food/brazil02_food03_01.jpg",
+                                "../img/BRA/food/brazil02_food03_02.jpg",
+                                "../img/BRA/food/brazil02_food03_03.jpg",
+                                "../img/BRA/food/brazil02_food03_04.jpg"
                             ]
                         }
                     ],
@@ -116,31 +116,31 @@
                         {
                             "title":"Casa Rabanete Trancoso",
                             "img_url":[
-                                "../img/brazil02_lodging01_01.jpg",
-                                "../img/brazil02_lodging01_02.jpg",
-                                "../img/brazil02_lodging01_03.jpg",
-                                "../img/brazil02_lodging01_04.jpg",
-                                "../img/brazil02_lodging01_05.jpg"
+                                "../img/BRA/lodging/brazil02_lodging01_01.jpg",
+                                "../img/BRA/lodging/brazil02_lodging01_02.jpg",
+                                "../img/BRA/lodging/brazil02_lodging01_03.jpg",
+                                "../img/BRA/lodging/brazil02_lodging01_04.jpg",
+                                "../img/BRA/lodging/brazil02_lodging01_05.jpg"
                             ]
                         },
                         {
                             "title":"Hotel Solar do Imperador",
                             "img_url":[
-                                "../img/brazil02_lodging02_01.jpg",
-                                "../img/brazil02_lodging02_02.jpg",
-                                "../img/brazil02_lodging02_03.jpg",
-                                "../img/brazil02_lodging02_04.jpg",
-                                "../img/brazil02_lodging02_05.jpg"
+                                "../img/BRA/lodging/brazil02_lodging02_01.jpg",
+                                "../img/BRA/lodging/brazil02_lodging02_02.jpg",
+                                "../img/BRA/lodging/brazil02_lodging02_03.jpg",
+                                "../img/BRA/lodging/brazil02_lodging02_04.jpg",
+                                "../img/BRA/lodging/brazil02_lodging02_05.jpg"
                             ]
                         },
                         {
                             "title":"Coroa Vermelha Beach",
                             "img_url":[
-                                "../img/brazil02_lodging03_01.jpg",
-                                "../img/brazil02_lodging03_02.jpg",
-                                "../img/brazil02_lodging03_03.jpg",
-                                "../img/brazil02_lodging03_04.jpg",
-                                "../img/brazil02_lodging03_05.jpg"
+                                "../img/BRA/lodging/brazil02_lodging03_01.jpg",
+                                "../img/BRA/lodging/brazil02_lodging03_02.jpg",
+                                "../img/BRA/lodging/brazil02_lodging03_03.jpg",
+                                "../img/BRA/lodging/brazil02_lodging03_04.jpg",
+                                "../img/BRA/lodging/brazil02_lodging03_05.jpg"
                             ]
                         }
                     ]
@@ -154,28 +154,28 @@
                             "title":"The_Argentine_Experience",
                             "detail":"직원들은 친절하고 유익한 정보를 제공하며 유머 감각이 뛰어나고 음식은 매우 뛰어납니다. 특히 최고의 엠파나다를 만드는 법은 매우 재밌습니다!",
                             "img_url": [
-                                "../img/brazil03_food01_01.jpg",
-                                "../img/brazil03_food01_02.jpg",
-                                "../img/brazil03_food01_03.jpg",
-                                "../img/brazil03_food01_04.jpg"
+                                "../img/BRA/food/brazil03_food01_01.jpg",
+                                "../img/BRA/food/brazil03_food01_02.jpg",
+                                "../img/BRA/food/brazil03_food01_03.jpg",
+                                "../img/BRA/food/brazil03_food01_04.jpg"
                             ]
                         },
                         {
                             "title":"Naipi Restaurant",
                             "detail":"레스토랑은 매우 특별한 위치에 있으며 채식주의자를 위한 음식도 준비되어 있습니다. 좋은 전망이 있으며 좋은 서빙 직원, 현지 요리가 준비되어 있습니다.",
                             "img_url": [
-                                "../img/brazil03_food02_01.jpg",
-                                "../img/brazil03_food02_02.jpg",
-                                "../img/brazil03_food02_03.jpg"
+                                "../img/BRA/food/brazil03_food02_01.jpg",
+                                "../img/BRA/food/brazil03_food02_02.jpg",
+                                "../img/BRA/food/brazil03_food02_03.jpg"
                             ]
                         },
                         {
                             "title":"La Vaca Enamorada",
                             "detail":"최상의 환경에서 이루어진 음식, 최상의 퀄리티 음식, 매우 친절한 직원, 환상적인 분위기를 느끼고 싶다면 La Vaca Enamorada로 오십시오!",
                             "img_url": [
-                                "../img/brazil03_food03_01.jpg",
-                                "../img/brazil03_food03_02.jpg",
-                                "../img/brazil03_food03_03.jpg"
+                                "../img/BRA/food/brazil03_food03_01.jpg",
+                                "../img/BRA/food/brazil03_food03_02.jpg",
+                                "../img/BRA/food/brazil03_food03_03.jpg"
                             ]
                         }
                     ],
@@ -183,18 +183,18 @@
                         {
                             "title":"Loi Suites Iguazu Hotel",
                             "img_url":[
-                                "../img/brazil03_lodging01_01.jpg",
-                                "../img/brazil03_lodging01_02.jpg",
-                                "../img/brazil03_lodging01_03.jpg",
-                                "../img/brazil03_lodging01_04.jpg"
+                                "../img/BRA/lodging/brazil03_lodging01_01.jpg",
+                                "../img/BRA/lodging/brazil03_lodging01_02.jpg",
+                                "../img/BRA/lodging/brazil03_lodging01_03.jpg",
+                                "../img/BRA/lodging/brazil03_lodging01_04.jpg"
                             ]
                         },
                         {
                             "title":"O2 Hotel Iguazu",
                             "img_url":[
-                                "../img/brazil03_lodging02_01.jpg",
-                                "../img/brazil03_lodging02_02.jpg",
-                                "../img/brazil03_lodging02_03.jpg"
+                                "../img/BRA/lodging/brazil03_lodging02_01.jpg",
+                                "../img/BRA/lodging/brazil03_lodging02_02.jpg",
+                                "../img/BRA/lodging/brazil03_lodging02_03.jpg"
                             ]
                         },
                         {
@@ -215,7 +215,8 @@
             "country_code": "CAN",
             "country_ko":"캐나다",
             "country_en":"canada",
-            "country_url":"../img/CAN/ca-04.png",
+            "country_url":"../img/CAN/ca-02.png",
+
             "place":[
                 {
                     "city":"밴쿠버",
@@ -451,7 +452,7 @@
             "country_code": "CHE",
             "country_ko":"스위스",
             "country_en":"Switzerland",
-            "country_url":"../img/CHE/che_map.png",
+            "country_url":"../img/CHE/ch-02.png",
             "place":[
                 {
                     "city":"인터라켄",
@@ -687,7 +688,7 @@
             "country_code": "ITA",
             "country_ko":"이탈리아",
             "country_en":"Italia",
-            "country_url":"../img/ITA/it-05.png",
+            "country_url":"../img/ITA/it-02.png",
             "place":[
                 {
                     "title":"콜로세움",
@@ -902,7 +903,7 @@
             "country_code": "ISL",
             "country_ko":"아이슬란드",
             "country_en":"iceland",
-            "country_url":"../img/ISL/is-04.png",
+            "country_url":"../img/ISL/is-02.png",
             "place":[
                 {
                     "title":"블루 라군",
@@ -1117,7 +1118,7 @@
             "country_code": "TUR",
             "country_ko":"튀르키예",
             "country_en":"turkiye",
-            "country_url":"../img/TUR/tur_map.png",
+            "country_url":"../img/TUR/tr-02.png",
             "place":[
                 {
                     "title":"넴루트 산",
@@ -1321,7 +1322,7 @@
             "country_code": "VNM",
             "country_ko":"베트남",
             "country_en":"Vietnam",
-            "country_url":"../img/VNM/vn-04.png",
+            "country_url":"../img/VNM/vn-02.png",
             "place":[
                 {
                     "title":"하노이",
