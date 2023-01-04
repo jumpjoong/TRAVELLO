@@ -60,3 +60,14 @@ function init (a) {
   })
 }
 
+//section1 슬라이드
+var swiper = new Swiper(".mySwiper", {
+  speed: 1000,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
