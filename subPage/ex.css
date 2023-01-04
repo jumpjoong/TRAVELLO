@@ -1,3 +1,7 @@
+.section01 .section01-slide .section01-contain {
+  width: 100vw;
+  height: 100vh;
+}
 .section01 .section01-slide .section01-contain img {
   width: 100%;
   height: 100%;
@@ -16,6 +20,11 @@
   color: black;
   transform: scale(1.5);
 }
+.section01 .maps {
+  width: 72.916%;
+  margin: 32px auto 104px;
+  height: 850px;
+}
 .section01 .right {
   position: absolute;
   right: 2.34375%;
@@ -28,12 +37,42 @@
   height: 850px;
 }
 
+.section02 .section02-contain {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.section02 .section02-contain .maps {
+  width: 36%;
+}
+.section02 .section02-contain .maps img {
+  width: 100%;
+}
+.section02 .section02-contain .section04-line {
+  position: relative;
+}
+.section02 .section02-contain .section04-line > div {
+  display: flex;
+  justify-content: space-around;
+}
+.section02 .section02-contain .section04-line > div::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px dashed black;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .section04 {
   width: 100%;
 }
 .section04 .section04-contain {
   width: 72.916%;
   margin: 0 auto;
+  vertical-align: middle;
 }
 .section04 .section04-contain .section04-text h2 {
   text-align: left;
@@ -45,9 +84,6 @@
 .section04 .section04-contain .section04-line > div {
   display: flex;
   justify-content: space-around;
-  vertical-align: middle;
-}
-.section04 .section04-contain .section04-line > div::after {
   content: "";
   display: block;
   position: absolute;
@@ -58,7 +94,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.section04 .section04-contain .section04-line > div .section04-number {
+.section04 .section04-contain .section04-number {
   width: 50px;
   height: 50px;
   border: 1px solid black;
@@ -67,19 +103,19 @@
   border-radius: 50%;
   line-height: 50px;
 }
-.section04 .section04-contain .section04-box {
+.section04 .section04-box {
   border: 1px solid black;
   border-radius: 30px;
 }
-.section04 .section04-contain .section04-box > div {
+.section04 .section04-box > div {
   width: 73.3083%;
   margin: 0 auto;
 }
-.section04 .section04-contain .section04-box .section04-img {
+.section04 .section04-box .section04-img {
   display: flex;
   justify-content: space-between;
   margin: 81px 0 42px;
 }
-.section04 .section04-contain .section04-box p {
+.section04 .section04-box p {
   text-align: left;
 }/*# sourceMappingURL=ex.css.map */
