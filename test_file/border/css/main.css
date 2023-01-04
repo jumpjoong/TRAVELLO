@@ -1,3 +1,7 @@
+#tra {
+  font-family: "Righteous", cursive;
+}
+
 @-webkit-keyframes visualScale {
   /*50%{
     transform:scaleX(2.2);
@@ -6,6 +10,7 @@
     transform: scale(2.2);
   }
 }
+
 @keyframes visualScale {
   /*50%{
     transform:scaleX(2.2);
@@ -36,6 +41,34 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes textVisual1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes textVisual1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -51,9 +84,12 @@ header .header-center {
   height: 90px;
 }
 header .header-center h1 {
-  font-size: 64px;
+  text-align: left;
+  margin: 20px 40px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 90px;
+  color: #fff;
 }
 
 main {
@@ -68,8 +104,14 @@ main .center {
   z-index: 999;
   color: #fff;
 }
+main .center .text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
 main .center .text h2 {
-  font-size: 48px;
+  font-size: 72px;
 }
 main .center .text h2:nth-child(1) {
   padding-top: 287px;
@@ -78,16 +120,14 @@ main .center .text .text-sub p {
   margin: 0 auto;
 }
 main .center .text .text-sub p:nth-of-type(1) {
-  font-size: 28px;
+  font-size: 40px;
   margin-top: 8px;
 }
 main .center .text .text-sub p:nth-child(1)::after {
   content: "";
   margin-top: 3px;
   display: block;
-  width: 120%;
-  transform: translateX(-7.5%);
-  border: 1px solid #fff;
+  width: 100%;
 }
 main .swi {
   width: 100%;
@@ -100,18 +140,12 @@ main .swi .swiper {
   height: 100%;
   overflow: hidden;
 }
-main .swi .swiper .swiper-wrapper {
-  /*& .swiper-slide-active {
-    animation: visualScale 2s forwards;
-    z-index: 999;
-    padding-bottom: 60px;
-  }*/
-}
 main .swi .swiper .swiper-wrapper .swiper-slide {
   height: 90%;
   font-size: 18px;
   display: flex;
   justify-content: center;
+  filter: grayscale(60%);
   align-items: flex-end;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
@@ -130,7 +164,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country01 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/brazil_place_01.jpeg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/brazil_place_01.jpeg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
   width: 99%;
@@ -140,7 +174,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/brazil_place_02.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/tur_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
   width: 99%;
@@ -150,7 +184,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/brazil_place_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/che_place_01.png"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
   width: 99%;
@@ -160,7 +194,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/food/brazil01_food01_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/vietnam_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
   width: 99%;
@@ -170,7 +204,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/food/brazil01_food01_02.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/can_place_02.png"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
   width: 99%;
@@ -180,7 +214,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/food/brazil01_food01_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/isl_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
   width: 99%;
@@ -190,12 +224,18 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/food/brazil01_food01_04.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/br/ita_place_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide-active {
+  filter: none;
+  /*animation: visualScale 2s forwards;
+  z-index: 999;
+  padding-bottom: 60px;*/
 }
 main .next,
 main .prev {
   width: 5%;
-  color: black;
+  color: #fff;
 }
 main .glass-wrapper {
   width: 220px;
