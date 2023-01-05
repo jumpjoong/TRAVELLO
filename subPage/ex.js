@@ -1,3 +1,28 @@
+$().ready(function() {
+  var menu_toggle = true;
+  $('.hide-menu-icon').click(() => {
+      if(menu_toggle) {
+          $('.menu').fadeOut(200, ()=> {
+              
+          }).fadeIn(200);
+          menu_toggle = !menu_toggle;
+          $('.hide-menu-icon img').fadeOut(200, () => {
+              $('.hide-menu-icon img').attr('src', '../svg/flight_takeoff.svg');
+          }).fadeIn(200);
+      } else {
+          $('.menu').fadeIn(200, ()=> {
+
+          }).fadeOut(200);
+          menu_toggle = !menu_toggle;
+          $('.hide-menu-icon img').fadeOut(200, () => {
+              $('.hide-menu-icon img').attr('src', '../svg/flight_land.svg');
+          }).fadeIn(400);
+      }
+  })
+
+  var data = '';
+  var html = '';
+
 //json
 fetch('../resource/data.json')
 .then(function(res) {return res.json()})
@@ -8,6 +33,13 @@ fetch('../resource/data.json')
 
 //로컬스트로지 값 받오는 변수
 let countryKey = localStorage.getItem('num');
+
+
+
+
+
+
+
 
 //구글 맵
 // let contryGps = [
@@ -50,6 +82,15 @@ let countryKey = localStorage.getItem('num');
 // }
 //큰 제목
 function init (a) {
+  console.log(a)
+  // this.a = a;
+      for(var i=0; i<a.length; i++) {
+          html += '<li class="menu-sub">';
+          html += `<a href="#">${a[i].country_ko}</a>`;
+          html += '</li>';
+      }
+      $('.hide-menu-wrapper ul.menu').html(html);
+      
   const countryImg = document.querySelectorAll('.section01-contain')
 
   countryImg.forEach((btn, key)=>{
@@ -87,7 +128,7 @@ function init (a) {
         elSec04Text.innerHTML = `<h2>여기는 ${a[countryKey].place[key].lodging[n].title}입니다.<h2>`
         elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>
                             <div>
-                            
+
                               <p>${a[countryKey].place[key].lodging[n].adr}</p>
 
                               <p>${a[countryKey].place[key].lodging[n].tel}</p>
@@ -121,4 +162,4 @@ function init (a) {
   });
 
 
-}
+}});
