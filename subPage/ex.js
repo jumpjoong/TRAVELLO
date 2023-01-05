@@ -86,8 +86,12 @@ function init (a) {
       try{
         elSec04Text.innerHTML = `<h2>여기는 ${a[countryKey].place[key].lodging[n].title}입니다.<h2>`
         elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>
-                            <p>${a[countryKey].place[key].lodging[n].adr}</p>
-                            <p>${a[countryKey].place[key].lodging[n].tel}</p>`;
+                            <div>
+                            
+                              <p>${a[countryKey].place[key].lodging[n].adr}</p>
+
+                              <p>${a[countryKey].place[key].lodging[n].tel}</p>
+                            </div>`;
       }catch{}
       elSec04Img.innerHTML = ''
       for(i=0;i<4;i++){

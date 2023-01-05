@@ -135,15 +135,11 @@
 }
 .section04 .section04-contain .section04-box .section04-info {
   margin-bottom: 80px;
-  display: flex;
 }
 .section04 .section04-contain .section04-box .section04-info p {
   text-align: left;
   margin-left: 1.5%;
 }
-.section04 .section04-contain .section04-box .section04-info p:nth-child(1) {
-  display: block;
-}
-.section04 .section04-contain .section04-box .section04-info p:nth-child(2) {
-  display: block;
+.section04 .section04-contain .section04-box .section04-info div {
+  display: flex;
 }/*# sourceMappingURL=ex.css.map */
