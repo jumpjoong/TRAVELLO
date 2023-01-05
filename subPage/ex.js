@@ -69,19 +69,20 @@ function init (a) {
                         <a class="more" href="">more</a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
+
+    //section04 클릭 시 이미지 추가
     const elSec04Img = document.querySelector('.section04-img'),
           elsec04Num = document.querySelectorAll('.section04-number');
-    let arr ='';
     
     elsec04Num.forEach((sec,n)=>{
       sec.addEventListener("click",function(){
-        // arr='';
+        elSec04Img.innerHTML = `<img src="" alt="">`
         for(i=0;i<4;i++){
           elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
         }
       })
     })
-    
+    //section04 페이지 로드 시 이미지 불러오기
   }                    
   dataChange(0);
 
