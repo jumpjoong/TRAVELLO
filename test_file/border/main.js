@@ -25,7 +25,7 @@ for (let i of $slides) {
     swiper.autoplay.start();
   });
 }
-const visualMain = document.querySelector("main");
+const visualMain = document.querySelector(".swi");
 const txtMain= document.querySelector(".center .text h2");
 const txtMain2= document.querySelector(".center .text .text-sub p");
 const txtM= document.querySelector(".center .text");
@@ -37,7 +37,7 @@ const swiper = new Swiper(".mySwiper", {
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   navigation: {
@@ -56,6 +56,24 @@ const swiper = new Swiper(".mySwiper", {
         txtM.classList.add('active');     
       }, 1000);
       //console.log(e.realIndex)
+    }
+  },
+  breakpoints: {
+    1920:{
+      slidesPerView: 6,
+      spaceBetween: 56,
+    },
+    1280:{
+      slidesPerView:5,
+      spaceBetween:90
+    },
+    1024:{
+      slidesPerView:4,
+      spaceBetween:40
+    },
+    768:{
+      slidesPerView:3,
+      spaceBetween:60
     }
   }
 });
