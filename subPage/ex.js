@@ -69,13 +69,11 @@ function init (a) {
                         <a class="more" href="">more</a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
-                     
-    //section04
     const elSec04Img = document.querySelector('.section04-img'),
           elsec04Num = document.querySelectorAll('.section04-number');
+    let arr ='';
     
-          let arr ='';
-          elsec04Num.forEach((sec,n)=>{
+    elsec04Num.forEach((sec,n)=>{
       sec.addEventListener("click",function(){
         // arr='';
         for(i=0;i<4;i++){
@@ -103,7 +101,6 @@ function init (a) {
       }
     }
   });
-
 
 
 }
