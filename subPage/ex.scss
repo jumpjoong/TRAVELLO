@@ -54,7 +54,7 @@
     .text{
       width: 60%;
       text-align: left;
-      margin: 80px 0 0 160px;
+      margin: 80px 0 0 80px;
       .title{
         margin-bottom: 80px;
         font-size: 3rem;
@@ -70,6 +70,7 @@
         -webkit-box-orient: vertical;
         margin-bottom: 80px;
         color: rgb(63, 63, 63);
+        line-height: 1.8;
       }
       .more{
         text-align: left;
@@ -79,17 +80,20 @@
 }
 .section04 {
   width: 100%;
+  margin-bottom: 80px;
   .section04-contain {
     width: 72.916%;
     margin: 0 auto;
     .section04-text {
+      margin-bottom: 80px;
       h2 {
         text-align: left;
+        font-size: 3rem;
       }
     }
     .section04-line {
       position: relative;
-      margin-bottom: 95px;
+      margin-bottom: 80px;
       > div {
         display: flex;
         justify-content: space-around;
@@ -121,16 +125,30 @@
       border: 1px solid black;
       border-radius: 30px;
       > div {
-        width: 73.3083%;
+        width: 90%;
         margin: 0 auto;
       }
       .section04-img {
         display: flex;
-        justify-content: space-between;
-        margin: 81px 0 42px;
+        justify-content: space-around;
+        margin: 80px 0 ;
+        img{  
+          width: 22%
+        }
       }
-      p {
-        text-align: left;
+      .section04-info{
+        margin-bottom: 80px;
+        display: flex;
+        p {
+          text-align: left;
+          margin-left: 1.5%;
+          &:nth-child(1){
+            display: block;
+          }
+          &:nth-child(2){
+            display: block;
+          }
+        }
       }
     }
   }
