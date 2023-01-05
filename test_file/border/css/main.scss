@@ -25,9 +25,13 @@
 @keyframes textVisual1{
   0%{
     opacity: 0;
+    transform:translateY(30%)
   }
   25%{
     opacity: 1;
+  }
+  50%{
+  transform:translateY(0%);
   }
   75%{
     opacity: 1;
@@ -72,11 +76,12 @@ transition: 1s;
     transform: translateX(-50%);
     z-index: 999;
     color: #fff;
-    //animation: textVisual 2s forwards;
     .text {
-      //animation: textVisual1 2s;
       user-select: none;
       h2 {
+        transform: translateY(30%);
+        opacity: 0;
+        transition: opacity 1s, transform 1.5s;
         font-size: 72px;
         &:nth-child(1) {
           padding-top: 287px;
@@ -86,7 +91,12 @@ transition: 1s;
         
       }
       .text-sub {
+        
         p {
+          transform: translateY(100%);
+        opacity: 0;
+        transition: opacity 1s, transform 1.5s;
+        transition-delay: 0.3s;
           margin: 0 auto;
           &:nth-of-type(1) {
             font-size: 40px;
@@ -102,6 +112,15 @@ transition: 1s;
           }
         }
       }
+      &.active h2{
+        transform: translateY(0%);
+        opacity: 1;
+      }
+      &.active .text-sub p {
+        transform: translateY(0%);
+        opacity: 1;
+      }
+      
     }
   }
   .swi {

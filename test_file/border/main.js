@@ -29,6 +29,7 @@ const visualMain = document.querySelector("main");
 const txtMain= document.querySelector(".center .text h2");
 const txtMain2= document.querySelector(".center .text .text-sub p");
 const txtM= document.querySelector(".center .text");
+let iddx=0;
 //스위퍼
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 6,
@@ -36,7 +37,7 @@ const swiper = new Swiper(".mySwiper", {
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 2000,
+    delay: 3000,
     disableOnInteraction: false,
   },
   navigation: {
@@ -47,11 +48,14 @@ const swiper = new Swiper(".mySwiper", {
     slideChange:function(e){
       //visualMain.style=`background-image=${ima[e.realIndex]}`;
       visualMain.style=`background:url(${ima[e.realIndex]}) center center  / cover no-repeat`;
-      txtMain.innerHTML=`${txt[e.realIndex][0]}`;
-      txtMain2.innerHTML=`${txt[e.realIndex][1]}`;
-      txtM.style=`animation:textVisual1 2s`
-
-      console.log(e.realIndex)
+      txtM.classList.remove('active');
+      
+      setTimeout(() => {
+        txtMain.innerHTML=`${txt[e.realIndex][0]}`;
+        txtMain2.innerHTML=`${txt[e.realIndex][1]}`;
+        txtM.classList.add('active');     
+      }, 1000);
+      //console.log(e.realIndex)
     }
   }
 });
