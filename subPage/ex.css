@@ -65,6 +65,7 @@
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   margin-bottom: 80px;
+  color: rgb(63, 63, 63);
 }
 .section02 .section02-contain .text .more {
   text-align: left;

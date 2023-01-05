@@ -78,7 +78,15 @@ function init (a) {
     elsec04Num.forEach((sec,n)=>{
       sec.addEventListener("click",function(){
       image(n)
-      })
+      // console.log(a[countryKey].place[key].loding[n].detail)
+      console.log(
+        countryKey,key,n,
+        a[countryKey].place[key].lodging[n]
+      )
+      try{
+        elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>`;
+      }catch{}
+    })
     })
     function image(n){ 
       elSec04Img.innerHTML = `<img src="" alt="">`
@@ -86,9 +94,6 @@ function init (a) {
         elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
       }
     }
-    elInfo.innerHTML = `<p>
-                          설명
-                        </p>`;
     //section04 페이지 로드 시 이미지 불러오기
     image(0);           
   }  
