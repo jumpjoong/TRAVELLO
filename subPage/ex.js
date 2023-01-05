@@ -71,25 +71,25 @@ function init (a) {
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
 
     //section04 클릭 시 이미지 추가
-    const elSec04Img = document.querySelector('.section04-img'),
+    const elSec04Text = document.querySelector('.section04-text'),
+          elSec04Img = document.querySelector('.section04-img'),
           elsec04Num = document.querySelectorAll('.section04-number'),
           elInfo = document.querySelector('.section04-info');
     
     elsec04Num.forEach((sec,n)=>{
       sec.addEventListener("click",function(){
       image(n)
-      // console.log(a[countryKey].place[key].loding[n].detail)
-      console.log(
-        countryKey,key,n,
-        a[countryKey].place[key].lodging[n]
-      )
-      try{
-        elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>`;
-      }catch{}
+      })
     })
-    })
+    //
     function image(n){ 
-      elSec04Img.innerHTML = `<img src="" alt="">`
+      try{
+        elSec04Text.innerHTML = `<h2>여기는 ${a[countryKey].place[key].lodging[n].title}입니다.<h2>`
+        elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>
+                            <p>${a[countryKey].place[key].lodging[n].adr}</p>
+                            <p>${a[countryKey].place[key].lodging[n].tel}</p>`;
+      }catch{}
+      elSec04Img.innerHTML = ''
       for(i=0;i<4;i++){
         elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
       }
