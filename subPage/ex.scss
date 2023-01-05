@@ -53,6 +53,14 @@
     }
     .text{
       width: 36%;
+      .detail{
+        text-align: left;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box; // 6줄 이상부터 ...으로 나타내기
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+      }
     }
   }
 }

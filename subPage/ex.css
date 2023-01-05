@@ -51,6 +51,14 @@
 .section02 .section02-contain .text {
   width: 36%;
 }
+.section02 .section02-contain .text .detail {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
 
 .section04 {
   width: 100%;
