@@ -46,6 +46,8 @@
                         {
                             "title":"PortoBay Rio de Janeiro Hotel",
                             "detail":"포르토 베이 리우 인터나시오날 호텔(은)는 리우데자네이루 추천 숙소입니다. 가성비 우수, 편안하고 편리함까지 갖춘 이곳은 패밀리 한 분위기에 여러분같은 여행객들에게 꼭 맞는 부대시설들을 제공합니다.",
+                            "adr":"Avenida Atlantica 1500, 리우데자네이루 리우데자네이루(주) 브라질",
+                            "tel":"+55 21 4042-2790",
                             "img_url":[
                                 "../img/BRA/lodging/brazil01_lodging01_01.jpg",
                                 "../img/BRA/lodging/brazil01_lodging01_02.jpg",
@@ -57,6 +59,8 @@
                         {
                             "title":"Corcovado Adventures",
                             "detail":"Corcovado Adventures는 Drake에 정원, 테라스, 레스토랑 및 바를 갖추고 있습니다.",
+                            "adr":"Caletas de Osa Beach, 드레이크베이 코스타리카",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil01_lodging02_01.jpg",
                                 "../img/BRA/lodging/brazil01_lodging02_02.jpg",
@@ -68,6 +72,8 @@
                         {
                             "title":"Corcovado Rio Hostel",
                             "detail":"드레이크에 자리한 Corcovado Adventures에서 머물러보세요. 숙소는 정원, 테라스, 레스토랑, 바 등을 갖추고 있습니다. 이 호스텔에는 수상 스포츠 시설 등이 마련되어 있습니다",
+                            "adr":"Rua Conselheiro Lampreia 169 Cosme Velho, 리우데자네이루 리우데자네이루(주) 브라질",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil01_lodging03_01.jpg",
                                 "../img/BRA/lodging/brazil01_lodging03_02.jpg",
@@ -119,6 +125,8 @@
                         {
                             "title":"Casa Rabanete Trancoso",
                             "detail":"레스토랑, 바, 정원, 무료 Wi-Fi를 자랑하는 Casa Rabanete Trancoso는 Trancoso에 위치해 있으며, Trancoso Beach에서 600m, Quadrado Square에서 200m 거리에 있습니다.",
+                            "adr":"Praca Sao Joao Batista, N 203 Quadrado, 포르토 세구로 바이아(주) 브라질",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil02_lodging01_01.jpg",
                                 "../img/BRA/lodging/brazil02_lodging01_02.jpg",
@@ -130,6 +138,8 @@
                         {
                             "title":"Hotel Solar do Imperador",
                             "detail":"호텔 솔라 도 임페라도(은)는 패밀리 한 분위기뿐만 아니라 여러분의 시간을 더욱 잊지 못하게 해줄 다양한 부대시설로 포르토 세구로(을)를 방문하는 여행객들에게 최고의 선택이 될 것입니다.",
+                            "adr":"Estrada do Aeroporto, 317, 포르토 세구로 바이아(주) 브라질",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil02_lodging02_01.jpg",
                                 "../img/BRA/lodging/brazil02_lodging02_02.jpg",
@@ -141,6 +151,8 @@
                         {
                             "title":"Coroa Vermelha Beach",
                             "detail":"포르토 세구로에서 지낼 곳을 찾으세요? 그렇다면 포르토 세구로의 최고를 가까이에서 즐길 수 있는 패밀리 호텔인 Coroa Vermelha Praia Hotel(을)를 강추합니다.",
+                            "adr":"Avenida Beira Mar 12649 Praia do Mutá, 포르토 세구로 바이아(주) 브라질",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil02_lodging03_01.jpg",
                                 "../img/BRA/lodging/brazil02_lodging03_02.jpg",
@@ -189,6 +201,8 @@
                         {
                             "title":"Loi Suites Iguazu Hotel",
                             "detail":"푸에르토 이구아수에서 지낼 곳을 찾으세요? 그렇다면 푸에르토 이구아수의 최고를 가까이에서 즐길 수 있는 로맨틱 호텔인 로이 스위트 이구아수 호텔(을)를 강추합니다.",
+                            "adr":"Selva Iryapú S/N, 푸에르토 이구아수 아르헨티나",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil03_lodging01_01.jpg",
                                 "../img/BRA/lodging/brazil03_lodging01_02.jpg",
@@ -199,6 +213,8 @@
                         {
                             "title":"O2 Hotel Iguazu",
                             "detail":"IHG Clean Promise 기준을 합격한 런던로/으로 최적의 여행을 떠나 모든 객실 내 무료 Wi-Fi을/를 즐겨보세요. 런던의 그린위치에 위치한 본 숙소는 관광 명소 및 흥미로운 레스토랑과 가깝습니다.",
+                            "adr":"Calle Paraguay 546, 푸에르토 이구아수 아르헨티나",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil03_lodging02_01.jpg",
                                 "../img/BRA/lodging/brazil03_lodging02_02.jpg",
@@ -208,6 +224,8 @@
                         {
                             "title":"Iguazu Jungle Lodge",
                             "detail":"푸에르토 이과수의 푸에르토 이과수에 위치한 본 숙소는 관광 명소 및 흥미로운 레스토랑과 가깝습니다. 본 4성급 숙소는 숙박의 질과 즐거움을 향상시키기 위한 숙소 내 다양한 편의시설로 가득 차 있습니다.",
+                            "adr":"Hipolito Yrigoyen y San Lorenzo, 푸에르토 이구아수 아르헨티나",
+                            "tel":"",
                             "img_url":[
                                 "../img/BRA/lodging/brazil03_lodging03_01.jpg",
                                 "../img/BRA/lodging/brazil03_lodging03_02.jpg",
@@ -270,6 +288,8 @@
                         {
                             "title":"EXchange Hotel Vancouver",
                             "detail":"워터프런트 센터 몰 밴쿠버(Waterfront Centre Mall Vancouver)와 하버 센터의 밴쿠버 전망대에서 200m 이내의 거리에 있는 EXchange Hotel Vancouver는 에어컨이 설치된 객실을 제공합니다.",
+                            "adr":"475 Howe St, 밴쿠버 브리티시컬럼비아 캐나다",
+                            "tel":"+1 604-409-4593",
                             "img_url":[
                                 "../img/CAN/lodging/can01_lodging01_01.jpg",
                                 "../img/CAN/lodging/can01_lodging01_02.jpg",
@@ -281,6 +301,8 @@
                         {
                             "title":"Wedgewood Hotel & Spa 웨지우드 호텔 앤드 스파",
                             "detail":"풀 서비스 스파, 사우나, 피트니스 센터를 갖춘 이 금연 호텔은 전용 발코니가 있는 객실을 제공합니다. 구내에 고급스러운 라운지 및 레스토랑인 Bacchus가 자리해 있습니다. 밴쿠버 시내의 스카이트레인 역은 도보로 5분 거리에 있습니다.",
+                            "adr":"845 Hornby St, 밴쿠버 브리티시컬럼비아 캐나다",
+                            "tel":"+1 844-246-2766",
                             "img_url":[
                                 "../img/CAN/lodging/can01_lodging02_01.jpg",
                                 "../img/CAN/lodging/can01_lodging02_02.png",
@@ -292,6 +314,8 @@
                         {
                             "title":"L'Hermitage Hotel 레르미타주 호텔 밴쿠버",
                             "detail":"밴쿠버 시티 센터 스카이트레인에서 300m 떨어진 L'Hermitage Hotel은 야외 온수 해수 랩 풀, 온수 욕조, 평면 TV를 갖춘 객실을 제공하며, 로저스 아레나에서 도보로 10분 거리에 있습니다. L’Hermitage Hotel의 객실은 iPod 도킹 스테이션, 무료 Wi-Fi, 고급 목욕 가운, 이탈리아산 대리석 욕실을 갖추고 있습니다. 일부 객실에는 벽난로와 소파 베드가 제공됩니다.",
+                            "adr":"788 Richards Street, 밴쿠버 브리티시컬럼비아 캐나다",
+                            "tel":"+1 778-601-3920",
                             "img_url":[
                                 "../img/CAN/lodging/can01_lodging03_01.jpg",
                                 "../img/CAN/lodging/can01_lodging03_02.png",
@@ -346,6 +370,8 @@
                         {
                             "title":"Crystal Lodge Hotel 크리스털 로지 앤드 스위트",
                             "detail":"이 휘슬러 호텔에는 6개의 레스토랑과 라운지가 있습니다. 사우나와 야외 온수 욕조에서 휴식을 취하실 수 있습니다. 모든 객실에서 무료 Wi-Fi를 이용하실 수 있습니다. 휘슬러 빌리지 곤돌라는 도보로 5분 거리에 있습니다.",
+                            "adr":"4154 Village Green, 휘슬러 브리티시컬럼비아 캐나다",
+                            "tel":"+1 604-332-6681",
                             "img_url":[
                                 "../img/CAN/lodging/can02_lodging01_01.jpg",
                                 "../img/CAN/lodging/can02_lodging01_02.jpg",
@@ -357,6 +383,8 @@
                         {
                             "title":"선다이얼 부티크 호텔",
                             "detail":"옥상 온수 욕조를 갖춘 이 Whistler 스위트는 완비된 주방을 갖추고 있으며 Whistler Bike Park 바로 아래에 위치한 Whistler Blackcomb Gondola에서 도보로 단 1분 거리에 있습니다. 구내에서 무료 Wi-Fi가 제공됩니다.",
+                            "adr":"4340 Sundial Crescent, 휘슬러 브리티시컬럼비아 캐나다",
+                            "tel":"+1 800-661-2321",
                             "img_url":[
                                 "../img/CAN/lodging/can02_lodging02_01.jpg",
                                 "../img/CAN/lodging/can02_lodging02_02.jpg",
@@ -368,6 +396,8 @@
                         {
                             "title":"페어몬트 샤토 휘슬러",
                             "detail":"온수 욕조, 사우나, 유칼립투스 한증막을 제공하는 이 럭셔리 호텔은 블랙콤 산(Blackcomb Mountain) 기슭에서 편리하게 스키를 타고 출입할 수 있습니다. 모든 객실은 평면 TV를 갖추고 있습니다. 무료 Wi-Fi를 이용하실 수 있습니다.",
+                            "adr":"4599 Chateau Boulevard, 휘슬러 브리티시컬럼비아 캐나다",
+                            "tel":"+1 888-516-4134",
                             "img_url":[
                                 "../img/CAN/lodging/can02_lodging03_01.jpg",
                                 "../img/CAN/lodging/can02_lodging03_02.jpg",
@@ -422,6 +452,8 @@
                         {
                             "title":"쉐라톤 온 더 폴스",
                             "detail":"이 호텔은 카지노 나이아가라와 폴스뷰 실내 워터파크와 연결되어 있으며, 나이아가라 폭포의 전망을 자랑합니다. 숙소에서 식사, 쇼핑, 스파 트리트먼트를 즐기실 수 있어요. 객실은 37인치 평면 TV를 자랑합니다.",
+                            "adr":"5875 Falls Avenue, 나이아가라 폭포 온타리오 캐나다",
+                            "tel":"+1 905-374-4445",
                             "img_url":[
                                 "../img/CAN/lodging/can03_lodging01_01.jpg",
                                 "../img/CAN/lodging/can03_lodging01_02.jpg",
@@ -433,6 +465,8 @@
                         {
                             "title":"스털링 인 앤드 스파 - 온타리오 파이니스트 인 Sterling Inn & Spa",
                             "detail":"이 호텔은 레이디 오브 미스트 나이아가라 폭포 보트 투어에서 1.6km 미만 떨어진 곳에 위치하고 있습니다. 숙소에는 풀 서비스 스파가 운영 중이며 객실에는 무료 Wi-Fi가 제공됩니다.",
+                            "adr":"5195 Magdalen St, 나이아가라 폭포 온타리오 캐나다",
+                            "tel":"",
                             "img_url":[
                                 "../img/CAN/lodging/can03_lodging02_01.jpg",
                                 "../img/CAN/lodging/can03_lodging02_02.jpg",
@@ -444,6 +478,8 @@
                         {
                             "title":"래디슨 호텔 앤드 스위트 폴스뷰 Radisson Hotel & Suites Fallsview, ON",
                             "detail":"이 호텔은 세계적으로 유명한 나이아가라 폭포에서 도보로 가까운 거리에 있으며 아름다운 호스슈 폭포(Horseshoe Falls)가 보이는 최고의 위치를 자랑합니다. 호텔이 제공하는 따뜻한 환대와 우수한 서비스를 즐겨보세요.",
+                            "adr":"6733 Fallsview Boulevard, 나이아가라 폭포 온타리오 캐나다",
+                            "tel":"+1 905-356-1944",
                             "img_url":[
                                 "../img/CAN/lodging/can03_lodging03_01.jpg",
                                 "../img/CAN/lodging/can03_lodging03_02.jpg",
@@ -506,6 +542,8 @@
                         {
                             "title":"벨베데레 스위스 퀄리티 호텔",
                             "detail":"아이거 북벽(North Face of the Eiger)과 베른 알프스(Bernese Alps)의 전경을 감상할 수 있으며 가족이 운영하는 4성급 고급 호텔 Belvedere Swiss Quality Hotel은 그린델발트 중심부에서 도보로 단 5분 거리에 있습니다. 호텔은 겨울과 여름 시즌에 미식 레스토랑을 운영하고 있고, 무료 Wi-Fi 및 실내 수영장이 구비된 스파 시설을 구비하고 있습니다.",
+                            "adr":"Dorfstrasse 53, 그린델발트 스위스",
+                            "tel":"+41 33 888 99 99",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging01_01.jpg",
                                 "../img/CHE/lodging/che01_lodging01_02.jpg",
@@ -517,6 +555,8 @@
                         {
                             "title":"호텔 글레츠세갈텐",
                             "detail":"115년 이상의 전통을 자랑하는 Hotel Gletschergarten은 그린델발트(Grindelwald)에 자리한 전통적인 가족 운영 호텔입니다. 호텔은 산의 멋진 전망, 무료 Wi-Fi와 무료 인터넷 단말기를 제공하고 있습니다. 설질이 좋은 날이면 스키를 타고 호텔의 바로 인근까지 오실 수 있습니다.",
+                            "adr":"Obere Gletscherstrasse 1, 그린델발트 스위스",
+                            "tel":"+41 31 539 18 36",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging02_01.jpg",
                                 "../img/CHE/lodging/che01_lodging02_02.png",
@@ -528,6 +568,8 @@
                         {
                             "title":"Hotel Silberhorn",
                             "detail":"큰길에 위치한 Silberhorn Hotel은 기차역에서 단 150m 거리에 있어 스키와 하이킹 지역으로 이동이 편리합니다. 호텔은 무료 주차장과 무료 Wi-Fi 서비스를 제공하고 있습니다. Silberhorn Hotel은 아름다운 자연과 웅장한 전망을 더욱 가까이 즐길 수 있는 햇살 가득한 겨울 정원을 자랑합니다. 일광욕 테라스에서 푸르른 알프스 초원과 300m 높이의 슈타우프바흐 폭포(Staubbach Fall)가 보이는 멋진 전망도 감상하실 수 있습니다.",
+                            "adr":"Bei der Zuben 465B, 라우터브루넨 스위스",
+                            "tel":"",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging03_01.jpg",
                                 "../img/CHE/lodging/che01_lodging03_02.png",
@@ -582,6 +624,8 @@
                         {
                             "title":"호텔 슈바이처호프 루체른",
                             "detail":"5성급 가족 운영 호텔인 Hotel Schweizerhof Luzern은 호수 옆 루체른의 올드타운에 자리 잡고 있으며 현대적인 가구로 꾸며진 우아한 객실과 스파 공간을 보유하고 있습니다. 루체른 문화 컨벤션 센터와 기차역은 도보로 단 10분이 소요됩니다.",
+                            "adr":"Schweizerhofquai, 루체른 스위스",
+                            "tel":"+41 41 410 04 10",
                             "img_url":[
                                 "../img/CHE/lodging/che02_lodging01_01.jpg",
                                 "../img/CHE/lodging/che02_lodging01_02.jpg",
@@ -593,6 +637,8 @@
                         {
                             "title":"Hotel Beau Sejour Lucerne",
                             "detail":"루체른에 위치한 Hotel Beau Séjour Lucerne은 정원, 테라스, 무료 Wi-Fi를 갖추고 있습니다. 호텔에서 사자 기념비가 도보로 11분, 루체른 KKL 문화 및 컨벤션 센터(KKL Culture and Convention Centre Lucerne)는 1km 떨어져 있습니다. 카펠교까지는 도보로 15분, 루체른 빙하공원까지는 도보로 12분이 소요됩니다. 루체른 그랜드 카지노(Grand Casino Lucerne)는 500m 거리에 있어요. 지역 명소로는 도보로 12분 거리에 있는 스위스 교통 박물관, 1.1km 거리에 있는 헤르텐슈타인(Hertenstein) 거리 등이 있습니다.",
+                            "adr":"Schweizerhofquai, 루체른 스위스",
+                            "tel":"+41 41 410 04 10",
                             "img_url":[
                                 "../img/CHE/lodging/che02_lodging02_01.jpg",
                                 "../img/CHE/lodging/che02_lodging02_02.jpg",
@@ -604,6 +650,8 @@
                         {
                             "title":"호텔 데 발랜스Hotel des Balances",
                             "detail":"Hotel des Balances는 루체른 구시가 중심부의 아름다운 로이스 강에 있는 옛 길드 홀에 자리하고 있습니다. 무료 Wi-Fi가 제공됩니다. 대부분의 객실에서 카펠교, 예수회 교회, 바인마르크트(Weinmarkt) 광장의 전망을 감상하실 수 있습니다.",
+                            "adr":"Weinmarkt, 루체른 스위스",
+                            "tel":"+41 41 418 28 28",
                             "img_url":[
                                 "../img/CHE/lodging/che02_lodging03_01.jpg",
                                 "../img/CHE/lodging/che02_lodging03_02.jpg",
@@ -658,6 +706,8 @@
                         {
                             "title":"호텔 아들러 Hotel Adler Zurich",
                             "detail":"16세기에 건축된 Hotel Adler는 취리히 구시가지인 '니더도르프(Niederdorf)' 중심부에 위치한 매력적인 호텔입니다. 활기차고 매력적인 올드타운의 독특한 분위기를 느끼실 수 있습니다.",
+                            "adr":"Rosengasse 10, 취리히 스위스",
+                            "tel":"+41 44 266 96 96",
                             "img_url":[
                                 "../img/CHE/lodging/che03_lodging01_01.jpg",
                                 "../img/CHE/lodging/che03_lodging01_02.jpg",
@@ -669,6 +719,8 @@
                         {
                             "title":"힐튼 취리히 에어포트",
                             "detail":"취리히 공항에서 차로 5분 거리에 있는 힐튼 취리히 에어포트는 도심에서 기차로 15분 거리에 있습니다. 공항에서 호텔까지 무료 셔틀 서비스를 이용할 수 있습니다. 투숙객들은 도심으로 가는 24시간 무료 티켓도 받을수 있습니다.",
+                            "adr":"Hohenbuehlstrasse 10, 오피콘 취리히 스위스",
+                            "tel":"+41 44 828 50 50",
                             "img_url":[
                                 "../img/CHE/lodging/che03_lodging02_01.jpg",
                                 "../img/CHE/lodging/che03_lodging02_02.jpg",
@@ -680,6 +732,8 @@
                         {
                             "title":"호텔 슈웨이저호프 취리히",
                             "detail":"중앙역 맞은편 반호프 거리의 초입에 자리한 Hotel Schweizerhof Zürich는 무료 고속 Wi-Fi, 방음 시설 및 전기 조절 침대가 완비된 객실을 보유하고 있습니다. Schweizerhof의 프랑스 레스토랑인 'La Soupière'에서는 맛 좋은 제철 요리 및 시장에서 갓 들여온 신선한 재료로 조리된 스위스 특선 요리를 맛보실 수 있습니다.",
+                            "adr":"Bahnhofplatz 7, 취리히 스위스",
+                            "tel":"+41 44 218 88 88",
                             "img_url":[
                                 "../img/CHE/lodging/che03_lodging03_01.jpg",
                                 "../img/CHE/lodging/che03_lodging03_02.jpg",
@@ -738,6 +792,8 @@
                         {
                             "title":"Hotel Colosseum",
                             "detail":"Hotel Colosseum(은)는 로마 추천 숙소입니다. 가성비 우수, 편안하고 편리함까지 갖춘 이 곳은 매력적인 분위기에 여러분같은 여행객들에게 꼭 맞는 부대시설을 제공합니다.",
+                            "adr":"Via Sforza 10, 00184 로마 이탈리아",
+                            "tel":"+39 06 482 7228",
                             "img_url":[
                                 "../img/ITA/lodging/italy01_lodging01_01.jpg",
                                 "../img/ITA/lodging/italy01_lodging01_02.jpg",
@@ -748,6 +804,8 @@
                         {
                             "title":"Hotel Santa Maria",
                             "detail":"로마에서 여러분이 원하는 로맨틱 호텔(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 호텔 산타 마리아에 오신 것을 환영합니다.",
+                            "adr":"Vicolo del Piede 2, 00153 로마 이탈리아",
+                            "tel":"+39 06 589 4626",
                             "img_url":[
                                 "../img/ITA/lodging/italy01_lodging02_01.jpg",
                                 "../img/ITA/lodging/italy01_lodging02_02.jpg",
@@ -758,6 +816,8 @@
                         {
                             "title":"Dharma Boutique Hotel & Spa",
                             "detail":"로마의 몬티에 위치한 본 숙소는 관광 명소 및 흥미로운 레스토랑과 가깝습니다. 본 4성급 숙소는 숙박의 질과 즐거움을 향상시키기 위한 숙소 내 다양한 편의시설로 가득 차 있습니다.",
+                            "adr":"Via De’ Ciancaleoni, 49, 00184 로마 이탈리아",
+                            "tel":"+39 06 296000",
                             "img_url":[
                                 "../img/ITA/lodging/italy01_lodging03_01.jpg",
                                 "../img/ITA/lodging/italy01_lodging03_02.jpg",
@@ -807,6 +867,8 @@
                         {
                             "title":"Caesar Place",
                             "detail":"세사르 팰리스 게스트하우스(은)는 한 분위기뿐만 아니라 여러분의 시간을 더욱 잊지 못하게 해줄 다양한 부대시설로 로마(을)를 방문하는 여행객들에게 최고의 선택이 될 것입니다.",
+                            "adr":"Via Nomentana 55, 00161 로마 이탈리아",
+                            "tel":"",
                             "img_url":[
                                 "../img/ITA/lodging/italy02_lodging01_01.jpg",
                                 "../img/ITA/lodging/italy02_lodging01_02.jpg",
@@ -817,6 +879,8 @@
                         {
                             "title":"Vatican Charme",
                             "detail":"Vatican Charme(은)는 바티칸 시국 추천 숙소입니다. 가성비 우수, 편안하고 편리함까지 갖춘 이곳은 로맨틱 한 분위기에 여러분같은 여행객들에게 꼭 맞는 부대시설들을 제공합니다.",
+                            "adr":"Via Germanico 99, 00192 바티칸 시국 이탈리아",
+                            "tel":"",
                             "img_url":[
                                 "../img/ITA/lodging/italy02_lodging02_01.jpg",
                                 "../img/ITA/lodging/italy02_lodging02_02.jpg",
@@ -827,6 +891,8 @@
                         {
                             "title":"MiRhome Guesthouse",
                             "detail":"바티칸 시국에서 여러분이 원하는 저렴 게스트하우스(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 MiRhome Guesthouse에 오신 것을 환영합니다.",
+                            "adr":"Piazza Dell'Unita' 13 Piano 2 Scala B Interno 7, 00192 바티칸 시국 이탈리아",
+                            "tel":"",
                             "img_url":[
                                 "../img/ITA/lodging/italy02_lodging03_01.jpg",
                                 "../img/ITA/lodging/italy02_lodging03_02.jpg",
@@ -876,6 +942,8 @@
                         {
                             "title":"Hotel Alessandro della Spina",
                             "detail":"호텔 알레산드로 델라 스피나(은)는 매력적인 한 분위기뿐만 아니라 여러분의 시간을 더욱 잊지 못하게 해줄 다양한 부대시설로 피사(을)를 방문하는 여행객들에게 최고의 선택이 될 것입니다.",
+                            "adr":"Via Alessandro della Spina, 5-7-9, 56125 피사 이탈리아",
+                            "tel":"",
                             "img_url":[
                                 "../img/ITA/lodging/italy03_lodging01_01.jpg",
                                 "../img/ITA/lodging/italy03_lodging01_02.jpg",
@@ -886,6 +954,8 @@
                         {
                             "title":"Hotel San Ranieri",
                             "detail":"피사에서 여러분이 원하는 패밀리 호텔(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 호텔 산 라니에리에 오신 것을 환영합니다.",
+                            "adr":"Via Filippo Mazzei, 2 Cisanello, 56124 피사 이탈리아",
+                            "tel":"",
                             "img_url":[
                                 "../img/ITA/lodging/italy03_lodging02_01.jpg",
                                 "../img/ITA/lodging/italy03_lodging02_02.jpg",
@@ -896,6 +966,8 @@
                         {
                             "title":"B&B Hotel Pisa",
                             "detail":"우리 모두 지친 육신을 잠시 쉬어갈 곳이 필요합니다. 피사(을)를 방문하는 여행객들에게 휴식과 회복에 B&B Hotel Pisa보다 더 좋은 곳은 없습니다. 맛집 및 명소들로부터 가까운 걸로 유명한 B&B Hotel Pisa(은)는 피사의 매력을 쉽게 발견할 수 있게 해줍니다.",
+                            "adr":"Via Scornigiana 1, 56121 피사 이탈리아",
+                            "tel":"+39 050 762 0061",
                             "img_url":[
                                 "../img/ITA/lodging/italy03_lodging03_01.jpg",
                                 "../img/ITA/lodging/italy03_lodging03_02.jpg",
@@ -953,6 +1025,8 @@
                         {
                             "title":"Northern Light Inn",
                             "detail":"Grindavik에서 지낼 곳을 찾으세요? 그렇다면 Grindavik의 최고를 가까이에서 즐길 수 있는 로맨틱 호텔인 Northern Light Inn(을)를 강추합니다.",
+                            "adr":"1 Northern Lights Road,, Grindavik 아이슬란드",
+                            "tel":"",
                             "img_url":[
                                 "../img/ISL/lodging/isl01_lodging01_01.jpg",
                                 "../img/ISL/lodging/isl01_lodging01_02.jpg",
@@ -963,6 +1037,8 @@
                         {
                             "title":"Harbour View Cottages Grindavik",
                             "detail":"새로운 캐빈이 9월에 오픈합니다. 객실은 29평방미터이며, 12.5평방미터의 파티오가 정면에 마련되어 있어 겨울에는 놀라운 전망과 북쪽 조명을 감상할 수 있습니다.",
+                            "adr":"Austurvegi 26, Grindavik 아이슬란드",
+                            "tel":"",
                             "img_url":[
                                 "../img/ISL/lodging/isl01_lodging02_01.jpg",
                                 "../img/ISL/lodging/isl01_lodging02_02.png",
@@ -973,6 +1049,8 @@
                         {
                             "title":"Anita's Guest House",
                             "detail":"Anita's Guest House 객실은 미니 부엌(을)를 구비하고 있고, 무료 무선 인터넷으로 인터넷을 마음껏 이용하실 수 있습니다.",
+                            "adr":"Asabraut 15, Grindavik 아이슬란드",
+                            "tel":"",
                             "img_url":[
                                 "../img/ISL/lodging/isl01_lodging03_01.jpg",
                                 "../img/ISL/lodging/isl01_lodging03_02.png",
@@ -1022,6 +1100,8 @@
                         {
                             "title":"Hotel Skaftafell",
                             "detail":"Skaftafell에서 여러분이 원하는 조용 호텔(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 포스호텔 스카프타펠에 오신 것을 환영합니다.",
+                            "adr":"Skaftafell 2 Freysnesi, Skaftafell Vatnajokull National Park 아이슬란드",
+                            "tel":"+354 478 1945",
                             "img_url":[
                                 "../img/ISL/lodging/isl02_lodging01_01.jpg",
                                 "../img/ISL/lodging/isl02_lodging01_02.jpg",
@@ -1032,6 +1112,8 @@
                         {
                             "title":"Fosshotel Glacier Lagoon",
                             "detail":"Fosshotel Glacier Lagoon은 흐나파베들리르(Hnappavellir)에 위치한 고급 숙소입니다. 투숙객은 호텔의 레스토랑과 바를 이용하실 수 있습니다.",
+                            "adr":"Hnappavellir 아이슬란드",
+                            "tel":"",
                             "img_url":[
                                 "../img/ISL/lodging/isl02_lodging02_01.jpg",
                                 "../img/ISL/lodging/isl02_lodging02_02.jpg",
@@ -1042,6 +1124,8 @@
                         {
                             "title":"Fosshotel Nupar",
                             "detail":"1번 고속도로에서 조금 벗어난 곳에 위치한 Fosshotel Nupar는 바트나이오쿠를(Vatnajokull)의 용암 지대, 산 및 빙하의 탁 트인 전망을 자랑합니다. ",
+                            "adr":"Nupar, Kirkjubaejarklaustur 아이슬란드",
+                            "tel":"",
                             "img_url":[
                                 "../img/ISL/lodging/isl02_lodging03_01.jpg",
                                 "../img/ISL/lodging/isl02_lodging03_02.jpg",
@@ -1091,6 +1175,8 @@
                         {
                             "title":"Reykjavik Residence Hotel",
                             "detail":"Reykjavik Residence Hotel(은)는 레이캬비크 추천 숙소입니다. 가성비 우수, 편안하고 편리함까지 갖춘 이곳은 로맨틱 한 분위기에 여러분같은 여행객들에게 꼭 맞는 부대시설들을 제공합니다.",
+                            "adr":"Hverfisgata 60, 레이캬비크 아이슬란드",
+                            "tel":"+354 561 1200",
                             "img_url":[
                                 "../img/ISL/lodging/isl03_lodging01_01.jpg",
                                 "../img/ISL/lodging/isl03_lodging01_02.jpg",
@@ -1101,6 +1187,8 @@
                         {
                             "title":"Reykjavik Lights by Keahotels",
                             "detail":"레이캬비크에서 여러분이 원하는 트렌디 호텔(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 Reykjavik Lights by Keahotels에 오신 것을 환영합니다.",
+                            "adr":"Hverfisgata 60, 레이캬비크 아이슬란드",
+                            "tel":"+354 561 1200",
                             "img_url":[
                                 "../img/ISL/lodging/isl03_lodging02_01.jpg",
                                 "../img/ISL/lodging/isl03_lodging02_02.jpg",
@@ -1111,6 +1199,8 @@
                         {
                             "title":"Skuggi Hotel by Keahotels",
                             "detail":"레이캬비크에서 여러분이 원하는 패밀리 호텔(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 Skuggi Hotel by Keahotels에 오신 것을 환영합니다.",
+                            "adr":"Hverfisgata 103, 레이캬비크 아이슬란드",
+                            "tel":"+354 590 7000",
                             "img_url":[
                                 "../img/ISL/lodging/isl03_lodging03_01.jpg",
                                 "../img/ISL/lodging/isl03_lodging03_02.jpg",
@@ -1165,6 +1255,8 @@
                         {
                             "title":"Ramada by Wyndham Adiyaman",
                             "detail":"아디야만에 자리한 4성급 숙소인 Ramada by Wyndham Adiyaman에서 머물러보시기 바랍니다. 이 4성급 호텔의 각 객실은 도시 전망을 갖추고 있습니다.",
+                            "adr":"Altinsehir Mahallesi 3035 Sokak No 9, Adiyaman 터키",
+                            "tel":"",
                             "img_url":[
                                 "../img/TUR/lodging/tur01_lodging01_01.jpg",
                                 "../img/TUR/lodging/tur01_lodging01_02.jpg",
@@ -1175,6 +1267,8 @@
                         {
                             "title":"White Star Hotel",
                             "detail":"White Star Hotel(은)는 고풍스러운 한 분위기뿐만 아니라 여러분의 시간을 더욱 잊지 못하게 해줄 다양한 부대시설로 Adiyaman(을)를 방문하는 여행객들에게 최고의 선택이 될 것입니다.",
+                            "adr":"Ataturk Blv. No: 384, Adiyaman 터키",
+                            "tel":"",
                             "img_url":[
                                 "../img/TUR/lodging/tur01_lodging02_01.jpg",
                                 "../img/TUR/lodging/tur01_lodging02_02.jpg",
@@ -1185,6 +1279,8 @@
                         {
                             "title":"Hotel Antiochos",
                             "detail":"아디야만의 유누스 엠레 마할레시에 위치한 본 숙소는 관광 명소 및 흥미로운 레스토랑과 가깝습니다. 본 4성급 숙소는 숙박의 질과 즐거움을 향상시키기 위한 숙소 내 다양한 편의시설로 가득 차 있습니다.",
+                            "adr":"Ataturk Bulvarı No: 382/A Yunus Emre Mah., Adiyaman 터키",
+                            "tel":"",
                             "img_url":[
                                 "../img/TUR/lodging/tur01_lodging03_01.jpg",
                                 "../img/TUR/lodging/tur01_lodging03_02.jpg",
@@ -1232,6 +1328,8 @@
                         {
                             "title":"Lara Barut Collection",
                             "detail":"안탈리아에 위치한 이 비치 호텔은 8개의 단품요리 레스토랑과 터키식 목욕탕을 갖춘 스파를 자랑합니다.",
+                            "adr":"Guzeloba Mahallesi Yasar Sobutay Bulvari, No: 30, Muratpasa 안탈리아 터키",
+                            "tel":"+90 4449600",
                             "img_url":[
                                 "../img/TUR/lodging/tur02_lodging01_01.jpg",
                                 "../img/TUR/lodging/tur02_lodging01_02.jpg",
@@ -1243,6 +1341,8 @@
                         {
                             "title":"Concorde De Luxe Resort",
                             "detail":"라라 해변에 위치한 이 스파 리조트에서는 야자수와 워터 슬라이드가 있는 우아하게 조경된 수영장 공간을 즐기실 수 있습니다. 객실에는 지중해의 탁 트인 전망을 감상할 수 있는 발코니와 에어컨이 마련되어 있습니다.",
+                            "adr":"Yasar Sobutay Bulvari, 44, Kemeragzi 안탈리아 터키",
+                            "tel":"+90 242 352 26 26",
                             "img_url":[
                                 "../img/TUR/lodging/tur02_lodging02_01.jpg",
                                 "../img/TUR/lodging/tur02_lodging02_02.jpg",
@@ -1255,6 +1355,8 @@
                         {
                             "title":"Delphin Imperial Hotel",
                             "detail":"안탈리아에서 지낼 곳을 찾으세요? 그렇다면 안탈리아의 최고를 가까이에서 즐길 수 있는 패밀리 호텔인 델핀 팰리스(을)를 강추합니다.",
+                            "adr":"Kemeragzi Mahallesi Yasar Sobutay Bulvari No:344, Kemeragzi 안탈리아 터키",
+                            "tel":"+90 850 532 0700",
                             "img_url":[
                                 "../img/TUR/lodging/tur02_lodging03_01.jpg",
                                 "../img/TUR/lodging/tur02_lodging03_02.jpg",
@@ -1303,6 +1405,8 @@
                         {
                             "title":"Umut Apartments",
                             "detail":"트라브존 내에 위치한 Umut Apartments에서 머물러보세요. 숙소는 Atatürk Pavilion에서 11km, 수멜라 수도원에서 47km 거리에 있습니다.",
+                            "adr":"Konaklar Mah. Mustafa Alemdağ Cad. No:24, 트라브존 Ortahisar 터키",
+                            "tel":"+90 536 799 64 68",
                             "img_url":[
                                 "../img/TUR/lodging/tur03_lodging01_01.jpg",
                                 "../img/TUR/lodging/tur03_lodging01_02.jpg",
@@ -1312,6 +1416,8 @@
                         {
                             "title":"Panagia Premier Trabzon",
                             "detail":"트라브존에서 지낼 곳을 찾으세요? 그렇다면 트라브존의 최고를 가까이에서 즐길 수 있는 패밀리 호텔인 Panagia Suite Hotel(을)를 강추합니다.",
+                            "adr":"Toklu, Devlet Sahil Yolu Cd. No:361, 트라브존 Ortahisar 터키",
+                            "tel":"+90 462 333 13 33",
                             "img_url":[
                                 "../img/TUR/lodging/tur03_lodging02_01.jpg",
                                 "../img/TUR/lodging/tur03_lodging02_02.jpg",
@@ -1322,6 +1428,8 @@
                         {
                             "title":"Mell Hotel",
                             "detail":"트라브존에서 여러분이 원하는 로맨틱 호텔(을)를 찾았습니다. 여러분같은 여행자들에게 딱 좋은 Mell Hotel에 오신 것을 환영합니다.",
+                            "adr":"Yalincak Mah. Rize Cad. No: 106/2 Ortahisar, 트라브존 Ortahisar 터키",
+                            "tel":"",
                             "img_url":[
                                 "../img/TUR/lodging/tur03_lodging03_01.jpg",
                                 "../img/TUR/lodging/tur03_lodging03_02.jpg",
@@ -1381,6 +1489,8 @@
                         {
                             "title":"Fraser Residence Hanoi",
                             "detail":"하노이 내에 위치한 Fraser Residence Hanoi에서 머물러보세요. 숙소에는 무료 Wi-Fi를 완비한 객실, 차량으로 오는 투숙객을 위한 무료 전용 주차장, 계절에 따라 운영되는 야외 수영장 등이 마련되어 있습니다.",
+                            "adr":"C5 Do Nhuan Street Xuan Dinh Ward, Tu Liem 하노이 베트남",
+                            "tel":"+84 24 3275 0888",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam_lodging01_01.jpg",
                                 "../img/VNM/lodging/vietnam_lodging01_02.jpg",
@@ -1391,6 +1501,8 @@
                         {
                             "title":"La Siesta Classic Ma May",
                             "detail":"유명한 하노이 옛 거리 중심부에 위치한 Diamond King Hotel & Travel은 분주한 동 쑤언 시장에서 차로 5분 거리에 있어 편리합니다.",
+                            "adr":"94 Ma May St. Old Quarter, Hoan Kiem Dist., 하노이 베트남",
+                            "tel":"",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam_lodging02_01.jpg",
                                 "../img/VNM/lodging/vietnam_lodging02_02.jpg",
@@ -1401,6 +1513,8 @@
                         {
                             "title":"The Oriental Jade Hotel",
                             "detail":"하노이 내 동다 구역에 위치한 S110.2408A에서 머물러보시기 바랍니다. 숙소는 베트남 미술관에서 가까운 거리에 있으며, 테라스, 무료 Wi-Fi, 세탁기 등을 갖추고 있습니다.",
+                            "adr":"92-94 Hang Trong Street Hoan Kiem District, 하노이 베트남",
+                            "tel":"",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam_lodging03_01.jpg",
                                 "../img/VNM/lodging/vietnam_lodging03_02.jpg",
@@ -1450,6 +1564,8 @@
                         {
                             "title":"La Siesta Hoi An Resort & Spa",
                             "detail":"Essence Hoi An Hotel & Spa(은)는 매력적인 한 분위기뿐만 아니라 여러분의 시간을 더욱 잊지 못하게 해줄 다양한 부대시설로 호이안(을)를 방문하는 여행객들에게 최고의 선택이 될 것입니다.",
+                            "adr":"132 Hung Vuong Thanh Ha, 호이안 베트남",
+                            "tel":"",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam01_lodging01_01.jpg",
                                 "../img/VNM/lodging/vietnam01_lodging01_02.jpg",
@@ -1460,17 +1576,20 @@
                         {
                             "title":"Ann Retreat Resort & Spa",
                             "detail":"Hoi An River Town Hotel(은)는 호이안 추천 숙소입니다. 가성비 우수, 편안하고 편리함까지 갖춘 이곳은 로맨틱 한 분위기에 여러분같은 여행객들에게 꼭 맞는 부대시설들을 제공합니다.",
+                            "adr":"47 Thoai Ngoc Hau Street Cam Pho Ward, 호이안 베트남",
+                            "tel":"+84 235 3924 924",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam01_lodging02_01.jpg",
                                 "../img/VNM/lodging/vietnam01_lodging02_02.jpg",
                                 "../img/VNM/lodging/vietnam01_lodging02_03.jpg",
                                 "../img/VNM/lodging/vietnam01_lodging02_04.jpg"
-
                             ]
                         },
                         {
                             "title":"Anio Boutique Hotel Hoi An",
                             "detail":"호이안에 위치한 Anio Boutique Hotel Hoian은 무료 자전거, 야외 수영장, 피트니스 센터, 호텔 바를 갖추고 있습니다.",
+                            "adr":"03 Le Dinh Tham, 호이안 베트남",
+                            "tel":"",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam01_lodging03_01.jpg",
                                 "../img/VNM/lodging/vietnam01_lodging03_02.jpg",
@@ -1520,6 +1639,8 @@
                         {
                             "title":"Regalia Gold Hotel",
                             "detail":"냐짱에 자리한 Regalia Gold Hotel에서 머물러보세요. 숙소는 야외 수영장, 피트니스 센터, 테라스, 레스토랑 등을 갖추고 있습니다.",
+                            "adr":"39-41 Nguyen Thi Minh Khai Tan Lap, 냐 짱 베트남",
+                            "tel":"",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam02_lodging01_01.jpg",
                                 "../img/VNM/lodging/vietnam02_lodging01_02.jpg",
@@ -1530,6 +1651,8 @@
                         {
                             "title":"Vinpearl Luxury Nha Trang",
                             "detail":"혼쩨 섬(Hon Tre Island)에 위치한 Vinpearl Luxury Nha Trang, Over-water Spa은 한적하게 휴식을 취하실 수 있는 이상적인 곳입니다.",
+                            "adr":"Hon Tre Island, Vinh Nguyen, 냐 짱 베트남",
+                            "tel":"+84 258 3598 598",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam02_lodging02_01.jpg",
                                 "../img/VNM/lodging/vietnam02_lodging02_02.jpg",
@@ -1540,6 +1663,8 @@
                         {
                             "title":"Quinter Central Nha Trang",
                             "detail":"냐짱에 자리한 Quinter Central Nha Trang에서는 야외 수영장, 무료 전용 주차장, 피트니스 센터, 레스토랑 등을 이용하실 수 있습니다.",
+                            "adr":"86/4 Tran Phu Loc Tho Ward, 냐 짱 베트남",
+                            "tel":"",
                             "img_url":[
                                 "../img/VNM/lodging/vietnam02_lodging03_01.jpg",
                                 "../img/VNM/lodging/vietnam02_lodging03_02.jpg",
