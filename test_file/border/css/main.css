@@ -44,9 +44,13 @@
 @-webkit-keyframes textVisual1 {
   0% {
     opacity: 0;
+    transform: translateY(30%);
   }
   25% {
     opacity: 1;
+  }
+  50% {
+    transform: translateY(0%);
   }
   75% {
     opacity: 1;
@@ -58,9 +62,13 @@
 @keyframes textVisual1 {
   0% {
     opacity: 0;
+    transform: translateY(30%);
   }
   25% {
     opacity: 1;
+  }
+  50% {
+    transform: translateY(0%);
   }
   75% {
     opacity: 1;
@@ -111,12 +119,19 @@ main .center .text {
           user-select: none;
 }
 main .center .text h2 {
+  transform: translateY(30%);
+  opacity: 0;
+  transition: opacity 1s, transform 1.5s;
   font-size: 72px;
 }
 main .center .text h2:nth-child(1) {
   padding-top: 287px;
 }
 main .center .text .text-sub p {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: opacity 1s, transform 1.5s;
+  transition-delay: 0.3s;
   margin: 0 auto;
 }
 main .center .text .text-sub p:nth-of-type(1) {
@@ -128,6 +143,14 @@ main .center .text .text-sub p:nth-child(1)::after {
   margin-top: 3px;
   display: block;
   width: 100%;
+}
+main .center .text.active h2 {
+  transform: translateY(0%);
+  opacity: 1;
+}
+main .center .text.active .text-sub p {
+  transform: translateY(0%);
+  opacity: 1;
 }
 main .swi {
   width: 100%;
