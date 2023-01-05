@@ -69,18 +69,21 @@ function init (a) {
                         <a class="more" href="">more</a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
-                    }
-                    dataChange(0);
-                    
-                    //section04
-  function sec04Change(key) {
-    const elSec04Img = document.querySelectorAll('.section04-img')
-    const elsec04Div = document.querySelector('.section-box > div')
-    const elsec04Num = document.querySelectorAll('.section04-number')
-                      
+    const elSec04Img = document.querySelector('.section04-img'),
+          elsec04Num = document.querySelectorAll('.section04-number');
+    let arr ='';
     
-  }
-  sec04Change();
+    elsec04Num.forEach((sec,n)=>{
+      sec.addEventListener("click",function(){
+        // arr='';
+        for(i=0;i<4;i++){
+          elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
+        }
+      })
+    })
+    
+  }                    
+  dataChange(0);
 
   //section1 슬라이드
   var swiper = new Swiper(".mySwiper", {
@@ -98,7 +101,6 @@ function init (a) {
       }
     }
   });
-
 
 
 }
