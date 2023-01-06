@@ -40,31 +40,31 @@
     height: 850px;
   }
 }
-.section02{
-  .section02-contain{
+.section02 {
+  .section02-contain {
     max-width: 1400px;
     display: flex;
     justify-content: center;
     margin: 80px auto;
-    .maps{
-      img{
+    .maps {
+      img {
         height: 560px;
       }
     }
-    .text{
+    .text {
       width: 60%;
       text-align: left;
       margin: 80px 0 0 80px;
-      .title{
+      .title {
         margin-bottom: 80px;
         font-size: 3rem;
         font-weight: bold;
         text-align: left;
       }
-      .detail{
+      .detail {
         text-align: left;
-        overflow:hidden;
-        text-overflow:ellipsis;
+        overflow: hidden;
+        text-overflow: ellipsis;
         display: -webkit-box; // 6줄 이상부터 ...으로 나타내기
         -webkit-line-clamp: 6;
         -webkit-box-orient: vertical;
@@ -72,12 +72,26 @@
         color: rgb(63, 63, 63);
         line-height: 1.8;
       }
-      .more{
+      .more {
         text-align: left;
       }
     }
   }
 }
+
+.section03 {
+  padding: 5%;
+  width: 100%;
+  .section03-contain {
+    display: flex;
+    justify-content: flex-end;
+    .text,
+    .more {
+      text-align: left;
+    }
+  }
+}
+
 .section04 {
   width: 100%;
   margin-bottom: 80px;
@@ -88,7 +102,14 @@
       margin-bottom: 80px;
       h2 {
         text-align: left;
+<<<<<<< Updated upstream:subPage/ex.scss
         font-size: 3rem;
+=======
+        font-size: 2.8rem;
+        span {
+          border-bottom: 4px solid black;
+        }
+>>>>>>> Stashed changes:subPage/css/subMain.scss
       }
     }
     .section04-line {
@@ -105,8 +126,29 @@
           border: 1px dashed black;
           width: 100%;
           top: 50%;
+<<<<<<< Updated upstream:subPage/ex.scss
           left: 50%;
           transform: translate(-50%, -50%);
+=======
+          left: 8%;
+          transform: translate(0%, -50%);
+          // float: left;
+        }
+        &:nth-of-type(2) {
+          display: flex;
+          justify-content: space-around;
+          &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: -9;
+            border: 1px dotted black;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+>>>>>>> Stashed changes:subPage/css/subMain.scss
         }
         vertical-align: middle;
         .section04-number {
@@ -119,6 +161,19 @@
           line-height: 50px;
           cursor: pointer;
         }
+<<<<<<< Updated upstream:subPage/ex.scss
+=======
+        .section04-number {
+          width: 50px;
+          height: 50px;
+          border: 1px solid black;
+          background-color: white;
+          color: black;
+          border-radius: 50%;
+          line-height: 50px;
+          cursor: pointer;
+        }
+>>>>>>> Stashed changes:subPage/css/subMain.scss
       }
     }
     .section04-box {
@@ -130,25 +185,63 @@
       }
       .section04-img {
         display: flex;
+<<<<<<< Updated upstream:subPage/ex.scss
         justify-content: space-around;
         margin: 80px 0 ;
         img{  
           width: 22%
+=======
+        justify-content: space-between;
+        margin: 80px 0 40px;
+        height: 200px;
+        img {
+          width: 22%;
+          border-radius: 20px;
+>>>>>>> Stashed changes:subPage/css/subMain.scss
         }
       }
-      .section04-info{
+      .section04-info {
         margin-bottom: 80px;
         p {
           text-align: left;
+<<<<<<< Updated upstream:subPage/ex.scss
           margin-left: 1.5%;
+=======
+          line-height: 24px;
+          margin-bottom: 20px;
+>>>>>>> Stashed changes:subPage/css/subMain.scss
         }
-        div{
+        div {
           display: flex;
+<<<<<<< Updated upstream:subPage/ex.scss
+=======
+          p {
+            &::before {
+              content: "";
+              border: 1px solid black;
+              opacity: 0.3;
+              margin: 0 10px;
+            }
+          }
+          img {
+            width: 24px;
+            height: 24px;
+            &:nth-of-type(2) {
+              margin-left: 30px;
+            }
+          }
+>>>>>>> Stashed changes:subPage/css/subMain.scss
         }
       }
     }
   }
 }
+<<<<<<< Updated upstream:subPage/ex.scss
+=======
+html {
+  scroll-behavior: smooth;
+}
+>>>>>>> Stashed changes:subPage/css/subMain.scss
 //hide-menu
 .hidden {
   display: none;
@@ -173,10 +266,19 @@
   right: 0;
   display: block;
   transition: 750ms ease;
+<<<<<<< Updated upstream:subPage/ex.scss
 }
 
 .hide-menu-icon:hover {
   background-color: #999;
+=======
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.hide-menu-icon:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+>>>>>>> Stashed changes:subPage/css/subMain.scss
 }
 
 .hide-menu .hide-menu-wrapper {
@@ -192,9 +294,8 @@
   padding: 10px;
   /* border: 1px solid #000; */
   border-bottom: 0px;
-  background-color: #4FC3F7;
+  background-color: #4fc3f7;
   border-bottom: 1px solid #eee;
-
 }
 .hide-menu .menu {
   width: 150px;
@@ -207,9 +308,9 @@
 }
 .hide-menu .menu li:last-child {
   border-radius: 0 0 10px 10px;
-}   
+}
 .hide-menu .menu li:hover {
-  background-color: #1C80B8;
+  background-color: #1c80b8;
 }
 
 .hide-menu .menu li ul {
@@ -224,19 +325,19 @@
 }
 
 //go-top-btn
-.go-top-btn { 
+.go-top-btn {
   width: 48px;
   height: 48px;
   position: fixed;
   bottom: 25px;
   right: 25px;
-  background-color: #4FC3F7;
+  background-color: #4fc3f7;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .go-top-btn:hover {
-  background-color: #1C80B8;
+  background-color: #1c80b8;
 }
 
 .go-top-btn p {
