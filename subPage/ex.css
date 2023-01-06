@@ -87,6 +87,7 @@
   margin-bottom: 80px;
 }
 .section04 .section04-contain .section04-line > div {
+  transition: 0.5s;
   vertical-align: middle;
 }
 .section04 .section04-contain .section04-line > div:nth-of-type(1) {
@@ -95,7 +96,7 @@
   background-color: pink;
   border: 1px solid pink;
   height: 2px;
-  width: 0%;
+  width: 10%;
   top: 50%;
   left: 8%;
   transform: translate(0%, -50%);
