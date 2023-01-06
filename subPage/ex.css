@@ -72,7 +72,7 @@
   margin-bottom: 80px;
 }
 .section04 .section04-contain {
-  width: 72.916%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .section04 .section04-contain .section04-text {
@@ -111,6 +111,12 @@
   border-radius: 50%;
   line-height: 50px;
   cursor: pointer;
+}
+.section04 .section04-contain .section04-line > div .section04-number p::after {
+  content: "";
+  display: block;
+  border: 2px solid pink;
+  width: 50px;
 }
 .section04 .section04-contain .section04-box {
   border: 1px solid black;
