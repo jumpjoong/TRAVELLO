@@ -145,15 +145,21 @@ function init (a) {
     })
     //
     function image(n){ 
+      var exhtml = '';
       try{
-        elSec04Text.innerHTML = `<h2>여기는 ${a[countryKey].place[key].lodging[n].title}입니다.<h2>`
-        elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>
+        elSec04Text.innerHTML = `<h2>여기는 &nbsp&nbsp<span>${a[countryKey].place[key].lodging[n].title}</span>&nbsp 입니다.<h2>`
+        
+        exhtml += `<p>${a[countryKey].place[key].lodging[n].detail}</p>
                             <div>
                               <img src="../img/location-icon.png" alt="지역">
-                              <p>${a[countryKey].place[key].lodging[n].adr}</p>
-                              <img src="../img/call-icon.png" alt="전화">
-                              <p>${a[countryKey].place[key].lodging[n].tel}</p>
-                            </div>`;
+                              <p>${a[countryKey].place[key].lodging[n].adr}</p>`
+        if(a[countryKey].place[key].lodging[n].tel != '') {
+          exhtml += `<img src="../img/call-icon.png" alt="전화">
+                      <p>${a[countryKey].place[key].lodging[n].tel}</p>`
+        }
+        exhtml += `</div>`;
+                              
+        elInfo.innerHTML = exhtml;
       }catch{}
       elSec04Img.innerHTML = ''
       for(i=0;i<4;i++){
