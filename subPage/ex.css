@@ -204,8 +204,8 @@ html {
   height: 48px;
   cursor: pointer;
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 25px;
+  right: 25px;
   display: block;
   transition: 750ms ease;
 }
@@ -217,8 +217,8 @@ html {
 .hide-menu .hide-menu-wrapper {
   position: relative;
   position: fixed;
-  top: 48px;
-  right: 5px;
+  top: 73px;
+  right: 30px;
   display: flex;
   justify-content: flex-end;
 }

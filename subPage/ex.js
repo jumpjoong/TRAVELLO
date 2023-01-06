@@ -81,8 +81,16 @@ let countryKey = localStorage.getItem('num');
 //   );
 // }
 //큰 제목
+window.addEventListener('load',()=>{
+  console.log('aa')
+  setTimeout(()=>{
+    window.scrollTo(0,0);
+  },50)
+
+});
+
 function init (a) {
-  console.log(a)
+
   // this.a = a;
       for(var i=0; i<a.length; i++) {
           html += '<li class="menu-sub">';
@@ -92,14 +100,7 @@ function init (a) {
       
       $('.hide-menu-wrapper ul.menu').html(html);
       
-      const elLi = document.querySelectorAll('.menu-sub')
-
-      elLi.forEach(function(btn, key) {
-        btn.addEventListener('click', ()=> {
-          localStorage.setItem('num', key);
-          location.reload();
-        })
-      })
+     
   const countryImg = document.querySelectorAll('.section01-contain')
 
   countryImg.forEach((btn, key)=>{
@@ -182,5 +183,23 @@ function init (a) {
   });
 
 
-}});
+  
+const elLi = document.querySelectorAll('.menu-sub')
+
+elLi.forEach(function(btn, key) {
+  btn.addEventListener('click', ()=> {
+    event.preventDefault();
+    localStorage.setItem('num', key);
+    // init();
+    location.reload();
+  })
+})
+
+
+}
+
+
+
+
+});
 
