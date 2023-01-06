@@ -124,11 +124,22 @@ function init (a) {
     const elSec04Text = document.querySelector('.section04-text'),
           elSec04Img = document.querySelector('.section04-img'),
           elsec04Num = document.querySelectorAll('.section04-number'),
-          elInfo = document.querySelector('.section04-info');
+          elInfo = document.querySelector('.section04-info'),
+          elsec04Line = document.querySelector('.section04-line .line');
     
     elsec04Num.forEach((sec,n)=>{
       sec.addEventListener("click",function(){
-      image(n)
+        image(n)
+        // elsec04Line[0].style.width = '30%'
+        // elsec04Line[1].style.width = '60%'
+        // elsec04Line[2].style.width = '100%'
+        if(n==0){
+          elsec04Line.style.width='10%'
+        }else if(n==1){
+          elsec04Line.style.width='42%'
+        }else{
+          elsec04Line.style.width='82%'
+        }
       })
     })
     //
@@ -172,3 +183,4 @@ function init (a) {
 
 
 }});
+
