@@ -139,7 +139,6 @@ function init (a) {
     function setSection03Content(i) {
       // 이미지 3, 4, 5개일 때 slider width 지정
       var checklen = a[countryKey].place[key].food[i].img_url.length;
-      console.log("checklen: ", checklen);
       switch(checklen) {
         case 3:
           elSec03Imgs.style.width = '300%';
