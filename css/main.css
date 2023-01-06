@@ -1,76 +1,282 @@
 @import url("../font/Righteous-Regular.woff");
+#tra {
+  font-family: "Righteous", cursive;
+}
+#tra a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@-webkit-keyframes visualScale {
+  /*50%{
+    transform:scaleX(2.2);
+  }*/
+  100% {
+    transform: scale(2.2);
+  }
+}
+
+@keyframes visualScale {
+  /*50%{
+    transform:scaleX(2.2);
+  }*/
+  100% {
+    transform: scale(2.2);
+  }
+}
+@-webkit-keyframes textVisual {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes textVisual {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes textVisual1 {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes textVisual1 {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 body {
   width: 100vw;
   height: 100vh;
 }
-body header {
-  border-bottom: 1px solid rgb(167, 167, 167);
+
+header {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
 }
-body header .header-center {
+header .header-center {
   text-align: center;
   height: 90px;
 }
-body header .header-center h1 {
+header .header-center h1 {
+  text-align: left;
+  margin: 20px 40px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 90px;
-  font-family: "Righteous", cursive;
+  color: #fff;
 }
-body main {
-  height: 938px;
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
-body main .center .text h2 {
-  margin-top: 167px;
-  font-size: 64px;
+main .center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  color: #fff;
 }
-body main .center .text .text-sub p {
-  width: 572px;
+main .center .text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main .center .text h2 {
+  transform: translateY(30%);
+  opacity: 0;
+  transition: opacity 1s, transform 1s;
+  font-size: 72px;
+}
+main .center .text h2:nth-child(1) {
+  padding-top: 287px;
+}
+main .center .text .text-sub p {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: opacity 1s, transform 1s;
+  transition-delay: 0.3s;
   margin: 0 auto;
 }
-body main .center .text .text-sub p:nth-of-type(1) {
-  font-size: 36px;
+main .center .text .text-sub p:nth-of-type(1) {
+  font-size: 40px;
   margin-top: 8px;
 }
-body main .center .text .text-sub p:nth-of-type(1)::after {
+main .center .text .text-sub p:nth-child(1)::after {
   content: "";
+  margin-top: 3px;
   display: block;
   width: 100%;
-  border: 1px solid black;
 }
-body main .center .text .text-sub p:nth-of-type(2) {
-  margin-top: 34px;
-  font-size: 20px;
-  color: #666;
+main .center .text.active h2 {
+  transform: translateY(0%);
+  opacity: 1;
 }
-body main .btm {
-  margin: 117px 0;
+main .center .text.active .text-sub p {
+  transform: translateY(0%);
+  opacity: 1;
 }
-body main .swiper {
+main .swi {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
 }
-body main .swiper .swiper-wrapper {
-  align-items: center;
-}
-body main .swiper .swiper-wrapper .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  height: 300px;
-}
-body main .swiper .swiper-wrapper .swiper-slide .swiper-slide img {
-  display: block;
+main .swi .swiper {
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
 }
-body main .next, body main .prev {
+main .swi .swiper .swiper-wrapper .swiper-slide {
+  height: 90%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  filter: grayscale(60%);
+  align-items: flex-end;
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
+  display: inline-block;
+  width: 90%;
+  height: 320px;
+  padding: 10px;
+  border-radius: 110px;
+  background-image: linear-gradient(to bottom, #fafafa, #e1e1e1);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country01 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/BRA/brazil_place_01.jpeg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/TUR/tur_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/CHE/che_place_01.png"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/VNM/vietnam_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/CAN/can_place_02.png"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/ISL/isl_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
+  width: 99%;
+  height: 99%;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: url("../img/ITA/ita_place_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
+main .swi .swiper .swiper-wrapper .swiper-slide-active {
+  filter: none;
+  /*animation: visualScale 2s forwards;
+  z-index: 999;
+  padding-bottom: 60px;*/
+}
+main .next,
+main .prev {
   width: 5%;
-  color: black;
+  color: #fff;
+}
+main .glass-wrapper {
+  width: 220px;
+  height: 320px;
+  padding: 10px;
+  border-radius: 110px;
+  background-image: linear-gradient(to bottom, #fefefe, #ddd);
+}
+main .glass-wrapper .glass {
+  width: 200px;
+  height: 300px;
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-image: url("../img/BRA/brazil_place_02.jpg"), linear-gradient(to top, #fff, #ddd);
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }/*# sourceMappingURL=main.css.map */
