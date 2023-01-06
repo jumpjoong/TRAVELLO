@@ -88,13 +88,14 @@
       position: relative;
       margin-bottom: 80px;
       > div {
+        transition: 0.5s;
         &:nth-of-type(1) {
           position: absolute;
           z-index: -5;
           background-color: pink;
           border: 1px solid pink;
           height: 2px;
-          width: 0%;
+          width: 10%;
           top: 50%;
           left: 8%;
           transform: translate(0%, -50%);
