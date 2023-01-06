@@ -1,4 +1,14 @@
 @media screen and (max-width: 1258px) {
+  .section02 .section02-contain {
+    display: block;
+  }
+  .section02 .section02-contain .text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section02 .section02-contain .text .title {
+    text-align: center;
+  }
   .section04 .section04-contain .section04-box .section04-img {
     overflow-y: hidden;
     overflow-x: scroll;
