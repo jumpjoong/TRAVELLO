@@ -2,10 +2,6 @@
 
 #tra {
   font-family: "Righteous", cursive;
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
 }
 
 @keyframes visualScale {
@@ -169,7 +165,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/BRA/brazil_place_01.jpeg"),
+            background-image: url("../img/br/brazil_place_01.jpeg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country02 {
@@ -181,7 +177,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/TUR/tur_place_01.jpg"),
+            background-image: url("../img/br/tur_place_01.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country03 {
@@ -193,7 +189,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/CHE/che_place_01.png"),
+            background-image: url("../img/br/che_place_01.png"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country04 {
@@ -205,7 +201,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/VNM/vietnam_place_01.jpg"),
+            background-image: url("../img/br/vietnam_place_01.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country05 {
@@ -217,7 +213,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/CAN/can_place_02.png"),
+            background-image: url("../img/br/can_place_02.png"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country06 {
@@ -229,7 +225,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/ISL/isl_place_01.jpg"),
+            background-image: url("../img/br/isl_place_01.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country07 {
@@ -241,7 +237,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/ITA/ita_place_03.jpg"),
+            background-image: url("../img/br/ita_place_03.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
         }
