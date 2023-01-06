@@ -5,6 +5,8 @@
 .section01 .section01-slide .section01-contain img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section01 .section01-slide .section01-contain .section01-text {
   position: absolute;
@@ -20,21 +22,11 @@
   color: black;
   transform: scale(1.5);
 }
-.section01 .maps {
-  width: 72.916%;
-  margin: 32px auto 104px;
-  height: 850px;
-}
 .section01 .right {
   position: absolute;
   right: 2.34375%;
   color: black;
   transform: scale(1.5);
-}
-.section01 .maps {
-  width: 72.916%;
-  margin: 32px auto 104px;
-  height: 850px;
 }
 
 .section02 .section02-contain {
@@ -45,6 +37,9 @@
 }
 .section02 .section02-contain .maps img {
   height: 560px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .section02 .section02-contain .text {
   width: 60%;
@@ -127,21 +122,41 @@
 }
 .section04 .section04-contain .section04-box .section04-img {
   display: flex;
-  justify-content: space-around;
-  margin: 80px 0;
+  justify-content: space-between;
+  margin: 80px 0 40px;
+  height: 200px;
 }
 .section04 .section04-contain .section04-box .section04-img img {
   width: 22%;
+  border-radius: 20px;
 }
 .section04 .section04-contain .section04-box .section04-info {
   margin-bottom: 80px;
 }
 .section04 .section04-contain .section04-box .section04-info p {
   text-align: left;
-  margin-left: 1.5%;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 .section04 .section04-contain .section04-box .section04-info div {
   display: flex;
+}
+.section04 .section04-contain .section04-box .section04-info div p::before {
+  content: "";
+  border: 1px solid black;
+  opacity: 0.3;
+  margin: 0 10px;
+}
+.section04 .section04-contain .section04-box .section04-info div img {
+  width: 24px;
+  height: 24px;
+}
+.section04 .section04-contain .section04-box .section04-info div img:nth-of-type(2) {
+  margin-left: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hidden {

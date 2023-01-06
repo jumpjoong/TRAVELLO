@@ -86,11 +86,20 @@ function init (a) {
   // this.a = a;
       for(var i=0; i<a.length; i++) {
           html += '<li class="menu-sub">';
-          html += `<a href="#">${a[i].country_ko}</a>`;
+          html += `<a>${a[i].country_ko}</a>`;
           html += '</li>';
       }
+      
       $('.hide-menu-wrapper ul.menu').html(html);
       
+      const elLi = document.querySelectorAll('.menu-sub')
+
+      elLi.forEach(function(btn, key) {
+        btn.addEventListener('click', ()=> {
+          localStorage.setItem('num', key);
+          location.reload();
+        })
+      })
   const countryImg = document.querySelectorAll('.section01-contain')
 
   countryImg.forEach((btn, key)=>{
@@ -128,9 +137,9 @@ function init (a) {
         elSec04Text.innerHTML = `<h2>여기는 ${a[countryKey].place[key].lodging[n].title}입니다.<h2>`
         elInfo.innerHTML = `<p>${a[countryKey].place[key].lodging[n].detail}</p>
                             <div>
-
+                              <img src="../img/location-icon.png" alt="지역">
                               <p>${a[countryKey].place[key].lodging[n].adr}</p>
-
+                              <img src="../img/call-icon.png" alt="전화">
                               <p>${a[countryKey].place[key].lodging[n].tel}</p>
                             </div>`;
       }catch{}
