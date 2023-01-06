@@ -34,13 +34,6 @@ fetch('../resource/data.json')
 //로컬스트로지 값 받오는 변수
 let countryKey = localStorage.getItem('num');
 
-
-
-
-
-
-
-
 //구글 맵
 // let contryGps = [
 //   {
@@ -82,7 +75,6 @@ let countryKey = localStorage.getItem('num');
 // }
 //큰 제목
 window.addEventListener('load',()=>{
-  console.log('aa')
   setTimeout(()=>{
     window.scrollTo(0,0);
   },50)
@@ -120,6 +112,70 @@ function init (a) {
                         <a class="more" href="">more</a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
+
+    
+    // section 03
+    const elSec03Title = document.querySelector('.section03 > div h2');
+    const elSec03Text = document.querySelector('.section03 .section03-contain .sidebar p');
+    const elSec03Imgs = document.querySelector('.section03 .section03-contain .container .main-slide');
+    const elSec03Btns = document.querySelectorAll('.section03 .section03-content-btn button');
+    elSec03Btns.forEach((el, key) => {
+      el.addEventListener('click', () => {
+        switch(key) {
+          case 0:
+            el.classList.add('set-border');
+            break;
+          case 1:
+            el.classList.add('set-border');
+            break;
+          case 2:
+            el.classList.add('set-border');
+            break;
+        }
+        setSection03Content(key);
+      })
+    })
+// section03 내용 불러오기
+    function setSection03Content(i) {
+      // 이미지 3, 4, 5개일 때 slider width 지정
+      var checklen = a[countryKey].place[key].food[i].img_url.length;
+      console.log("checklen: ", checklen);
+      switch(checklen) {
+        case 3:
+          elSec03Imgs.style.width = '300%';
+          break;
+        case 4:
+          elSec03Imgs.style.width = '400%'
+          break;
+        case 5:
+          elSec03Imgs.style.width = '500%';
+          break;
+      }
+
+      // html 설정
+      var html_text = '';
+      elSec03Title.innerHTML = `<h2>여기는 "<span class="point-color">${a[countryKey].place[key].food[i].title}</span>" 입니다.</h2>`;
+      elSec03Text.innerHTML = `${a[countryKey].place[key].food[i].detail}`;
+      var len = a[countryKey].place[key].food[i].img_url.length;
+      for(let n=0; n<len; n++) {
+        html_text += `<div style="`
+          + `background-image: url('`
+          + `${a[countryKey].place[key].food[i].img_url[n]}`
+          + `');"></div>`;
+      }
+      elSec03Imgs.innerHTML = html_text;
+      // border주는 class 초기화
+      for(let n=0; n<elSec03Btns.length; n++) {
+        elSec03Btns[n].classList.remove('set-border');
+      }
+      elSec03Btns[i].classList.add('set-border');
+      for(let n=0; n<elSec03Btns.length; n++) {
+        elSec03Btns[n].style.backgroundImage = `url(${a[countryKey].place[key].food[n].img_url[0]})`;
+        elSec03Btns[n].style.backgroundSize = 'cover';
+        elSec03Btns[n].style.backgroundRepeat = 'no-repeat';
+      }
+    }
+    setSection03Content(0);
 
     //section04 클릭 시 이미지 추가
     const elSec04Text = document.querySelector('.section04-text'),
@@ -203,9 +259,5 @@ elLi.forEach(function(btn, key) {
 
 
 }
-
-
-
-
 });
 

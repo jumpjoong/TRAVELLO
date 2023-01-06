@@ -305,7 +305,7 @@
                             "tel":"+1 844-246-2766",
                             "img_url":[
                                 "../img/CAN/lodging/can01_lodging02_01.jpg",
-                                "../img/CAN/lodging/can01_lodging02_02.png",
+                                "../img/CAN/lodging/can01_lodging02_02.jpg",
                                 "../img/CAN/lodging/can01_lodging02_03.jpg",
                                 "../img/CAN/lodging/can01_lodging02_04.jpg",
                                 "../img/CAN/lodging/can01_lodging02_05.jpg"
@@ -318,7 +318,7 @@
                             "tel":"+1 778-601-3920",
                             "img_url":[
                                 "../img/CAN/lodging/can01_lodging03_01.jpg",
-                                "../img/CAN/lodging/can01_lodging03_02.png",
+                                "../img/CAN/lodging/can01_lodging03_02.jpg",
                                 "../img/CAN/lodging/can01_lodging03_03.jpg",
                                 "../img/CAN/lodging/can01_lodging03_04.jpg",
                                 "../img/CAN/lodging/can01_lodging03_05.jpg"
@@ -559,7 +559,7 @@
                             "tel":"+41 31 539 18 36",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging02_01.jpg",
-                                "../img/CHE/lodging/che01_lodging02_02.png",
+                                "../img/CHE/lodging/che01_lodging02_02.jpg",
                                 "../img/CHE/lodging/che01_lodging02_03.jpg",
                                 "../img/CHE/lodging/che01_lodging02_04.jpg",
                                 "../img/CHE/lodging/che01_lodging02_05.jpg"
@@ -572,7 +572,7 @@
                             "tel":"",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging03_01.jpg",
-                                "../img/CHE/lodging/che01_lodging03_02.png",
+                                "../img/CHE/lodging/che01_lodging03_02.jpg",
                                 "../img/CHE/lodging/che01_lodging03_03.jpg",
                                 "../img/CHE/lodging/che01_lodging03_04.jpg",
                                 "../img/CHE/lodging/che01_lodging03_05.jpg"
@@ -672,7 +672,7 @@
                             "title":"Restaurant Pavillon 미슐랭2스타",
                             "detail":"취리히 호수에 위치한 고급 레스토랑 파비용에 오신 것을 환영합니다. 미슐랭 별 2개와 고트밀라우 18점을 받은 주방팀은 오뜨 요리의 고전을 계절적이고 현대적으로 해석해 손님들을 즐겁게 합니다. 능숙하게 준비되고 예술적인 방식으로 선보이는 그의 요리 창작물은 미각과 눈에 모두 호소합니다.",
                             "img_url": [
-                                "../img/CHE/food/che03_food01_01.jpg",
+                                "../img/CHE/food/che03_food01_01.png",
                                 "../img/CHE/food/che03_food01_02.jpg",
                                 "../img/CHE/food/che03_food01_03.jpg",
                                 "../img/CHE/food/che03_food01_04.jpg",
@@ -995,7 +995,7 @@
                             "detail":"현대적인 레스토랑, 서비스는 빠르고 친절하며 음식의 맛은 당신들을 추천해주기에 충분합니다. 또한 손님의 생일에는 특별한 이벤트가 준비되어 있고 특별한 경험을 느껴보고 싶다면 어서 오시는 것을 추천합니다.",
                             "img_url": [
                                 "../img/ISL/food/isl01_food01_01.jpg",
-                                "../img/ISL/food/isl01_food01_02.png",
+                                "../img/ISL/food/isl01_food01_02.jpg",
                                 "../img/ISL/food/isl01_food01_03.jpg",
                                 "../img/ISL/food/isl01_food01_04.jpg"
                             ]
@@ -1005,7 +1005,7 @@
                             "detail":"항구에 있는 음식점으로 손님들을 만족시킬만한 뷰가 있고 여러가지 음식이 준비되어 있습니다. 멋진 뷰와 맛있는 음식을 느껴보고 싶다면 저희 음식점으로 오세요. 실망하지 않고 매우 만족할 것 입니다.",
                             "img_url": [
                                 "../img/ISL/food/isl01_food02_01.jpg",
-                                "../img/ISL/food/isl01_food02_02.png",
+                                "../img/ISL/food/isl01_food02_02.jpg",
                                 "../img/ISL/food/isl01_food02_03.jpg",
                                 "../img/ISL/food/isl01_food02_04.jpg"
                             ]

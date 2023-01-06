@@ -3,7 +3,11 @@ const downBtn = document.querySelector(".down-button");
 const sidebar = document.querySelector(".sidebar");
 const container = document.querySelector(".container");
 const mainSlide = document.querySelector(".main-slide");
-const slidesCount = mainSlide.querySelectorAll("div").length;
+var slidesCount = 0;
+
+setTimeout(() => {
+  slidesCount = mainSlide.querySelectorAll("div").length;
+}, 400);
 
 let activeSlideIndex = 0;
 
@@ -18,7 +22,6 @@ downBtn.addEventListener("click", () => {
 });
 
 function changeSlide(direction) {
-  console.log(direction); 
   if (direction === "up") {
     activeSlideIndex++;
     if (activeSlideIndex === slidesCount) {
@@ -33,7 +36,9 @@ function changeSlide(direction) {
 
   // const height = container.clientHeight;
   const width = mainSlide.clientWidth;
-  mainSlide.style.transform = `translateX(-${activeSlideIndex * width/4}px)`;
+  // 3=>5개 개수 변경시 count 다시 체크해주는 역할
+  slidesCount = mainSlide.querySelectorAll("div").length;
+  mainSlide.style.transform = `translateX(-${activeSlideIndex * width/slidesCount}px)`;
 }
 
 setInterval(() => {
