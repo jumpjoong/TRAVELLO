@@ -104,7 +104,6 @@ main {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
 }
 main .center {
   position: absolute;
@@ -154,16 +153,13 @@ main .center .text.active .text-sub p {
   opacity: 1;
 }
 main .swi {
-  transition: 1s;
   width: 100%;
   height: 100vh;
   position: relative;
 }
 main .swi .swiper {
-  transition: 5s;
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide {
   height: 90%;
