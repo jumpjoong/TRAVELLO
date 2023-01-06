@@ -38,5 +38,5 @@ function changeSlide(direction) {
 
 setInterval(() => {
 // mainSlide.style.transform = translateY(-${activeSlideIndex * height}px);
-// changeSlide('up');
+  changeSlide('up');
 },3000);
