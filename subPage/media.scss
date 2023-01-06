@@ -1,3 +1,18 @@
-@media screen and (max-width: 1400px) {
-  
+@media screen and (max-width: 1258px) {
+  .section04 {
+    .section04-contain {
+      .section04-box {
+        .section04-img {
+          overflow-y: hidden;
+          overflow-x: scroll;
+          img {
+            width: 277px;
+            &:not(:nth-of-type(4)) {
+              margin-right: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
