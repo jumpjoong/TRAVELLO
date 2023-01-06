@@ -75,7 +75,7 @@
   width: 100%;
   margin-bottom: 80px;
   .section04-contain {
-    width: 72.916%;
+    max-width: 1400px;
     margin: 0 auto;
     .section04-text {
       margin-bottom: 80px;
@@ -111,6 +111,14 @@
           border-radius: 50%;
           line-height: 50px;
           cursor: pointer;
+          p{
+            &::after{
+              content: '';
+              display: block;
+              border: 2px solid pink;
+              width: 50px;
+            }
+          }
         }
       }
     }
