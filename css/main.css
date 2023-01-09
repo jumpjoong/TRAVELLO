@@ -167,12 +167,12 @@ main .swi .swiper {
   height: 100%;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide {
-  height: 90%;
+  height: 320px;
   font-size: 18px;
   display: flex;
   justify-content: center;
   filter: grayscale(60%);
-  align-items: flex-end;
+  margin-top: 570px;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
   display: inline-block;
