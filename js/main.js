@@ -1,12 +1,12 @@
-let ima = [
-  "./img/BRA/brazil_place_01.jpeg",
-  "./img/TUR/tur_place_01.jpg",
-  "./img/CHE/che_place_01.png",
-  "./img/VNM/vietnam_place_01.jpg",
-  "./img/CAN/can_place_02.png",
-  "./img/ISL/isl_place_01.jpg",
-  "./img/ITA/ita_place_03.jpg",
-];
+// let ima = [
+//   "./img/BRA/brazil.jpg",
+//   "./img/TUR/turtur.jpg",
+//   "./img/CHE/newswiss.webp",
+//   "./img/VNM/vietnam.jpg",
+//   "./img/CAN/canadatwo.jpg",
+//   "./img/ISL/islandtwo.jpg",
+//   "./img/ITA/italia.jpg",
+// ];
 let txt = [
   ["브라질연방 공화국", "FederativeRepublic of Brazil"],
   ["튀르키예 공화국", "Republic of Türkiye"],
@@ -48,9 +48,7 @@ const swiper = new Swiper(".mySwiper", {
   on: {
     slideChange: function (e) {
       //visualMain.style=`background-image=${ima[e.realIndex]}`;
-      visualMain.style = `background:url(${
-        ima[e.realIndex]
-      }) center center  / cover no-repeat`;
+      // visualMain.style = `background:url(${ima[e.realIndex]}) center center  / cover no-repeat`;
       txtM.classList.remove("active");
 
       setTimeout(() => {

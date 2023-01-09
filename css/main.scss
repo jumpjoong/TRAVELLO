@@ -76,9 +76,13 @@ main {
   position: relative;
   width: 100%;
   height: 100vh;
-  //overflow:hidden;
+  overflow:hidden;
   //background-color: rgb(218, 218, 218);
-
+  video{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .center {
     position: absolute;
     left: 50%;
@@ -143,8 +147,11 @@ main {
           font-size: 18px;
           display: flex;
           justify-content: center;
-          filter: grayscale(60%);
+
+          filter: grayscale(80%);
           margin-top: 570px; //사진 위치 조절부분
+          align-items: flex-end;
+
           .swiper-inner {
             display: inline-block;
             width: 90%;
@@ -163,7 +170,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/BRA/brazil_place_01.jpeg"),
+            background-image: url("../img/BRA/brazil.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country02 {
@@ -175,7 +182,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/TUR/tur_place_01.jpg"),
+            background-image: url("../img/TUR/turtur.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country03 {
@@ -187,7 +194,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/CHE/che_place_01.png"),
+            background-image: url("../img/CHE/swiss.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country04 {
@@ -199,7 +206,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/VNM/vietnam_place_01.jpg"),
+            background-image: url("../img/VNM/vietnam.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country05 {
@@ -211,7 +218,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/CAN/can_place_02.png"),
+            background-image: url("../img/CAN/canadatwo.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country06 {
@@ -223,7 +230,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/ISL/isl_place_01.jpg"),
+            background-image: url("../img/ISL/islandtwo.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country07 {
@@ -235,7 +242,7 @@ main {
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
-            background-image: url("../img/ITA/ita_place_03.jpg"),
+            background-image: url("../img/ITA/italia.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
         }
