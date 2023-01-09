@@ -16,7 +16,7 @@ body .block {
 }
 body .block figure {
   transform: translate(-50%, -50%);
-  width: 69.27083%;
+  width: 50.27083%;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -24,13 +24,21 @@ body .block figure {
   background-color: white;
   padding: 71px 0px;
 }
-body .block figure img {
-  width: 87.5187%;
+body .block figure img:nth-of-type(1) {
+  position: absolute;
+  z-index: 99999;
+  width: 50px;
+  height: 50px;
+  right: 3%;
+  top: 3%;
+}
+body .block figure img:nth-of-type(2) {
+  width: 80.5187%;
   border-radius: 25px;
   margin: 0 auto 71px;
 }
 body .block figure figcaption {
-  width: 87.5187%;
+  width: 80.5187%;
   margin: 0 auto;
 }
 body .section01 .section01-slide .section01-contain {
