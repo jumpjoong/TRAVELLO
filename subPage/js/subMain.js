@@ -129,20 +129,27 @@ function init (a) {
     var target = $(".popup")
 
     elBtn.addEventListener('click', () => {
-      elPopup.innerHTML = `<figure>
-      <img src="${a[countryKey].place[key].url}" alt="${a[countryKey].place[key].title}의 지역">
-      <figcaption>
-      <p>${a[countryKey].place[key].detail}</p>
-      </figcaption>
+      elPopup.innerHTML = `
+      <figure>
+        <img src="../img/close.png" alt="닫기" class="img012">
+        <img src="${a[countryKey].place[key].url}" alt="${a[countryKey].place[key].title}의 지역">
+        <figcaption>
+          <p>${a[countryKey].place[key].detail}</p>
+        </figcaption>
       </figure>`
       elPopup.classList.add('block')
+      const elImg = document.querySelector('.img012')
+
+      elImg.addEventListener('click', ()=> {
+        elPopup.classList.remove('block');
+      })
     })
     $(elPopup).mouseup('click', function(e)  {
       if(target.has(e.target).length==0) {
         elPopup.classList.remove('block');
       }
     })
-    
+
     // section 03
     const elSec03Title = document.querySelector('.section03 > div h2');
     const elSec03Text = document.querySelector('.section03 .section03-contain .sidebar p');

@@ -171,7 +171,9 @@ main .swi .swiper .swiper-wrapper .swiper-slide {
   font-size: 18px;
   display: flex;
   justify-content: center;
-  filter: grayscale(60%);
+
+  filter: grayscale(80%);
+  margin-top: 570px;
   align-items: flex-end;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
