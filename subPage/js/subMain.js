@@ -123,6 +123,7 @@ function init (a) {
                         <a><p class="more">more</p></a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
+    //popup창
     const elBtn = document.querySelector('.more')
     const elPopup = document.querySelector('.popup')
     var target = $(".popup")
