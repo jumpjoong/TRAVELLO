@@ -1,4 +1,15 @@
 $().ready(function() {
+  //맨 왼쪽 글씨 색 변경
+  const test = document.querySelector('.section02')
+  const elTra = document.querySelector('#tra > a')
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset - test.offsetTop + 75 > 0) {
+      elTra.style.color = 'black'
+      console.log(window.pageYOffset - test.offsetTop)
+    } else if (window.pageYOffset - test.offsetTop + 75 < 0) {
+      elTra.style.color = 'white'
+    }
+  })
   var menu_toggle = true;
   $('.hide-menu-icon').click(() => {
       if(menu_toggle) {
