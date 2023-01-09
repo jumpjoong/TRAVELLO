@@ -1,4 +1,15 @@
 $().ready(function() {
+  //맨 왼쪽 글씨 색 변경
+  const test = document.querySelector('.section02')
+  const elTra = document.querySelector('#tra > a')
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset - test.offsetTop + 75 > 0) {
+      elTra.style.color = 'black'
+      console.log(window.pageYOffset - test.offsetTop)
+    } else if (window.pageYOffset - test.offsetTop + 75 < 0) {
+      elTra.style.color = 'white'
+    }
+  })
   var menu_toggle = true;
   $('.hide-menu-icon').click(() => {
       if(menu_toggle) {
@@ -109,10 +120,28 @@ function init (a) {
                       <div class="text">
                         <p class="title">${a[countryKey].place[key].title}</p>
                         <p class="detail">${a[countryKey].place[key].detail}</p>
-                        <a class="more" href="">more</a>
+                        <a><p class="more">more</p></a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
+    //popup창
+    const elBtn = document.querySelector('.more')
+    const elPopup = document.querySelector('.popup')
+    var target = $(".popup")
 
+    elBtn.addEventListener('click', () => {
+      elPopup.innerHTML = `<figure>
+      <img src="${a[countryKey].place[key].url}" alt="${a[countryKey].place[key].title}의 지역">
+      <figcaption>
+      <p>${a[countryKey].place[key].detail}</p>
+      </figcaption>
+      </figure>`
+      elPopup.classList.add('block')
+    })
+    $(elPopup).mouseup('click', function(e)  {
+      if(target.has(e.target).length==0) {
+        elPopup.classList.remove('block');
+      }
+    })
     
     // section 03
     const elSec03Title = document.querySelector('.section03 > div h2');

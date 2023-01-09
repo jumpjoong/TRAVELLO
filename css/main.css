@@ -173,13 +173,15 @@ main .swi .swiper {
   height: 100%;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide {
-  height: 90%;
+  height: 320px;
   font-size: 18px;
   display: flex;
   justify-content: center;
+
   filter: grayscale(80%);
   margin-top: 570px;
   align-items: flex-end;
+
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
   display: inline-block;
