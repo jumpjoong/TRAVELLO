@@ -68,9 +68,12 @@
 }
 
 a {
+  display: inline-block;
+}
+a > p {
   color: #88ce02;
   text-decoration: none;
 }
-a:hover {
+a > p:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=slider.css.map */
