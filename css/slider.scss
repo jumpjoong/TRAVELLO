@@ -82,9 +82,12 @@
 }
 
 a {
-  color: #88ce02;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
+  display: inline-block;
+  > p {
+    color: #88ce02;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
