@@ -56,7 +56,6 @@ const swiper = new Swiper(".mySwiper", {
         txtMain2.innerHTML = `${txt[e.realIndex][1]}`;
         txtM.classList.add("active");
       }, 1000);
-      //console.log(e.realIndex)
     },
   },
   breakpoints: {
@@ -113,7 +112,6 @@ const test = [
 
 contry.forEach(function(btn, key){
   btn.onclick = function(e) {
-    console.log(this.dataset.swiperSlideIndex)
     // e.preventDefault();
     localStorage.setItem('num', this.dataset.swiperSlideIndex)
   }
