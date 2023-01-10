@@ -301,7 +301,6 @@ html {
 
 .hide-menu #tra {
   float: left;
-  padding: 25px 0 0 25px;
   font-family: "Righteous", cursive;
 }
 .hide-menu #tra a {
@@ -310,8 +309,8 @@ html {
 }
 
 .hide-menu a {
-  color: black;
-  font-weight: 600;
+  color: white;
+  font-weight: 400;
 }
 
 .hide-menu-icon {
@@ -325,6 +324,9 @@ html {
   transition: 750ms ease;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+}
+.hide-menu-icon img {
+  filter: invert(100);
 }
 
 .hide-menu-icon:hover {
@@ -344,7 +346,6 @@ html {
   padding: 10px;
   /* border: 1px solid #000; */
   border-bottom: 0px;
-  background-color: #4fc3f7;
   border-bottom: 1px solid #eee;
 }
 
@@ -362,10 +363,6 @@ html {
 
 .hide-menu .menu li:last-child {
   border-radius: 0 0 10px 10px;
-}
-
-.hide-menu .menu li:hover {
-  background-color: #1c80b8;
 }
 
 .hide-menu .menu li ul {

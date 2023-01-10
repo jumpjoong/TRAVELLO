@@ -269,6 +269,23 @@ body {
           border-radius: 20px;
         }
       }
+      // 가로 스크롤 관련 css
+      // .section04-img {
+      //   display: flex;
+      //   justify-content: space-between;
+      //   margin: 80px 0 40px;
+      //   height: 200px;
+      //   overflow-x: scroll;
+      //   overflow-y: hidden;
+      //   white-space: nowrap;
+      //   width: 100%;
+      //   img {
+      //     // width: 22%;
+      //     width: 100%;
+      //     border-radius: 20px;
+      //     margin-right: 2.5rem;
+      //   }
+      // }
       .section04-info {
         margin-bottom: 80px;
         p {
@@ -313,7 +330,6 @@ html {
 }
 .hide-menu #tra {
   float: left;
-  padding: 25px 0 0 25px;
   font-family: "Righteous", cursive;
   a {
     text-decoration: none;
@@ -321,8 +337,8 @@ html {
   }
 }
 .hide-menu a {
-  color: black;
-  font-weight: 600;
+  color: white;
+  font-weight: 400;
 }
 
 .hide-menu-icon {
@@ -336,6 +352,9 @@ html {
   transition: 750ms ease;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+  img{
+    filter: invert(100);
+  }
 }
 
 .hide-menu-icon:hover {
@@ -355,7 +374,7 @@ html {
   padding: 10px;
   /* border: 1px solid #000; */
   border-bottom: 0px;
-  background-color: #4fc3f7;
+  // background-color: #4fc3f7;
   border-bottom: 1px solid #eee;
 }
 .hide-menu .menu {
@@ -371,7 +390,7 @@ html {
   border-radius: 0 0 10px 10px;
 }
 .hide-menu .menu li:hover {
-  background-color: #1c80b8;
+  // background-color: #1c80b8;
 }
 
 .hide-menu .menu li ul {
