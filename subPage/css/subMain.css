@@ -24,6 +24,7 @@ body .block figure {
   background-color: white;
   padding: 71px 0px;
   height: 90vh;
+  border-radius: 50px;
 }
 body .block figure img:nth-of-type(1) {
   position: absolute;
@@ -110,9 +111,20 @@ body .section02 .section02-contain .text .detail {
   color: rgb(63, 63, 63);
   line-height: 1.8;
 }
+body .section02 .section02-contain .text a {
+  position: relative;
+}
 body .section02 .section02-contain .text .more {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
   text-align: left;
   cursor: pointer;
+  transition: 0.5s;
+}
+body .section02 .section02-contain .text .more:hover {
+  background-color: #000;
+  color: rgb(172, 166, 166);
 }
 body .set-border {
   border: 3px solid #4fc3f7 !important;
