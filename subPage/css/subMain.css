@@ -288,6 +288,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 1 !important;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  transform: translateY(11%) !important;
+}
+
+
 .hidden {
   display: none;
 }
@@ -322,22 +331,23 @@ html {
   right: 25px;
   display: block;
   transition: 750ms ease;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.253);
   border-radius: 10px;
 }
+
 .hide-menu-icon img {
   filter: invert(100);
 }
-
 .hide-menu-icon:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #63c6ff;
+
 }
 
 .hide-menu .hide-menu-wrapper {
   position: relative;
   position: fixed;
-  top: 73px;
-  right: 30px;
+  top: 82px;
+  right: 26px;
   display: flex;
   justify-content: flex-end;
 }
@@ -355,6 +365,7 @@ html {
 
 .hide-menu .menu li {
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.253);
 }
 
 .hide-menu .menu li:first-child {
@@ -363,6 +374,15 @@ html {
 
 .hide-menu .menu li:last-child {
   border-radius: 0 0 10px 10px;
+}
+
+.hide-menu .menu li:hover {
+  background-color: white;
+}
+
+.hide-menu .menu li:hover a {
+  color: #63c6ff;
+  text-decoration: none;
 }
 
 .hide-menu .menu li ul {
