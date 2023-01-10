@@ -138,63 +138,63 @@ body .section02 .section02-contain .text .more:hover {
   background-color: #000;
   color: rgb(172, 166, 166);
 }
-body .set-border {
+
+.set-border {
   border: 3px solid #4fc3f7 !important;
 }
-body .section03 {
+
+.section03 {
   padding: 5%;
   width: 100%;
 }
-body .section03 .section03-content-btn button {
+.section03 .section03-content-btn button {
   margin: 20px 15px 0px;
   width: 22%;
   height: 100px;
   border-radius: 30px;
   border: 1px solid #000;
   box-shadow: 0px 8px 20px 0px lightgrey;
-  transition: 0.5s;
 }
-body .section03 .section03-content-btn button:hover {
-  transform: scale(0.9);
-  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+.section03 .section03-content-btn button:hover {
   box-shadow: 0px 0px 0px 0px;
   border: 1px solid #4fc3f7;
 }
-body .section03 .section03-contain {
+.section03 .section03-contain {
   display: flex;
   justify-content: flex-end;
 }
-body .section03 .section03-contain .text,
-body .section03 .section03-contain .more {
+.section03 .section03-contain .text,
+.section03 .section03-contain .more {
   text-align: left;
 }
-body .section04 {
+
+.section04 {
   width: 100%;
   margin-bottom: 80px;
 }
-body .section04 .section04-contain {
+.section04 .section04-contain {
   max-width: 1400px;
   margin: 0 auto;
 }
-body .section04 .section04-contain .section04-text {
+.section04 .section04-contain .section04-text {
   margin-bottom: 80px;
 }
-body .section04 .section04-contain .section04-text h2 {
+.section04 .section04-contain .section04-text h2 {
   text-align: left;
   font-size: 2.8rem;
 }
-body .section04 .section04-contain .section04-text h2 span {
+.section04 .section04-contain .section04-text h2 span {
   border-bottom: 4px solid black;
 }
-body .section04 .section04-contain .section04-line {
+.section04 .section04-contain .section04-line {
   position: relative;
   margin-bottom: 80px;
 }
-body .section04 .section04-contain .section04-line > div {
+.section04 .section04-contain .section04-line > div {
   transition: 0.5s;
   vertical-align: middle;
 }
-body .section04 .section04-contain .section04-line > div:nth-of-type(1) {
+.section04 .section04-contain .section04-line > div:nth-of-type(1) {
   position: absolute;
   z-index: -5;
   background-color: #4fc3f7;
@@ -205,11 +205,11 @@ body .section04 .section04-contain .section04-line > div:nth-of-type(1) {
   left: 8%;
   transform: translate(0%, -50%);
 }
-body .section04 .section04-contain .section04-line > div:nth-of-type(2) {
+.section04 .section04-contain .section04-line > div:nth-of-type(2) {
   display: flex;
   justify-content: space-around;
 }
-body .section04 .section04-contain .section04-line > div:nth-of-type(2)::after {
+.section04 .section04-contain .section04-line > div:nth-of-type(2)::after {
   content: "";
   display: block;
   position: absolute;
@@ -220,7 +220,7 @@ body .section04 .section04-contain .section04-line > div:nth-of-type(2)::after {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-body .section04 .section04-contain .section04-line > div .section04-number {
+.section04 .section04-contain .section04-line > div .section04-number {
   width: 50px;
   height: 50px;
   border: 1px solid black;
@@ -230,7 +230,7 @@ body .section04 .section04-contain .section04-line > div .section04-number {
   line-height: 50px;
   cursor: pointer;
 }
-body .section04 .section04-contain .section04-line > div .section04-number {
+.section04 .section04-contain .section04-line > div .section04-number {
   width: 50px;
   height: 50px;
   border: 1px solid black;
@@ -240,80 +240,81 @@ body .section04 .section04-contain .section04-line > div .section04-number {
   line-height: 50px;
   cursor: pointer;
 }
-body .section04 .section04-contain .section04-box {
+.section04 .section04-contain .section04-box {
   border: 1px solid black;
   border-radius: 30px;
   box-shadow: 12px 12px 25px 12px lightgrey;
 }
-body .section04 .section04-contain .section04-box > div {
+.section04 .section04-contain .section04-box > div {
   width: 90%;
   margin: 0 auto;
 }
-body .section04 .section04-contain .section04-box .section04-img {
+.section04 .section04-contain .section04-box .section04-img {
   display: flex;
   justify-content: space-between;
   margin: 80px 0 40px;
   height: 200px;
 }
-body .section04 .section04-contain .section04-box .section04-img img {
+.section04 .section04-contain .section04-box .section04-img img {
   width: 22%;
   border-radius: 20px;
 }
-body .section04 .section04-contain .section04-box .section04-info {
+.section04 .section04-contain .section04-box .section04-info {
   margin-bottom: 80px;
 }
-body .section04 .section04-contain .section04-box .section04-info p {
+.section04 .section04-contain .section04-box .section04-info p {
   text-align: left;
   line-height: 24px;
   margin-bottom: 20px;
 }
-body .section04 .section04-contain .section04-box .section04-info div {
+.section04 .section04-contain .section04-box .section04-info div {
   display: flex;
 }
-body .section04 .section04-contain .section04-box .section04-info div p::before {
+.section04 .section04-contain .section04-box .section04-info div p::before {
   content: "";
   border: 1px solid black;
   opacity: 0.3;
   margin: 0 10px;
 }
-body .section04 .section04-contain .section04-box .section04-info div img {
+.section04 .section04-contain .section04-box .section04-info div img {
   width: 24px;
   height: 24px;
 }
-body .section04 .section04-contain .section04-box .section04-info div img:nth-of-type(2) {
+.section04 .section04-contain .section04-box .section04-info div img:nth-of-type(2) {
   margin-left: 30px;
 }
-body html {
+
+html {
   scroll-behavior: smooth;
 }
-body .swiper-button-next.swiper-button-disabled, body .swiper-button-prev.swiper-button-disabled {
-  opacity: 1 !important;
-}
-body .swiper-button-next:after, body .swiper-rtl .swiper-button-prev:after {
-  transform: translateY(11%) !important;
-}
-body .hidden {
+
+.hidden {
   display: none;
 }
-body .hide-menu {
+
+.hide-menu {
   width: 100%;
   height: 5rem;
   position: fixed;
   z-index: 99;
 }
-body .hide-menu #tra {
+
+.hide-menu #tra {
   float: left;
+  padding: 25px 0 0 25px;
   font-family: "Righteous", cursive;
 }
-body .hide-menu #tra a {
+.hide-menu #tra a {
   text-decoration: none;
   color: #fff;
 }
-body .hide-menu a {
-  color: white;
-  font-weight: 400;
+
+.hide-menu a {
+  color: black;
+  font-weight: 600;
 }
-body .hide-menu-icon {
+
+.hide-menu-icon {
   width: 48px;
   height: 48px;
   cursor: pointer;
@@ -322,59 +323,64 @@ body .hide-menu-icon {
   right: 25px;
   display: block;
   transition: 750ms ease;
-  background-color: rgba(0, 0, 0, 0.253);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
 }
-body .hide-menu-icon img {
-  filter: invert(100);
+
+.hide-menu-icon:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
-body .hide-menu-icon:hover {
-  background-color: #63c6ff;
-}
-body .hide-menu .hide-menu-wrapper {
+
+.hide-menu .hide-menu-wrapper {
   position: relative;
   position: fixed;
-  top: 82px;
-  right: 26px;
+  top: 73px;
+  right: 30px;
   display: flex;
   justify-content: flex-end;
 }
-body .hide-menu div ul li {
+
+.hide-menu div ul li {
   padding: 10px;
   /* border: 1px solid #000; */
   border-bottom: 0px;
+  background-color: #4fc3f7;
   border-bottom: 1px solid #eee;
 }
-body .hide-menu .menu {
+
+.hide-menu .menu {
   width: 150px;
 }
-body .hide-menu .menu li {
+
+.hide-menu .menu li {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.253);
 }
-body .hide-menu .menu li:first-child {
+
+.hide-menu .menu li:first-child {
   border-radius: 10px 10px 0 0;
 }
-body .hide-menu .menu li:last-child {
+
+.hide-menu .menu li:last-child {
   border-radius: 0 0 10px 10px;
 }
-body .hide-menu .menu li:hover {
-  background-color: white;
+
+.hide-menu .menu li:hover {
+  background-color: #1c80b8;
 }
-body .hide-menu .menu li:hover a {
-  color: #63c6ff;
-  text-decoration: none;
-}
-body .hide-menu .menu li ul {
+
+.hide-menu .menu li ul {
   display: none;
 }
-body .hide-menu div ul li ul li {
+
+.hide-menu div ul li ul li {
   border-bottom: 0px;
 }
-body .hide-menu div ul li ul li:last-child {
+
+.hide-menu div ul li ul li:last-child {
   border-bottom: 1px solid #000;
 }
-body .go-top-btn {
+
+.go-top-btn {
   width: 48px;
   height: 48px;
   position: fixed;
@@ -384,10 +390,12 @@ body .go-top-btn {
   border-radius: 50%;
   cursor: pointer;
 }
-body .go-top-btn:hover {
+
+.go-top-btn:hover {
   background-color: #1c80b8;
 }
-body .go-top-btn p {
+
+.go-top-btn p {
   width: 48px;
   height: 48px;
   margin: auto 0px;
