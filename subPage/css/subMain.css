@@ -16,22 +16,36 @@ body .block {
 }
 body .block figure {
   transform: translate(-50%, -50%);
-  width: 69.27083%;
+  width: 40vw;
   top: 50%;
   left: 50%;
   position: absolute;
   z-index: 9999;
   background-color: white;
   padding: 71px 0px;
+  height: 90vh;
+  border-radius: 50px;
 }
-body .block figure img {
-  width: 87.5187%;
+body .block figure img:nth-of-type(1) {
+  position: absolute;
+  z-index: 99999;
+  width: 50px;
+  height: 50px;
+  right: 3%;
+  top: 3%;
+  cursor: pointer;
+}
+body .block figure img:nth-of-type(2) {
+  width: 30vw;
+  height: 40vh;
   border-radius: 25px;
   margin: 0 auto 71px;
 }
 body .block figure figcaption {
-  width: 87.5187%;
+  width: 80.5187%;
   margin: 0 auto;
+  height: 30vh;
+  overflow-y: scroll;
 }
 body .section01 .section01-slide .section01-contain {
   width: 100vw;
@@ -97,9 +111,20 @@ body .section02 .section02-contain .text .detail {
   color: rgb(63, 63, 63);
   line-height: 1.8;
 }
+body .section02 .section02-contain .text a {
+  position: relative;
+}
 body .section02 .section02-contain .text .more {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
   text-align: left;
   cursor: pointer;
+  transition: 0.5s;
+}
+body .section02 .section02-contain .text .more:hover {
+  background-color: #000;
+  color: rgb(172, 166, 166);
 }
 body .set-border {
   border: 3px solid #4fc3f7 !important;

@@ -190,7 +190,9 @@ main .swi .swiper .swiper-wrapper .swiper-slide {
   justify-content: center;
   filter: grayscale(80%);
   align-items: flex-end;
+
   top: 63%;
+
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
   display: inline-block;
