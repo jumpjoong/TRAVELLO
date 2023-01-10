@@ -120,9 +120,7 @@ function init (a) {
                       <div class="text">
                         <p class="title">${a[countryKey].place[key].title}</p>
                         <p class="detail">${a[countryKey].place[key].detail}</p>
-                        <a>
-                          <p class="more">more</p>
-                        </a>
+                        <a><p class="more">more</p></a>
                       </div>`;
                       // console.log(a[countryKey].place[key].lodging[key].img_url)
     //popup창
