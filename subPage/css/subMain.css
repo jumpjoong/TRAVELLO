@@ -274,7 +274,20 @@ body .section04 .section04-contain .section04-box .section04-info div img:nth-of
 body html {
   scroll-behavior: smooth;
 }
+<<<<<<< Updated upstream
 body .hidden {
+=======
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 1 !important;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  transform: translateY(11%) !important;
+}
+
+.hidden {
+>>>>>>> Stashed changes
   display: none;
 }
 body .hide-menu {
@@ -305,17 +318,26 @@ body .hide-menu-icon {
   right: 25px;
   display: block;
   transition: 750ms ease;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.253);
   border-radius: 10px;
 }
+<<<<<<< Updated upstream
 body .hide-menu-icon:hover {
   background-color: rgba(255, 255, 255, 0.8);
+=======
+.hide-menu-icon img {
+  filter: invert(100);
+}
+
+.hide-menu-icon:hover {
+  background-color: #63c6ff;
+>>>>>>> Stashed changes
 }
 body .hide-menu .hide-menu-wrapper {
   position: relative;
   position: fixed;
-  top: 73px;
-  right: 30px;
+  top: 82px;
+  right: 26px;
   display: flex;
   justify-content: flex-end;
 }
@@ -331,6 +353,7 @@ body .hide-menu .menu {
 }
 body .hide-menu .menu li {
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.253);
 }
 body .hide-menu .menu li:first-child {
   border-radius: 10px 10px 0 0;
@@ -338,10 +361,24 @@ body .hide-menu .menu li:first-child {
 body .hide-menu .menu li:last-child {
   border-radius: 0 0 10px 10px;
 }
+<<<<<<< Updated upstream
 body .hide-menu .menu li:hover {
   background-color: #1c80b8;
 }
 body .hide-menu .menu li ul {
+=======
+
+.hide-menu .menu li:hover {
+  background-color: white;
+}
+
+.hide-menu .menu li:hover a {
+  color: #63c6ff;
+  text-decoration: none;
+}
+
+.hide-menu .menu li ul {
+>>>>>>> Stashed changes
   display: none;
 }
 body .hide-menu div ul li ul li {
