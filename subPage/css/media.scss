@@ -28,3 +28,23 @@
     }
   }
 }
+@media screen and (max-width: 898px ) {
+  body {
+    .section02 {
+      .section02-contain {
+        display: block;
+        .text {
+          margin: 0 auto;
+          text-align: center;
+          .title {
+            margin: 40px auto;
+            text-align: center;
+          }
+          .more {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

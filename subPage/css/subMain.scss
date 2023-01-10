@@ -14,21 +14,37 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     figure {
       transform: translate(-50%, -50%);
-      width: 69.27083%;
+      width: 40vw;
       top: 50%;
       left: 50%;
       position: absolute;
       z-index: 9999;
       background-color: white;
       padding: 71px 0px;
+      height: 90vh;
+      border-radius: 50px;
       img {
-        width: 87.5187%;
-        border-radius: 25px;
-        margin: 0 auto 71px;
+        &:nth-of-type(1) {
+          position: absolute;
+          z-index: 99999;
+          width: 50px;
+          height: 50px;
+          right: 3%;
+          top: 3%;
+          cursor: pointer;
+        }
+        &:nth-of-type(2) {
+          width: 30vw;
+          height: 40vh;
+          border-radius: 25px;
+          margin: 0 auto 71px;
+        }
       }
       figcaption {
-        width: 87.5187%;
+        width: 80.5187%;
         margin: 0 auto;
+        height: 30vh;
+        overflow-y: scroll;
       }
     }
   }
@@ -96,13 +112,24 @@ body {
           display: -webkit-box; // 6줄 이상부터 ...으로 나타내기
           -webkit-line-clamp: 6;
           -webkit-box-orient: vertical;
-          margin-bottom: 80px;
+          margin-bottom: 40px;
           color: rgb(63, 63, 63);
           line-height: 1.8;
         }
+        a {
+          position: relative;
+        }
         .more {
+          border: 1px solid black;
+          border-radius: 5px;
+          padding: 10px 20px;
           text-align: left;
           cursor: pointer;
+          transition: 0.5s;
+          &:hover {
+            background-color: #000;
+            color: rgb(172, 166, 166);
+          }
         }
       }
     }
