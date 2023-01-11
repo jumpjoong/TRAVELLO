@@ -227,15 +227,23 @@ $().ready(function() {
           // elsec04Line[2].style.width = '100%'
           if(n==0){
             elsec04Line.style.width='10%'
+            elsec04Num[1].classList.remove('sec04btn-selected');
+            elsec04Num[2].classList.remove('sec04btn-selected');
           }else if(n==1){
             elsec04Line.style.width='42%'
+            elsec04Num[0].classList.remove('sec04btn-selected');
+            elsec04Num[2].classList.remove('sec04btn-selected');
           }else{
             elsec04Line.style.width='82%'
+            elsec04Num[0].classList.remove('sec04btn-selected');
+            elsec04Num[1].classList.remove('sec04btn-selected');
           }
+          elsec04Num[n].classList.add('sec04btn-selected');
         })
       })
       //
       function image(n){ 
+        elsec04Num[n].classList.add('sec04btn-selected');
         var exhtml = '';
         try{
           elSec04Text.innerHTML = `<h2>여기는 &nbsp&nbsp<span>${a[countryKey].place[key].lodging[n].title}</span>&nbsp 입니다.<h2>`
@@ -254,7 +262,6 @@ $().ready(function() {
         }catch{}
         elSec04Img.innerHTML = ''
         var checkSec04len = a[countryKey].place[key].lodging[n].img_url.length;
-        console.log("checkSec04len :", checkSec04len);
 
         for(i=0;i<checkSec04len;i++){
           elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
