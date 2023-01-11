@@ -168,6 +168,14 @@
   line-height: 50px;
   cursor: pointer;
 }
+.section04 .section04-contain .section04-line .sec04btn-selected {
+  border: 3px solid #4fc3f7 !important;
+}
+.section04 .section04-contain .section04-line .sec04btn-selected p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #4fc3f7;
+}
 .section04 .section04-contain .section04-box {
   border: 1px solid black;
   border-radius: 30px;
