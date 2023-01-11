@@ -6,7 +6,7 @@
 }
 
 .cards {
-  position: absolute;
+  position: absolute; 
   width: 14rem;
   height: 18rem;
   top: 40%;
@@ -82,12 +82,9 @@
 }
 
 a {
-  display: inline-block;
-  > p {
-    color: #88ce02;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
+  color: #88ce02;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
 }
