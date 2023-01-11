@@ -82,6 +82,10 @@
     opacity: 0;
   }
 }
+@font-face {
+  src: url("../font/Righteous-Regular.woff");
+  font-family: "Righteous";
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -98,22 +102,39 @@ header .header-center {
 }
 header .header-center h1 {
   text-align: left;
-  margin: 20px 40px;
+  margin: 23px 40px;
   font-size: 40px;
   font-weight: 400;
   line-height: 90px;
   color: #fff;
+}
+header .header-center h1 a {
+  font-family: "Righteous";
 }
 
 main {
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
+}
+main .videomom {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .videomom video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main .center {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  top: 40%;
+  transform: translate(-50%, -50%);
   z-index: 999;
   color: #fff;
 }
@@ -129,14 +150,10 @@ main .center .text h2 {
   transition: opacity 1s, transform 1s;
   font-size: 72px;
 }
-main .center .text h2:nth-child(1) {
-  padding-top: 287px;
-}
 main .center .text .text-sub p {
   transform: translateY(100%);
   opacity: 0;
   transition: opacity 1s, transform 1s;
-  transition-delay: 0.3s;
   margin: 0 auto;
 }
 main .center .text .text-sub p:nth-of-type(1) {
@@ -154,7 +171,7 @@ main .center .text.active h2 {
   opacity: 1;
 }
 main .center .text.active .text-sub p {
-  transform: translateY(0%);
+  transform: translateY(-20%);
   opacity: 1;
 }
 main .swi {
@@ -167,12 +184,13 @@ main .swi .swiper {
   height: 100%;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide {
-  height: 90%;
+  height: 320px;
   font-size: 18px;
   display: flex;
   justify-content: center;
-  filter: grayscale(60%);
+  filter: grayscale(80%);
   align-items: flex-end;
+  top: 63%;
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .swiper-inner {
   display: inline-block;
@@ -190,7 +208,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country01 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/BRA/brazil_place_01.jpeg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/BRA/brazil.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
   width: 99%;
@@ -200,7 +218,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/TUR/tur_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/TUR/turtur.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
   width: 99%;
@@ -210,7 +228,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/CHE/che_place_01.png"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/CHE/swiss.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
   width: 99%;
@@ -220,7 +238,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/VNM/vietnam_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/VNM/vietnam.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
   width: 99%;
@@ -230,7 +248,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/CAN/can_place_02.png"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/CAN/canadatwo.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
   width: 99%;
@@ -240,7 +258,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/ISL/isl_place_01.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/ISL/islandtwo.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
   width: 99%;
@@ -250,7 +268,7 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: url("../img/ITA/ita_place_03.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/ITA/italia.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide-active {
   filter: none;
