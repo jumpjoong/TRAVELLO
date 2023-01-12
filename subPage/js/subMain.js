@@ -281,7 +281,19 @@ $().ready(function() {
       }
     }
     //section04 페이지 로드 시 이미지 불러오기
-    image(0);           
+    image(0);    
+      const elObserver = document.querySelectorAll('.observer'); 
+      let observer = new IntersectionObserver((ob)=>{
+        console.log('aaaaa')
+        ob.forEach((o)=>{
+          if(o.isIntersecting){
+            o.target.classList.add('on')
+          }else{
+            o.target.classList.remove('on')
+          }
+        })
+      })
+      elObserver.forEach(ob=>observer.observe(ob));          
   }  
   dataChange(0);
 
