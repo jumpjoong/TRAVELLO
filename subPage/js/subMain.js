@@ -112,7 +112,7 @@ $().ready(function() {
 
     countryImg.forEach((btn, key)=>{
       btn.innerHTML = `<img src="${a[countryKey].place[key].url}">
-      <p class="section01-text">${a[countryKey].place[key].titleEn}</p>`
+      <p class="section01-text">${a[countryKey].place[key].title_en}</p>`
     })
 
     //section02
