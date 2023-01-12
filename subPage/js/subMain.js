@@ -11,86 +11,91 @@ $().ready(function() {
     }
   })
   var menu_toggle = true;
-  $('.hide-menu-icon').click(() => {
-      if(menu_toggle) {
-          $('.menu').fadeOut(200, ()=> {
-              
-          }).fadeIn(200);
-          menu_toggle = !menu_toggle;
-          $('.hide-menu-icon img').fadeOut(200, () => {
-              $('.hide-menu-icon img').attr('src', '../svg/flight_takeoff.svg');
-          }).fadeIn(200);
-      } else {
-          $('.menu').fadeIn(200, ()=> {
+  $(".hide-menu-icon").click(() => {
+    if (menu_toggle) {
+      $(".menu")
+        .fadeOut(200, () => {})
+        .fadeIn(200);
+      menu_toggle = !menu_toggle;
+      $(".hide-menu-icon img")
+        .fadeOut(200, () => {
+          $(".hide-menu-icon img").attr("src", "../svg/flight_takeoff.svg");
+        })
+        .fadeIn(200);
+    } else {
+      $(".menu")
+        .fadeIn(200, () => {})
+        .fadeOut(200);
+      menu_toggle = !menu_toggle;
+      $(".hide-menu-icon img")
+        .fadeOut(200, () => {
+          $(".hide-menu-icon img").attr("src", "../svg/flight_land.svg");
+        })
+        .fadeIn(400);
+    }
+  });
 
-          }).fadeOut(200);
-          menu_toggle = !menu_toggle;
-          $('.hide-menu-icon img').fadeOut(200, () => {
-              $('.hide-menu-icon img').attr('src', '../svg/flight_land.svg');
-          }).fadeIn(400);
-      }
-  })
-
-  var data = '';
-  var html = '';
+  var data = "";
+  var html = "";
 
   //json
-  fetch('../resource/data.json')
-  .then(function(res) {return res.json()})
-  .then(function(abc) {
-    init(abc.data)
-  })
+  fetch("../resource/data.json")
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function (abc) {
+      init(abc.data);
+    });
 
 
   //로컬스트로지 값 받오는 변수
   let countryKey = localStorage.getItem('num');
 
-  //구글 맵
-  // let contryGps = [
-  //   {
-  //     "contry": "brazil",
-  //     "url" : { lat: -14.142426 ,lng: -53.104981 },
-  //   },
-  //   {
-  //     "contry": "canada",
-  //     "url" : { lat: 56.00000 ,lng: -96.00000 },
-  //   },
-  //   {
-  //     "contry": "switzerland",
-  //     "url" : { lat: 46.584747 ,lng: 8.132716 },
-  //   },
-  //   {
-  //     "contry": "italy",
-  //     "url" : { lat: 41.173286 ,lng: 12.342500 },
-  //   },
-  //   {
-  //     "contry": "mongolia",
-  //     "url" : { lat: 46.515439 ,lng: 103.50522 },
-  //   },
-  //   {
-  //     "contry": "turkey",
-  //     "url" : { lat: 38.572643 ,lng: 35.142667 },
-  //   },
-  //   {
-  //     "contry": " vietnam",
-  //     "url" : { lat: 15.541102 ,lng: 105.482409 }
-  //   }
-  // ]
-  // function initMap() {
-  //   var map = new google.maps.Map(
-  //     document.querySelector('.maps'), {
-  //       zoom: 5,
-  //       center: contryGps[contryKey].url
-  //     }
-  //   );
-  // }
-  //큰 제목
-  window.addEventListener('load',()=>{
-    setTimeout(()=>{
-      window.scrollTo(0,0);
-    },50)
-
-  });
+    //구글 맵
+    // let contryGps = [
+    //   {
+    //     "contry": "brazil",
+    //     "url" : { lat: -14.142426 ,lng: -53.104981 },
+    //   },
+    //   {
+    //     "contry": "canada",
+    //     "url" : { lat: 56.00000 ,lng: -96.00000 },
+    //   },
+    //   {
+    //     "contry": "switzerland",
+    //     "url" : { lat: 46.584747 ,lng: 8.132716 },
+    //   },
+    //   {
+    //     "contry": "italy",
+    //     "url" : { lat: 41.173286 ,lng: 12.342500 },
+    //   },
+    //   {
+    //     "contry": "mongolia",
+    //     "url" : { lat: 46.515439 ,lng: 103.50522 },
+    //   },
+    //   {
+    //     "contry": "turkey",
+    //     "url" : { lat: 38.572643 ,lng: 35.142667 },
+    //   },
+    //   {
+    //     "contry": " vietnam",
+    //     "url" : { lat: 15.541102 ,lng: 105.482409 }
+    //   }
+    // ]
+    // function initMap() {
+    //   var map = new google.maps.Map(
+    //     document.querySelector('.maps'), {
+    //       zoom: 5,
+    //       center: contryGps[contryKey].url
+    //     }
+    //   );
+    // }
+    //큰 제목
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 50);
+    });
 
   function init (a) {
     // this.a = a;
@@ -107,7 +112,7 @@ $().ready(function() {
 
     countryImg.forEach((btn, key)=>{
       btn.innerHTML = `<img src="${a[countryKey].place[key].url}">
-      <p class="section01-text">${a[countryKey].place[key].titleEn}</p>`
+      <p class="section01-text">${a[countryKey].place[key].title_en}</p>`
     })
 
   //section02
@@ -186,30 +191,30 @@ $().ready(function() {
             break;
         }
 
-        // html 설정
-        var html_text = '';
-        elSec03Title.innerHTML = `<h2>여기는 "<span class="point-color">${a[countryKey].place[key].food[i].title}</span>" 입니다.</h2>`;
-        elSec03Text.innerHTML = `${a[countryKey].place[key].food[i].detail}`;
-        var len = a[countryKey].place[key].food[i].img_url.length;
-        for(let n=0; n<len; n++) {
-          html_text += `<div style="`
-            + `background-image: url('`
-            + `${a[countryKey].place[key].food[i].img_url[n]}`
-            + `');"></div>`;
-        }
-        elSec03Imgs.innerHTML = html_text;
-        // border주는 class 초기화
-        for(let n=0; n<elSec03Btns.length; n++) {
-          elSec03Btns[n].classList.remove('set-border');
-        }
-        elSec03Btns[i].classList.add('set-border');
-        for(let n=0; n<elSec03Btns.length; n++) {
-          elSec03Btns[n].style.backgroundImage = `url(${a[countryKey].place[key].food[n].img_url[0]})`;
-          elSec03Btns[n].style.backgroundSize = 'cover';
-          elSec03Btns[n].style.backgroundRepeat = 'no-repeat';
-        }
+      // html 설정
+      var html_text = '';
+      elSec03Title.innerHTML = `<h2>여기는 "<span class="point-color">${a[countryKey].place[key].food[i].title}</span>" 입니다.</h2>`;
+      elSec03Text.innerHTML = `${a[countryKey].place[key].food[i].detail}`;
+      var len = a[countryKey].place[key].food[i].img_url.length;
+      for(let n=0; n<len; n++) {
+        html_text += `<div style="`
+          + `background-image: url('`
+          + `${a[countryKey].place[key].food[i].img_url[n]}`
+          + `');"></div>`;
       }
-      setSection03Content(0);
+      elSec03Imgs.innerHTML = html_text;
+      // border주는 class 초기화
+      for(let n=0; n<elSec03Btns.length; n++) {
+        elSec03Btns[n].classList.remove('set-border');
+      }
+      elSec03Btns[i].classList.add('set-border');
+      for(let n=0; n<elSec03Btns.length; n++) {
+        elSec03Btns[n].style.backgroundImage = `url(${a[countryKey].place[key].food[n].img_url[0]})`;
+        elSec03Btns[n].style.backgroundSize = 'cover';
+        elSec03Btns[n].style.backgroundRepeat = 'no-repeat';
+      }
+    }
+    setSection03Content(0);
 
       //section04 클릭 시 이미지 추가
       const elSec04Text = document.querySelector('.section04-text'),
@@ -266,49 +271,50 @@ $().ready(function() {
         for(i=0;i<checkSec04len;i++){
           elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
         }
-        // 해당 영역 가로 스크롤 가능하게
-        // $('.section04-img').mousewheel((event, delta)=>{
-        //   console.log($('.section04-img').scrollLeft);
-        //   $('.section04-img').scrollLeft -= (delta*30);
-        //   event.preventDefault();
-        // });
-
+        exhtml += `</div>`;
+                              
+        elInfo.innerHTML = exhtml;
+      }catch{}
+      elSec04Img.innerHTML = ''
+      for(i=0;i<4;i++){
+        elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
       }
-      //section04 페이지 로드 시 이미지 불러오기
-      image(0);           
-    }  
-    dataChange(0);
+    }
+    //section04 페이지 로드 시 이미지 불러오기
+    image(0);           
+  }  
+  dataChange(0);
 
-    //section1 슬라이드
-    var swiper = new Swiper(".mySwiper", {
-      speed: 1000,
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      on:{
-        slideChange:function(e){
-          dataChange(e.realIndex);
-        }
+  //section1 슬라이드
+  var swiper = new Swiper(".mySwiper", {
+    speed: 1000,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    on:{
+      slideChange:function(e){
+        dataChange(e.realIndex);
       }
-    });
+    }
+  });
 
 
-    
-  const elLi = document.querySelectorAll('.menu-sub')
+  
+const elLi = document.querySelectorAll('.menu-sub')
 
-  elLi.forEach(function(btn, key) {
-    btn.addEventListener('click', ()=> {
-      event.preventDefault();
-      localStorage.setItem('num', key);
-      // init();
-      location.reload();
-    })
+elLi.forEach(function(btn, key) {
+  btn.addEventListener('click', ()=> {
+    event.preventDefault();
+    localStorage.setItem('num', key);
+    // init();
+    location.reload();
   })
-  }
+})
 
+
+}
 });
-
