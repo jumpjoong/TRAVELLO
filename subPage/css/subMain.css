@@ -143,6 +143,7 @@ body .section02 .section02-contain .text .detail {
   margin-bottom: 80px;
   color: rgb(63, 63, 63);
   line-height: 1.8;
+  font-family: "Pretendard-Regular";
 }
 body .section02 .section02-contain .text a {
   color: white;
@@ -192,6 +193,7 @@ body .section02 .section02-contain .text .more:hover {
 .section03 .section03-contain .text,
 .section03 .section03-contain .more {
   text-align: left;
+  font-family: "Pretendard-Regular";
 }
 
 .section04 {
