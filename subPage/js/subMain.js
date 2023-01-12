@@ -137,7 +137,8 @@ $().ready(function() {
         <figure>
           <img src="../img/close.png" alt="닫기" class="img012">
           <img src="${a[countryKey].place[key].url}" alt="${a[countryKey].place[key].title}의 지역">
-          <figcaption>
+          <h2>${a[countryKey].place[key].title}</h2>
+          <figcaption id="test">
             <p>${a[countryKey].place[key].detail}</p>
           </figcaption>
         </figure>`
@@ -264,16 +265,15 @@ $().ready(function() {
           exhtml += `</div>`;
                                 
           elInfo.innerHTML = exhtml;
-        }catch{}
-        elSec04Img.innerHTML = ''
-        var checkSec04len = a[countryKey].place[key].lodging[n].img_url.length;
+        // }catch{}
+        // elSec04Img.innerHTML = ''
+        // var checkSec04len = a[countryKey].place[key].lodging[n].img_url.length;
+        // for(i=0;i<checkSec04len;i++){
+        //   elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
+        // }
+        // exhtml += `</div>`;
+        // elInfo.innerHTML = exhtml;
 
-        for(i=0;i<checkSec04len;i++){
-          elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
-        }
-        exhtml += `</div>`;
-                              
-        elInfo.innerHTML = exhtml;
       }catch{}
       elSec04Img.innerHTML = ''
       for(i=0;i<4;i++){

@@ -1,5 +1,9 @@
 @import url('../font/Righteous-Regular.woff');
 
+@font-face{
+  src:url("../font/Righteous-Regular.woff");
+  font-family : "Righteous";
+ }
 #tra {
   font-family: "Righteous", cursive;
   a {
@@ -8,50 +12,6 @@
   }
 }
 
-@keyframes visualScale {
-  0% {
-    //transform:scaleX(-1), scaleY(-1);
-  }
-  /*50%{
-    transform:scaleX(2.2);
-  }*/
-  100% {
-    transform: scale(2.2);
-  }
-}
-@keyframes textVisual {
-  0% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes textVisual1 {
-  0% {
-    opacity: 0;
-    transform: translateY(30%);
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@font-face{
-  src:url("../font/Righteous-Regular.woff");
-  font-family : "Righteous";
- }
 body {
   width: 100vw;
   height: 100vh;
@@ -60,13 +20,12 @@ header {
   position: absolute;
   z-index: 999;
   width: 100%;
-  //border-bottom: 1px solid rgb(167, 167, 167);
   .header-center {
     text-align: center;
     height: 90px;
     h1 {
       text-align: left;
-      margin: 23px 40px;
+      margin: 20px 40px;
       font-size: 40px;
       font-weight: 400;
       line-height: 90px;
@@ -78,11 +37,9 @@ header {
   }
 }
 main {
-  //////////////////////////////////////////////////////////
   position: relative;
   width: 100%;
   height: 100vh;
-  //background-color: rgb(218, 218, 218);
   overflow:hidden;
   .videomom{
     width: 100%;
@@ -110,9 +67,6 @@ main {
         transition: opacity 1s, transform 1s;
         font-size: 72px;
         &:nth-child(1) {
-          // padding-top: 287px;
-          //padding-bottom:
-          //padding-top: 287px;
         }
       }
       .text-sub {
@@ -121,18 +75,13 @@ main {
           opacity: 0;
           transition: opacity 1s, transform 1s;
           margin: 0 auto;
-          // transition-delay: 0.3s;
-          &:nth-of-type(1) {
-            font-size: 40px;
-            margin-top: 8px;
-          }
+          font-size: 40px;
+          margin-top: 8px;
           &:nth-child(1)::after {
             content: "";
             margin-top: 3px;
             display: block;
             width: 100%;
-            //transform: translateX(-7.5%);
-            //border: 1px solid #fff;
           }
         }
       }
@@ -147,21 +96,15 @@ main {
     }
   }
   .swi {
-    //transition: 1s;
     width: 100%;
     height: 100vh;
     position: relative;
     .swiper {
-      //align-items: center;
-      //transition: 5s;
       width: 100%;
       height: 100%;
-      //overflow: hidden;
       .swiper-wrapper {
-        //height: 90%;
         .swiper-slide {
           height: 320px;
-          //text-align: center;
           font-size: 18px;
           display: flex;
           justify-content: center;
@@ -174,105 +117,53 @@ main {
             height: 320px;
             padding: 10px;
             border-radius: 110px;
-
             background-image: linear-gradient(to bottom, #fafafa, #e1e1e1);
           }
-          .country01 {
+          .country{
             width: 99%;
             height: 99%;
             border: 7px solid transparent;
             border-radius: 100px;
-
             background-size: cover;
             background-origin: border-box;
             background-clip: content-box, border-box;
+          }
+          .country01 {
             background-image: url("../img/BRA/brazil.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country02 {
-            width: 99%;
-            height: 99%;
-            border: 7px solid transparent;
-            border-radius: 100px;
-
-            background-size: cover;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
             background-image: url("../img/TUR/turtur.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country03 {
-            width: 99%;
-            height: 99%;
-            border: 7px solid transparent;
-            border-radius: 100px;
-
-            background-size: cover;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
             background-image: url("../img/CHE/swiss.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country04 {
-            width: 99%;
-            height: 99%;
-            border: 7px solid transparent;
-            border-radius: 100px;
-
-            background-size: cover;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
             background-image: url("../img/VNM/vietnam.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country05 {
-            width: 99%;
-            height: 99%;
-            border: 7px solid transparent;
-            border-radius: 100px;
-
-            background-size: cover;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
             background-image: url("../img/CAN/canadatwo.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country06 {
-            width: 99%;
-            height: 99%;
-            border: 7px solid transparent;
-            border-radius: 100px;
-
-            background-size: cover;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
             background-image: url("../img/ISL/islandtwo.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country07 {
-            width: 99%;
-            height: 99%;
-            border: 7px solid transparent;
-            border-radius: 100px;
-
-            background-size: cover;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
             background-image: url("../img/ITA/italia.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
         }
         & .swiper-slide-active {
           filter: none;
-          /*animation: visualScale 2s forwards;
-          z-index: 999;
-          padding-bottom: 60px;*/
         }
       }
     }
   }
 
-  //////////////////////////////////////////////////////////
   .next,
   .prev {
     width: 5%;
@@ -290,7 +181,6 @@ main {
       height: 300px;
       border: 7px solid transparent;
       border-radius: 100px;
-
       background-image: url("../img/BRA/brazil_place_02.jpg"),
         linear-gradient(to top, #fff, #ddd);
       background-size: cover;
