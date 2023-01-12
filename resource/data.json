@@ -509,7 +509,7 @@
                     "title":"융프라우 산",
                     "title_en":"Jungfrau",
                     "detail":"융프라우는 스위스 베른 알프스의 주요 고봉 중 하나로 해발 4,158m를 가진 봉우리이다. 베른 주의 북부와 발레 주의 남부 사이에, 인터라켄과 피쉬 사이에 위치해 있다. 베른 알프스에서 핀스터아어호른과 알레취호른에 이어 세 번째로 높은 산이지만, 툰 호수와 베른 주의 대부분에서 보면 베른 고원 봉우리 중에서 가장 눈에 띄고 가까운 봉우리이다. 융프라우 지역은 알프스 산맥의 주요 관광지이며 철도 및 기타 시설들이 다수 포함되어 있다. 베른의 라우터브루넨과 열차로 연결되어 있어 이를 통해 접근할 수 있다.  융프라우요흐는 스위스 베르너 오베란트 지방의 산으로 융프라우와 묀히를 연결하는 능선 안장(요흐)에 위치한 지명을 가리키며, ‘스위스 알프스 융프라우-알레취’로 세계유산에 등록되어있다. Top of Europe이라는 명칭을 사용해 전세계에서 연간 70만 명에 가까운 관광객이 방문하고 있다.  스위스 알프스 최대, 최장의 알레취 빙하를 비롯해 베른 알프스, 발레 알프스 등의 전망을 볼 수 있는 해발3,571m의 스핑크스 전망대, 알레취 빙하 아래에 지어진 얼음 궁전인 아이스 팰리스, 눈 위의 다양한 어트랙션을 즐길 수 있는 융프라우요흐에 있는 ‘스노팬 탑 오브 유럽’, 융프라우 철도 노선 개통 100주년 기념사업의 하나로 융프라우 철도와 융프라우 지방의 역사와 매력을 알 수 있는 알파인 센세이션 등이 있다.",
-                    "url":"../img/CHE/che_place_01.png",
+                    "url":"../img/CHE/che_place_01.jpg",
                     "food":[
                         {
                             "title":"Restaurant Eigergletscher",
@@ -566,7 +566,7 @@
                             "tel":"+41 31 539 18 36",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging02_01.jpg",
-                                "../img/CHE/lodging/che01_lodging02_02.jpg",
+                                "../img/CHE/lodging/che01_lodging02_02.png",
                                 "../img/CHE/lodging/che01_lodging02_03.jpg",
                                 "../img/CHE/lodging/che01_lodging02_04.jpg",
                                 "../img/CHE/lodging/che01_lodging02_05.jpg"
@@ -579,7 +579,7 @@
                             "tel":"",
                             "img_url":[
                                 "../img/CHE/lodging/che01_lodging03_01.jpg",
-                                "../img/CHE/lodging/che01_lodging03_02.jpg",
+                                "../img/CHE/lodging/che01_lodging03_02.png",
                                 "../img/CHE/lodging/che01_lodging03_03.jpg",
                                 "../img/CHE/lodging/che01_lodging03_04.jpg",
                                 "../img/CHE/lodging/che01_lodging03_05.jpg"
@@ -744,7 +744,7 @@
                             "adr":"Bahnhofplatz 7, 취리히 스위스",
                             "tel":"+41 44 218 88 88",
                             "img_url":[
-                                "../img/CHE/lodging/che03_lodging03_01.jpg",
+                                "../img/CHE/lodging/che03_lodging03_01.png",
                                 "../img/CHE/lodging/che03_lodging03_02.jpg",
                                 "../img/CHE/lodging/che03_lodging03_03.jpg",
                                 "../img/CHE/lodging/che03_lodging03_04.jpg",
@@ -1310,7 +1310,7 @@
                     "title":"안탈리아",
                     "title_en":"Antalya",
                     "detail":"튀르키예 지중해 연안에 위치한 인구 약 220만 명의 도시. 같은 이름의 도의 중심지이기도 하다. 인구 기준으로 이스탄불(약 1,400만), 앙카라(약 500만), 이즈미르(약 400만), 부르사(약 280만) 다음으로 튀르키예에서 다섯 번째로 큰 도시이자 튀르키예 최대의 휴양도시이기도 하다. 동지중해와 맞닿는 튀르키예의 남해안을 대표하는 도시이기도 하다. 옛 지명은 아탈리아 (Ἀττάλεια)로, 페르가몬 왕국의 아탈로스 2세가 해군 기지로 세운 것에서 비롯되었다. 인근 페르게, 아스펜도스, 시데유적 등도 인기 관광지이다.",
-                    "url":"../img/TUR/tur_place_02.jpeg",
+                    "url":"../img/TUR/tur_place_02.jpg",
                     "food":[
                         {
                             "title":"Terrace Steak House Restaurant",
@@ -1428,7 +1428,8 @@
                             "img_url":[
                                 "../img/TUR/lodging/tur03_lodging01_01.jpg",
                                 "../img/TUR/lodging/tur03_lodging01_02.jpg",
-                                "../img/TUR/lodging/tur03_lodging01_03.jpg"
+                                "../img/TUR/lodging/tur03_lodging01_03.jpg",
+                                "../img/TUR/lodging/tur03_lodging01_04.jpg"
                             ]
                         },
                         {
@@ -1477,30 +1478,30 @@
                             "title":"ESSENCE Restaurant",
                             "detail":"훌륭한 음식과 훌륭한 직원을 찾는다면 ESSENCE Restaurant를 오세요. 다양한 음식과 여러분의 입맛에 잘 맞을겁니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam_food01_01.jpg",
-                                "../img/VNM/food/vietnam_food01_02.jpg",
-                                "../img/VNM/food/vietnam_food01_03.jpg",
-                                "../img/VNM/food/vietnam_food01_04.jpg"
+                                "../img/VNM/food/vietnam01_food01_01.jpg",
+                                "../img/VNM/food/vietnam01_food01_02.jpg",
+                                "../img/VNM/food/vietnam01_food01_03.jpg",
+                                "../img/VNM/food/vietnam01_food01_04.jpg"
                             ]
                         },
                         {
                             "title":"The Hung Ha Noi Snake Restaurant",
                             "detail":"직원들의 좋은 서비스를 원하신다면 The Hung Ha Noi Snake Restaurant로 오셔야 합니다. 착한 사장님과 좋은 직원들이 있고 저희 레스토랑을 대표하는 스네이크 와인이 준비되어 있습니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam_food02_01.jpg",
-                                "../img/VNM/food/vietnam_food02_02.jpg",
-                                "../img/VNM/food/vietnam_food02_03.jpg",
-                                "../img/VNM/food/vietnam_food02_04.jpg"
+                                "../img/VNM/food/vietnam01_food02_01.jpg",
+                                "../img/VNM/food/vietnam01_food02_02.jpg",
+                                "../img/VNM/food/vietnam01_food02_03.jpg",
+                                "../img/VNM/food/vietnam01_food02_04.jpg"
                             ]
                         },
                         {
                             "title":"Grill 63",
                             "detail":"샐러드부터 해산물 모든게 준비 되어 있고 디저트까지 요리가 다양하고 랍스터도 나옵니다. 저렴하고 분위기 좋은 식당을 찾으신다면 저희 레스토랑으로 오세요.",
                             "img_url": [
-                                "../img/VNM/food/vietnam_food03_01.jpg",
-                                "../img/VNM/food/vietnam_food03_02.jpg",
-                                "../img/VNM/food/vietnam_food03_03.jpg",
-                                "../img/VNM/food/vietnam_food03_04.jpg"
+                                "../img/VNM/food/vietnam01_food03_01.jpg",
+                                "../img/VNM/food/vietnam01_food03_02.jpg",
+                                "../img/VNM/food/vietnam01_food03_03.jpg",
+                                "../img/VNM/food/vietnam01_food03_04.jpg"
                             ]
                         }
                     ],
@@ -1553,30 +1554,30 @@
                             "title":"Nhan's Kitchen",
                             "detail":"많은 음식과 맛을 테스트 할 수 있는 곳이고 사장님도 친절합니다. 직원들도 착하고 훌륭한 서비스가 준비되어 있으니 저희 식당으로 찾아오세요!",
                             "img_url": [
-                                "../img/VNM/food/vietnam01_food01_01.jpg",
-                                "../img/VNM/food/vietnam01_food01_02.jpg",
-                                "../img/VNM/food/vietnam01_food01_03.jpg",
-                                "../img/VNM/food/vietnam01_food01_04.jpg"
+                                "../img/VNM/food/vietnam02_food01_01.jpg",
+                                "../img/VNM/food/vietnam02_food01_02.jpg",
+                                "../img/VNM/food/vietnam02_food01_03.jpg",
+                                "../img/VNM/food/vietnam02_food01_04.jpg"
                             ]
                         },
                         {
                             "title":"Red Bean Restaurant",
                             "detail":"음식은 훌륭하게 제공되고 직원들은 친절하게 대해줍니다. 와인리스트도 많아서 선택지가 넓습니다. 또한 재방문율이 높기에 다시 찾아오기 좋습니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam01_food02_01.jpg",
-                                "../img/VNM/food/vietnam01_food02_02.jpg",
-                                "../img/VNM/food/vietnam01_food02_03.jpg",
-                                "../img/VNM/food/vietnam01_food02_04.jpg"
+                                "../img/VNM/food/vietnam02_food02_01.jpg",
+                                "../img/VNM/food/vietnam02_food02_02.jpg",
+                                "../img/VNM/food/vietnam02_food02_03.jpg",
+                                "../img/VNM/food/vietnam02_food02_04.jpg"
                             ]
                         },
                         {
                             "title":"The Temple Restaurant",
                             "detail":"품격있는 레스토랑과 맛있는 음식, 다양한 음료, 헌신적인 직원이 필요하십니까? The Temple Restaurant로 오셔야 합니다 저희 직원은 배려심이 많고 매우 착합니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam01_food03_01.jpg",
-                                "../img/VNM/food/vietnam01_food03_02.jpg",
-                                "../img/VNM/food/vietnam01_food03_03.jpg",
-                                "../img/VNM/food/vietnam01_food03_04.jpg"
+                                "../img/VNM/food/vietnam02_food03_01.jpg",
+                                "../img/VNM/food/vietnam02_food03_02.jpg",
+                                "../img/VNM/food/vietnam02_food03_03.jpg",
+                                "../img/VNM/food/vietnam02_food03_04.jpg"
                             ]
                         }
                     ],
@@ -1629,30 +1630,30 @@
                             "title":"Yen's Restaurant",
                             "detail":"훌륭한 음식과 훌륭한 서비스를 원하신다면 여기로 오세요. 재방문율도 높기 때문에 당신들이 방문을 하면 만족도가 높을 것 입니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam02_food01_01.jpg",
-                                "../img/VNM/food/vietnam02_food01_02.jpg",
-                                "../img/VNM/food/vietnam02_food01_03.jpg",
-                                "../img/VNM/food/vietnam02_food01_04.jpg"
+                                "../img/VNM/food/vietnam03_food01_01.jpg",
+                                "../img/VNM/food/vietnam03_food01_02.jpg",
+                                "../img/VNM/food/vietnam03_food01_03.jpg",
+                                "../img/VNM/food/vietnam03_food01_04.jpg"
                             ]
                         },
                         {
                             "title":"Alpaca Homestyle Cafe",
                             "detail":"맛있는 음식이 필요하시면 여기로 오세요. 친절한 서비스와 훌륭한 샐러드과 구비되어 있습니다. 또한 많은 좌석이 준비되어 있기 때문에 예약을 안해도 됩니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam02_food02_01.jpg",
-                                "../img/VNM/food/vietnam02_food02_02.jpg",
-                                "../img/VNM/food/vietnam02_food02_03.jpg",
-                                "../img/VNM/food/vietnam02_food02_04.jpg"
+                                "../img/VNM/food/vietnam03_food02_01.jpg",
+                                "../img/VNM/food/vietnam03_food02_02.jpg",
+                                "../img/VNM/food/vietnam03_food02_03.jpg",
+                                "../img/VNM/food/vietnam03_food02_04.jpg"
                             ]
                         },
                         {
                             "title":"Skylight Nha Trang",
                             "detail":"360도 파노라마 뷰가 준비되어 있고 나트랑 시내뷰, 오션뷰를 전부 볼 수 있습니다. 투명 바닥으로 된 데크도 있기 때문에 스릴 만점입니다.",
                             "img_url": [
-                                "../img/VNM/food/vietnam02_food03_01.jpg",
-                                "../img/VNM/food/vietnam02_food03_02.jpg",
-                                "../img/VNM/food/vietnam02_food03_03.jpg",
-                                "../img/VNM/food/vietnam02_food03_04.jpg"
+                                "../img/VNM/food/vietnam03_food03_01.jpg",
+                                "../img/VNM/food/vietnam03_food03_02.jpg",
+                                "../img/VNM/food/vietnam03_food03_03.jpg",
+                                "../img/VNM/food/vietnam03_food03_04.jpg"
                             ]
                         }
                     ],

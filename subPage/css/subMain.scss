@@ -1,72 +1,149 @@
-.section01 {
-  .section01-slide {
-    .section01-contain {
-      width: 100vw;
-      height: 100vh;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .section01-text {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 64px;
-      }
-    }
-  }
-  .left {
-    position: absolute;
-    left: 2.34375%;
-    color: black;
-    transform: scale(1.5);
-  }
-  .right {
-    position: absolute;
-    right: 2.34375%;
-    color: black;
-    transform: scale(1.5);
-  }
+@font-face{
+  src: url('../../font/Righteous-Regular.woff');
+  font-family : "Righteous";
 }
-.section02 {
-  .section02-contain {
-    max-width: 1400px;
-    display: flex;
-    justify-content: center;
-    margin: 80px auto;
-    .maps {
+
+body {
+  position: relative;
+  .none {
+    display: none;
+  }
+  .block {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 999;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    figure {
+      transform: translate(-50%, -50%);
+      width: 40vw;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      z-index: 9999;
+      background-color: white;
+      padding: 71px 0px;
+      height: 90vh;
+      border-radius: 50px;
       img {
-        height: 560px;
-        width: 100%;
-        object-fit: contain;
+        &:nth-of-type(1) {
+          position: absolute;
+          z-index: 99999;
+          width: 50px;
+          height: 50px;
+          right: 3%;
+          top: 3%;
+          cursor: pointer;
+        }
+        &:nth-of-type(2) {
+          width: 30vw;
+          height: 40vh;
+          border-radius: 25px;
+          margin: 0 auto 71px;
+        }
+      }
+      figcaption {
+        width: 80.5187%;
+        margin: 0 auto;
+        height: 30vh;
+        overflow-y: scroll;
       }
     }
-    .text {
-      width: 60%;
-      text-align: left;
-      margin: 80px 0 0 80px;
-      .title {
-        margin-bottom: 80px;
-        font-size: 3rem;
-        font-weight: bold;
-        text-align: left;
+  }
+  
+  .section01 {
+    .section01-slide {
+      .section01-contain {
+        width: 100vw;
+        height: 100vh;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .section01-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          font-size: 99px;
+          font-weight: bolder;
+        }
       }
-      .detail {
-        text-align: left;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box; // 6줄 이상부터 ...으로 나타내기
-        -webkit-line-clamp: 6;
-        -webkit-box-orient: vertical;
-        margin-bottom: 80px;
-        color: rgb(63, 63, 63);
-        line-height: 1.8;
+    }
+    .left {
+      position: absolute;
+      left: 2.34375%;
+      color: rgba(255, 255, 255,0.7);
+      transform: scale(1.5);
+      &:active{
+      color:white;
       }
-      .more {
+    }
+    .right {
+      position: absolute;
+      right: 2.34375%;
+      color: rgba(255, 255, 255,0.7);
+      transform: scale(1.5);
+      &:active{
+      color:white;
+      }
+    }
+  }
+  .section02 {
+    .section02-contain {
+      max-width: 1400px;
+      display: flex;
+      justify-content: center;
+      margin: 80px auto;
+      .maps {
+        img {
+          height: 560px;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+      .text {
+        width: 60%;
         text-align: left;
+        margin: 80px 0 0 80px;
+        .title {
+          margin-bottom: 80px;
+          font-size: 3rem;
+          font-weight: bold;
+          text-align: left;
+        }
+        .detail {
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box; // 6줄 이상부터 ...으로 나타내기
+          -webkit-line-clamp: 6;
+          -webkit-box-orient: vertical;
+          margin-bottom: 80px;
+          color: rgb(63, 63, 63);
+          line-height: 1.8;
+        }
+        a {
+          position: relative;
+          display: inline-block;
+        }
+        .more {
+          border: 1px solid black;
+          border-radius: 5px;
+          padding: 10px 20px;
+          text-align: left;
+          cursor: pointer;
+          transition: 0.5s;
+          &:hover {
+            background-color: #000;
+            color: rgb(172, 166, 166);
+          }
+        }
       }
     }
   }
@@ -200,6 +277,23 @@
           border-radius: 20px;
         }
       }
+      // 가로 스크롤 관련 css
+      // .section04-img {
+      //   display: flex;
+      //   justify-content: space-between;
+      //   margin: 80px 0 40px;
+      //   height: 200px;
+      //   overflow-x: scroll;
+      //   overflow-y: hidden;
+      //   white-space: nowrap;
+      //   width: 100%;
+      //   img {
+      //     // width: 22%;
+      //     width: 100%;
+      //     border-radius: 20px;
+      //     margin-right: 2.5rem;
+      //   }
+      // }
       .section04-info {
         margin-bottom: 80px;
         p {
@@ -244,7 +338,6 @@ html {
 }
 .hide-menu #tra {
   float: left;
-  padding: 25px 0 0 25px;
   font-family: "Righteous", cursive;
   a {
     text-decoration: none;
@@ -252,8 +345,8 @@ html {
   }
 }
 .hide-menu a {
-  color: black;
-  font-weight: 600;
+  color: white;
+  font-weight: 400;
 }
 
 .hide-menu-icon {
@@ -267,6 +360,9 @@ html {
   transition: 750ms ease;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+  img{
+    filter: invert(100);
+  }
 }
 
 .hide-menu-icon:hover {
@@ -286,7 +382,7 @@ html {
   padding: 10px;
   /* border: 1px solid #000; */
   border-bottom: 0px;
-  background-color: #4fc3f7;
+  // background-color: #4fc3f7;
   border-bottom: 1px solid #eee;
 }
 .hide-menu .menu {
@@ -302,7 +398,7 @@ html {
   border-radius: 0 0 10px 10px;
 }
 .hide-menu .menu li:hover {
-  background-color: #1c80b8;
+  // background-color: #1c80b8;
 }
 
 .hide-menu .menu li ul {
