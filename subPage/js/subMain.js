@@ -115,24 +115,22 @@ $().ready(function() {
       <p class="section01-text">${a[countryKey].place[key].title_en}</p>`
     })
 
-    //section02
-    function dataChange(key){
-      const elSec02 = document.querySelector('.section02-contain');
-      elSec02.innerHTML = `<div class="maps">
-                          <img src="${a[countryKey].country_url}" alt="${a[countryKey].place[key].title}의 지역">
-                        </div>
-                        <div class="text">
-                          <p class="title">${a[countryKey].place[key].title}</p>
-                          <p class="detail">${a[countryKey].place[key].detail}</p>
-                          <a>
-                            <p class="more">more</p>
-                          </a>
-                        </div>`;
-                        // console.log(a[countryKey].place[key].lodging[key].img_url)
-      //popup창
-      const elBtn = document.querySelector('.more')
-      const elPopup = document.querySelector('.popup')
-      var target = $(".popup")
+  //section02
+  function dataChange(key){
+    const elSec02 = document.querySelector('.section02-contain');
+    elSec02.innerHTML = `<div class="maps">
+                        <img src="${a[countryKey].country_url}" alt="${a[countryKey].place[key].title}의 지역">
+                      </div>
+                      <div class="text">
+                        <p class="title">${a[countryKey].place[key].title}</p>
+                        <p class="detail">${a[countryKey].place[key].detail}</p>
+                        <a><p class="more">more</p></a>
+                      </div>`;
+                      // console.log(a[countryKey].place[key].lodging[key].img_url)
+    //popup창
+    const elBtn = document.querySelector('.more')
+    const elPopup = document.querySelector('.popup')
+    var target = $(".popup")
 
       elBtn.addEventListener('click', () => {
         elPopup.innerHTML = `
@@ -218,41 +216,60 @@ $().ready(function() {
     }
     setSection03Content(0);
 
-    //section04 클릭 시 이미지 추가
-    const elSec04Text = document.querySelector('.section04-text'),
-          elSec04Img = document.querySelector('.section04-img'),
-          elsec04Num = document.querySelectorAll('.section04-number'),
-          elInfo = document.querySelector('.section04-info'),
-          elsec04Line = document.querySelector('.section04-line .line');
-    
-    elsec04Num.forEach((sec,n)=>{
-      sec.addEventListener("click",function(){
-        image(n)
-        // elsec04Line[0].style.width = '30%'
-        // elsec04Line[1].style.width = '60%'
-        // elsec04Line[2].style.width = '100%'
-        if(n==0){
-          elsec04Line.style.width='10%'
-        }else if(n==1){
-          elsec04Line.style.width='42%'
-        }else{
-          elsec04Line.style.width='82%'
-        }
+      //section04 클릭 시 이미지 추가
+      const elSec04Text = document.querySelector('.section04-text'),
+            elSec04Img = document.querySelector('.section04-img'),
+            elsec04Num = document.querySelectorAll('.section04-number'),
+            elInfo = document.querySelector('.section04-info'),
+            elsec04Line = document.querySelector('.section04-line .line');
+      const elSec04Imgs = document.querySelectorAll('.section04-img img');
+      
+      elsec04Num.forEach((sec,n)=>{
+        sec.addEventListener("click",function(){
+          image(n)
+          // elsec04Line[0].style.width = '30%'
+          // elsec04Line[1].style.width = '60%'
+          // elsec04Line[2].style.width = '100%'
+          if(n==0){
+            elsec04Line.style.width='10%'
+            elsec04Num[1].classList.remove('sec04btn-selected');
+            elsec04Num[2].classList.remove('sec04btn-selected');
+          }else if(n==1){
+            elsec04Line.style.width='42%'
+            elsec04Num[0].classList.remove('sec04btn-selected');
+            elsec04Num[2].classList.remove('sec04btn-selected');
+          }else{
+            elsec04Line.style.width='82%'
+            elsec04Num[0].classList.remove('sec04btn-selected');
+            elsec04Num[1].classList.remove('sec04btn-selected');
+          }
+          elsec04Num[n].classList.add('sec04btn-selected');
+        })
       })
-    })
-    //
-    function image(n){ 
-      var exhtml = '';
-      try{
-        elSec04Text.innerHTML = `<h2>여기는 &nbsp&nbsp<span>${a[countryKey].place[key].lodging[n].title}</span>&nbsp 입니다.<h2>`
-        
-        exhtml += `<p>${a[countryKey].place[key].lodging[n].detail}</p>
-                            <div>
-                              <img src="../img/location-icon.png" alt="지역">
-                              <p>${a[countryKey].place[key].lodging[n].adr}</p>`
-        if(a[countryKey].place[key].lodging[n].tel != '') {
-          exhtml += `<img src="../img/call-icon.png" alt="전화">
-                      <p>${a[countryKey].place[key].lodging[n].tel}</p>`
+      //
+      function image(n){ 
+        elsec04Num[n].classList.add('sec04btn-selected');
+        var exhtml = '';
+        try{
+          elSec04Text.innerHTML = `<h2>여기는 &nbsp&nbsp<span>${a[countryKey].place[key].lodging[n].title}</span>&nbsp 입니다.<h2>`
+          
+          exhtml += `<p>${a[countryKey].place[key].lodging[n].detail}</p>
+                              <div>
+                                <img src="../img/location-icon.png" alt="지역">
+                                <p>${a[countryKey].place[key].lodging[n].adr}</p>`
+          if(a[countryKey].place[key].lodging[n].tel != '') {
+            exhtml += `<img src="../img/call-icon.png" alt="전화">
+                        <p>${a[countryKey].place[key].lodging[n].tel}</p>`
+          }
+          exhtml += `</div>`;
+                                
+          elInfo.innerHTML = exhtml;
+        }catch{}
+        elSec04Img.innerHTML = ''
+        var checkSec04len = a[countryKey].place[key].lodging[n].img_url.length;
+
+        for(i=0;i<checkSec04len;i++){
+          elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
         }
         exhtml += `</div>`;
                               
