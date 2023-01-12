@@ -63,19 +63,39 @@ const swiper = new Swiper(".mySwiper", {
       slidesPerView: 6,
       spaceBetween: 56,
     },
+    1600: {
+      slidesPerView: 6,
+      spaceBetween: 40,
+    },
+    1400: {
+      slidesPerView: 5,
+      spaceBetween: 45,
+    },
     1280: {
       slidesPerView: 5,
-      spaceBetween: 90,
+      spaceBetween: 40,
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 40,
+      spaceBetween: 60,
     },
     768: {
       slidesPerView: 3,
-      spaceBetween: 60,
+      spaceBetween: 40,
     },
-  },
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    375: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    }
+  }
 });
 //오버 시 슬라이드
 let slides, slides1;

@@ -134,7 +134,8 @@ $().ready(function() {
         <figure>
           <img src="../img/close.png" alt="닫기" class="img012">
           <img src="${a[countryKey].place[key].url}" alt="${a[countryKey].place[key].title}의 지역">
-          <figcaption>
+          <h2>${a[countryKey].place[key].title}</h2>
+          <figcaption id="test">
             <p>${a[countryKey].place[key].detail}</p>
           </figcaption>
         </figure>`
@@ -253,26 +254,24 @@ $().ready(function() {
           exhtml += `</div>`;
                                 
           elInfo.innerHTML = exhtml;
-        }catch{}
-        elSec04Img.innerHTML = ''
-        var checkSec04len = a[countryKey].place[key].lodging[n].img_url.length;
-        console.log("checkSec04len :", checkSec04len);
-
-        for(i=0;i<checkSec04len;i++){
-          elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
-        }
-        // 해당 영역 가로 스크롤 가능하게
-        // $('.section04-img').mousewheel((event, delta)=>{
-        //   console.log($('.section04-img').scrollLeft);
-        //   $('.section04-img').scrollLeft -= (delta*30);
-        //   event.preventDefault();
-        // });
-
+        // }catch{}
+        // elSec04Img.innerHTML = ''
+        // var checkSec04len = a[countryKey].place[key].lodging[n].img_url.length;
+        // for(i=0;i<checkSec04len;i++){
+        //   elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
+        // }
+        // exhtml += `</div>`;
+        // elInfo.innerHTML = exhtml;
+      }catch{}
+      elSec04Img.innerHTML = ''
+      for(i=0;i<4;i++){
+        elSec04Img.innerHTML += `<img src="${a[countryKey].place[key].lodging[n].img_url[i]}" alt="">`;
       }
-      //section04 페이지 로드 시 이미지 불러오기
-      image(0);           
-    }  
-    dataChange(0);
+    }
+    //section04 페이지 로드 시 이미지 불러오기
+    image(0);           
+  }  
+  dataChange(0);
 
     //section1 슬라이드
     var swiper = new Swiper(".mySwiper", {
