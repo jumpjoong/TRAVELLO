@@ -37,7 +37,7 @@ $().ready(function () {
   var ref = null;
   const sec02OffsetTop = document.querySelector('#section02').offsetTop - 75;
   const sec03OffsetTop = document.querySelector('#section03').offsetTop + 75 + sec02OffsetTop/2;
-  const sec04OffsetTop = document.querySelector('#section04').offsetTop + sec03OffsetTop/2;
+  const sec04OffsetTop = document.querySelector('#section04').offsetTop + 75 + sec03OffsetTop;
   var elNavs = document.querySelectorAll('.right-nav-bar ul li>a');
   if (ref == null) {
     ref = "nav-btn1";
@@ -49,9 +49,9 @@ $().ready(function () {
     for(var i=0; i<elNavs.length; i++) { // 초기화
       elNavs[i].classList.remove('active');
     }
-    if(location >= sec02OffsetTop && location < sec03OffsetTop) {
+    if(location >= sec02OffsetTop && location < sec03OffsetTop-sec02OffsetTop/2) {
       elNavs[0].classList.add('active');
-    } else if(location >= sec03OffsetTop && location < sec04OffsetTop) {
+    } else if(location >= sec03OffsetTop-sec02OffsetTop/2 && location < sec04OffsetTop) {
       elNavs[1].classList.add('active');
     } else {
       elNavs[0].classList.add('active');
