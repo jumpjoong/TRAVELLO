@@ -34,6 +34,58 @@ $().ready(function() {
         .fadeIn(400);
     }
   });
+  // right-nav-bar
+  var ref = null;
+  const sec02OffsetTop = document.querySelector('#section02').offsetTop - 75;
+  const sec03OffsetTop = document.querySelector('#section03').offsetTop + 75 + sec02OffsetTop/2;
+  const sec04OffsetTop = document.querySelector('#section04').offsetTop + 75 + sec03OffsetTop;
+  var elNavs = document.querySelectorAll('.right-nav-bar ul li>a');
+  if (ref == null) {
+    ref = "nav-btn1";
+  }
+
+  // 스크롤시 메뉴 class 변경
+  $(window).scroll(()=> {
+    var location = document.documentElement.scrollTop;
+    for(var i=0; i<elNavs.length; i++) { // 초기화
+      elNavs[i].classList.remove('active');
+    }
+    if(location >= sec02OffsetTop && location < sec03OffsetTop-sec02OffsetTop/2) {
+      elNavs[0].classList.add('active');
+    } else if(location >= sec03OffsetTop-sec02OffsetTop/2 && location < sec04OffsetTop) {
+      elNavs[1].classList.add('active');
+    } else {
+      elNavs[0].classList.add('active');
+    }
+    if(location >= 2200) {
+      elNavs[0].classList.remove('active');
+      elNavs[1].classList.remove('active');
+      elNavs[2].classList.add('active');
+    }
+  })
+
+  $(".right-nav-bar ul li").click(() => {
+    $(".right-nav").on("click", function (el) {
+      $(`#${ref}`).removeClass("active");
+      $(`#${el.target.id}`).addClass("active");
+      ref = el.target.id;
+      //해당 el 클릭시 scrolltop 이동
+      switch(ref) {
+        case 'nav-btn1':
+          window.scrollTo({top: sec02OffsetTop, behavior: 'smooth'});
+          break;
+        case 'nav-btn2':
+          window.scrollTo({top: sec03OffsetTop, behavior: 'smooth'});
+          break;
+        case 'nav-btn3':
+          window.scrollTo({top: sec04OffsetTop, behavior: 'smooth'});
+          break;
+        default:
+          window.scrollTo(0, 0);
+          break;
+      }
+    });
+  });
 
   var data = "";
   var html = "";
