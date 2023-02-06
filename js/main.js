@@ -26,6 +26,11 @@ for (let i of $slides) {
     swiper.autoplay.start();
   });
 }
+// 기본값 0
+window.onload = () => {
+  localStorage.setItem('num', 0)
+}
+
 const visualMain = document.querySelector("main");
 const txtMain = document.querySelector(".center .text h2");
 const txtMain2 = document.querySelector(".center .text .text-sub p");
