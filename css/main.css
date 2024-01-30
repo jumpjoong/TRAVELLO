@@ -66,7 +66,6 @@ main .center {
 main .center .text {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 main .center .text h2 {
@@ -136,22 +135,22 @@ main .swi .swiper .swiper-wrapper .swiper-slide .country01 {
   background-image: url("../img/BRA/brazil.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country02 {
-  background-image: url("../img/TUR/turtur.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/CAN/canadatwo.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country03 {
   background-image: url("../img/CHE/swiss.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country04 {
-  background-image: url("../img/VNM/vietnam.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/ITA/italia.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide .country05 {
-  background-image: url("../img/CAN/canadatwo.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
-}
-main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
   background-image: url("../img/ISL/islandtwo.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
+main .swi .swiper .swiper-wrapper .swiper-slide .country06 {
+  background-image: url("../img/TUR/turtur.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+}
 main .swi .swiper .swiper-wrapper .swiper-slide .country07 {
-  background-image: url("../img/ITA/italia.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
+  background-image: url("../img/VNM/vietnam.jpg"), linear-gradient(to top, #f1f1f1, #ddd);
 }
 main .swi .swiper .swiper-wrapper .swiper-slide-active {
   filter: none;

@@ -66,8 +66,6 @@ main {
         opacity: 0;
         transition: opacity 1s, transform 1s;
         font-size: 72px;
-        &:nth-child(1) {
-        }
       }
       .text-sub {
         p {
@@ -133,27 +131,27 @@ main {
               linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country02 {
-            background-image: url("../img/TUR/turtur.jpg"),
-              linear-gradient(to top, #f1f1f1, #ddd);
+            background-image: url("../img/CAN/canadatwo.jpg"),
+            linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country03 {
             background-image: url("../img/CHE/swiss.jpg"),
-              linear-gradient(to top, #f1f1f1, #ddd);
+            linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country04 {
-            background-image: url("../img/VNM/vietnam.jpg"),
-              linear-gradient(to top, #f1f1f1, #ddd);
+            background-image: url("../img/ITA/italia.jpg"),
+            linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country05 {
-            background-image: url("../img/CAN/canadatwo.jpg"),
-              linear-gradient(to top, #f1f1f1, #ddd);
+            background-image: url("../img/ISL/islandtwo.jpg"),
+            linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country06 {
-            background-image: url("../img/ISL/islandtwo.jpg"),
-              linear-gradient(to top, #f1f1f1, #ddd);
+            background-image: url("../img/TUR/turtur.jpg"),
+            linear-gradient(to top, #f1f1f1, #ddd);
           }
           .country07 {
-            background-image: url("../img/ITA/italia.jpg"),
+            background-image: url("../img/VNM/vietnam.jpg"),
               linear-gradient(to top, #f1f1f1, #ddd);
           }
         }

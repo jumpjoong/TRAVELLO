@@ -3,32 +3,12 @@
   font-family: "Righteous", cursive;
 }
 
-@-webkit-keyframes visualScale {
-  /*50%{
-    transform:scaleX(2.2);
-  }*/
-  100% {
-    transform: scale(2.2);
-  }
-}
-
 @keyframes visualScale {
   /*50%{
     transform:scaleX(2.2);
   }*/
   100% {
     transform: scale(2.2);
-  }
-}
-@-webkit-keyframes textVisual {
-  0% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 @keyframes textVisual {
@@ -40,24 +20,6 @@
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes textVisual1 {
-  0% {
-    opacity: 0;
-    transform: translateY(30%);
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 @keyframes textVisual1 {
@@ -116,7 +78,6 @@ main .center {
 main .center .text {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 main .center .text h2 {

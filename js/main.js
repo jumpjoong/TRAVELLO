@@ -7,15 +7,7 @@
 //   "./img/ISL/islandtwo.jpg",
 //   "./img/ITA/italia.jpg",
 // ];
-let txt = [
-  ["브라질연방 공화국", "FederativeRepublic of Brazil"],
-  ["튀르키예 공화국", "Republic of Türkiye"],
-  ["스위스연방", "Swiss Confederation"],
-  ["베트남 사회주의 공화국", "Socialist Republic of Viet Nam"],
-  ["캐나다", "Canada"],
-  ["아이슬란드 공화국", "Republic of Iceland"],
-  ["이탈리아 공화국", "The Italian Republic"],
-];
+
 //마우스 오버시 정지, 오버 아닐 시 재생
 let $slides = document.querySelectorAll(".swiper-slide");
 for (let i of $slides) {
@@ -32,13 +24,23 @@ window.onload = () => {
 }
 
 const visualMain = document.querySelector("main");
+const txtM = document.querySelector(".center .text");
 const txtMain = document.querySelector(".center .text h2");
 const txtMain2 = document.querySelector(".center .text .text-sub p");
-const txtM = document.querySelector(".center .text");
 let iddx = 0;
-//스위퍼
+let txt = [
+  ["브라질연방 공화국", "FederativeRepublic of Brazil"],
+  ["캐나다", "Canada"],
+  ["스위스연방", "Swiss Confederation"],
+  ["이탈리아 공화국", "The Italian Republic"],
+  ["아이슬란드 공화국", "Republic of Iceland"],
+  ["튀르키예 공화국", "Republic of Türkiye"],
+  ["베트남 사회주의 공화국", "Socialist Republic of Viet Nam"],
+];
+//swiper관련 이벤트
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 6,
+  SlidesPerGroup:6,
   spaceBetween: 56,
   loop: true,
   centeredSlides: true,
@@ -52,10 +54,7 @@ const swiper = new Swiper(".mySwiper", {
   },
   on: {
     slideChange: function (e) {
-      //visualMain.style=`background-image=${ima[e.realIndex]}`;
-      // visualMain.style = `background:url(${ima[e.realIndex]}) center center  / cover no-repeat`;
       txtM.classList.remove("active");
-
       setTimeout(() => {
         txtMain.innerHTML = `${txt[e.realIndex][0]}`;
         txtMain2.innerHTML = `${txt[e.realIndex][1]}`;
@@ -125,19 +124,11 @@ swiper.navigation.nextEl.addEventListener("mouseout", () => {
 });
 
 const contry = document.querySelectorAll('.swiper-slide');
-const test = [
-  'brazil',
-  'canada',
-  'switzerland',
-  'italy',
-  'mongolia',
-  'turkey',
-  'vietnam'
-]
 
 contry.forEach(function(btn, key){
   btn.onclick = function(e) {
-    // e.preventDefault();
     localStorage.setItem('num', this.dataset.swiperSlideIndex)
+    // e.preventDefault()
+    // console.log(btn)
   }
 });
