@@ -46,7 +46,7 @@
 <br/>
 <br/>
 
-## 📍 사용한 기술 스택 !이미지 수정!
+## 📍 사용한 기술 스택 
 | HTML | SCSS | JavaScript | jQuery |
 |:---:|:---:|:---:|:---:|
 | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/2e15ea3e-1f4d-4283-ab49-b3e312b583d1" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/4b9de3da-a5e4-42fb-8538-eaa0f9d52ccd" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/ac38204a-e535-4c56-b813-296a8171ef41" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/40990d3b-60fe-493a-95e0-6c734ecf90f1" width="100px" height="100px">
