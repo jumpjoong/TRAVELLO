@@ -7,9 +7,10 @@
 
 👆👆👆👆👆👆👆👆
 
-<br/> !이미지 수정!
+<br/>
 
-<img src="https://user-images.githubusercontent.com/100519998/227865873-66dfd20f-2f12-4182-a03d-8bc6e6f61611.png" width ="45%" height="300px"> <img src="https://user-images.githubusercontent.com/100519998/227868077-64f0293b-43ae-4dba-b022-1c5b556c7eab.png" width ="45%" height="300px">
+![trevello](https://github.com/jumpjoong/TRAVELLO/assets/100519998/595b6df2-bae9-4c1e-8125-c46540190526)
+
 
 <br/>
 <br/>
@@ -48,7 +49,9 @@
 ## 📍 사용한 기술 스택 !이미지 수정!
 | HTML | SCSS | JavaScript | jQuery |
 |:---:|:---:|:---:|:---:|
-| ![react](https://user-images.githubusercontent.com/100519998/227874284-72192c04-3f8b-4ae7-94d8-de30a043166a.svg)| ![sass](https://user-images.githubusercontent.com/100519998/227877981-7552edea-b3d7-401b-9500-468e56285567.svg) | ![typescript_original_logo_icon_146317 1](https://user-images.githubusercontent.com/100519998/236756423-b93db12f-fd51-4772-b12c-67a088561f59.svg)
+| <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/2e15ea3e-1f4d-4283-ab49-b3e312b583d1" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/4b9de3da-a5e4-42fb-8538-eaa0f9d52ccd" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/ac38204a-e535-4c56-b813-296a8171ef41" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/40990d3b-60fe-493a-95e0-6c734ecf90f1" width="100px" height="100px">
+
+
 
 
 
